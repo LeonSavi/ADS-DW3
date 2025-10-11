@@ -1,0 +1,10 @@
+best_value: 1.305
+best_params:
+  dropout_prob: 0.35989360385392044
+  n_layers: 3
+  l0_nodes: 1
+  l1_nodes: 27
+  l2_nodes: 1
+  learning_rate: 0.00016110242896666996
+  batch_size: 103
+  n_epochs: 5610
