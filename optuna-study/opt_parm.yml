@@ -1,10 +1,15 @@
-best_value: 1.305
+best_value: 1.0809
 best_params:
-  dropout_prob: 0.35989360385392044
-  n_layers: 3
-  l0_nodes: 1
-  l1_nodes: 27
-  l2_nodes: 1
-  learning_rate: 0.00016110242896666996
-  batch_size: 103
-  n_epochs: 5610
+  dropout_prob: 0.4395881692124673
+  n_layers: 4
+  l0_nodes: 112
+  l1_nodes: 76
+  l2_nodes: 27
+  l3_nodes: 39
+  l0_activation: gelu
+  l1_activation: relu
+  l2_activation: softplus
+  l3_activation: leakyrelu
+  learning_rate: 0.0005649302491006826
+  batch_size: 2
+  n_epochs: 500
