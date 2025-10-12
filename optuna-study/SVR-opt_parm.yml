@@ -1,0 +1,12 @@
+best_value: 0.826
+best_params:
+  n_estimators: 460
+  learning_rate: 0.2996967497244854
+  max_depth: 2
+  subsample: 0.8040420092142153
+  col_sample: 0.9805574452550212
+  reg_lambda: 0.004640037061262214
+  reg_alpha: 0.0064912739453407056
+  min_child_weight: 5.665716386179244
+  gamma: 0.10964811902117141
+  grow_policy: depthwise
