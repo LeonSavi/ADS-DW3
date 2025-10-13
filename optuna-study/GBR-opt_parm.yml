@@ -1,0 +1,18 @@
+best_value: 0.8736
+best_params:
+  gbr_loss: squared_error
+  gbr_criterion: squared_error
+  gbr_n_estimators: 520
+  gbr_learning_rate: 0.17459847721812502
+  gbr_max_depth: 4
+  gbr_subsample: 0.896929341976381
+  gbr_max_features: null
+  gbr_min_samples_split: 4
+  gbr_min_samples_leaf: 5
+  gbr_use_max_leaf_nodes: false
+  gbr_use_min_impurity_decrease: false
+  gbr_use_ccp_alpha: true
+  gbr_ccp_alpha_pos: 0.009131214559457163
+  gbr_n_iter_no_change: 17
+  gbr_validation_fraction: 0.11880992461328124
+  gbr_tol: 0.0005116178603101918
