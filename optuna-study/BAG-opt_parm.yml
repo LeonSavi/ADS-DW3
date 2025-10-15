@@ -1,9 +1,0 @@
-best_value: 0.765
-best_params:
-  dt_max_depth: 11
-  dt_min_samples_split: 6
-  dt_min_samples_leaf: 8
-  dt_max_features: sqrt
-  dt_use_min_impurity_decrease: false
-  dt_ccp_alpha: 0.003981796278053429
-  use_bagging: false

@@ -1,9 +1,0 @@
-best_value: 1.0052
-best_params:
-  dropout_prob: 0.4772698329196685
-  n_layers: 1
-  l0_nodes: 43
-  l0_activation: leakyrelu
-  learning_rate: 0.0001634950449385948
-  batch_size: 2
-  n_epochs: 150

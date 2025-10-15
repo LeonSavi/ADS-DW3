@@ -1,12 +1,361 @@
-best_value: 0.8193
-best_params:
-  n_estimators: 440
-  learning_rate: 0.29974848432233003
-  max_depth: 2
-  subsample: 0.8038385017494228
-  col_sample: 0.9828544021063491
-  reg_lambda: 0.00303732064267032
-  reg_alpha: 0.004255734852306729
-  min_child_weight: 5.937077244142649
-  gamma: 0.9618270832357658
-  grow_policy: depthwise
+best_trials:
+- trial_number: 281
+  values:
+  - 0.9775
+  - 0.1822
+  params:
+    n_estimators: 180
+    learning_rate: 0.28622819488064655
+    max_depth: 3
+    subsample: 0.9669400919177515
+    col_sample: 0.99591457891935
+    reg_lambda: 0.008355364473668062
+    reg_alpha: 1.7095503317973006
+    min_child_weight: 1.9688195852782846
+    gamma: 4.850868112496193
+    grow_policy: lossguide
+- trial_number: 520
+  values:
+  - 0.9684
+  - 0.2021
+  params:
+    n_estimators: 700
+    learning_rate: 0.07287067746606475
+    max_depth: 3
+    subsample: 0.7953457096778951
+    col_sample: 0.99591457891935
+    reg_lambda: 0.0013811557572407603
+    reg_alpha: 0.014294381659797309
+    min_child_weight: 9.177547993892938
+    gamma: 3.4102957982703557
+    grow_policy: lossguide
+- trial_number: 523
+  values:
+  - 0.9603
+  - 0.2028
+  params:
+    n_estimators: 940
+    learning_rate: 0.28622819488064655
+    max_depth: 3
+    subsample: 0.9669400919177515
+    col_sample: 0.99591457891935
+    reg_lambda: 0.008355364473668062
+    reg_alpha: 1.7095503317973006
+    min_child_weight: 9.177547993892938
+    gamma: 0.058673123375626024
+    grow_policy: lossguide
+- trial_number: 596
+  values:
+  - 0.9686
+  - 0.1939
+  params:
+    n_estimators: 840
+    learning_rate: 0.16382800027158428
+    max_depth: 2
+    subsample: 0.6091711146693936
+    col_sample: 0.970791314635364
+    reg_lambda: 0.009526186508017367
+    reg_alpha: 0.11351350977762978
+    min_child_weight: 9.177547993892938
+    gamma: 3.729187325520832
+    grow_policy: lossguide
+- trial_number: 631
+  values:
+  - 0.9962
+  - 0.1596
+  params:
+    n_estimators: 1000
+    learning_rate: 0.28622819488064655
+    max_depth: 5
+    subsample: 0.9135704409703993
+    col_sample: 0.9749332495510818
+    reg_lambda: 0.0277837065133397
+    reg_alpha: 0.0001264539295750939
+    min_child_weight: 1.9688195852782846
+    gamma: 4.5585671480121706
+    grow_policy: lossguide
+- trial_number: 637
+  values:
+  - 0.9554
+  - 0.2323
+  params:
+    n_estimators: 280
+    learning_rate: 0.16382800027158428
+    max_depth: 2
+    subsample: 0.6091711146693936
+    col_sample: 0.970791314635364
+    reg_lambda: 0.009526186508017367
+    reg_alpha: 0.11351350977762978
+    min_child_weight: 9.177547993892938
+    gamma: 0.058673123375626024
+    grow_policy: lossguide
+- trial_number: 732
+  values:
+  - 0.9686
+  - 0.1939
+  params:
+    n_estimators: 840
+    learning_rate: 0.16382800027158428
+    max_depth: 2
+    subsample: 0.6091711146693936
+    col_sample: 0.970791314635364
+    reg_lambda: 0.009526186508017367
+    reg_alpha: 0.11351350977762978
+    min_child_weight: 9.177547993892938
+    gamma: 3.729187325520832
+    grow_policy: lossguide
+- trial_number: 745
+  values:
+  - 0.9554
+  - 0.2323
+  params:
+    n_estimators: 900
+    learning_rate: 0.16382800027158428
+    max_depth: 2
+    subsample: 0.6091711146693936
+    col_sample: 0.9749332495510818
+    reg_lambda: 0.013040614451152595
+    reg_alpha: 0.11351350977762978
+    min_child_weight: 9.177547993892938
+    gamma: 0.058673123375626024
+    grow_policy: depthwise
+- trial_number: 747
+  values:
+  - 0.9686
+  - 0.1939
+  params:
+    n_estimators: 840
+    learning_rate: 0.16382800027158428
+    max_depth: 2
+    subsample: 0.6091711146693936
+    col_sample: 0.9739429207931865
+    reg_lambda: 0.009526186508017367
+    reg_alpha: 0.11351350977762978
+    min_child_weight: 9.177547993892938
+    gamma: 3.729187325520832
+    grow_policy: depthwise
+- trial_number: 752
+  values:
+  - 0.9962
+  - 0.1596
+  params:
+    n_estimators: 1000
+    learning_rate: 0.28622819488064655
+    max_depth: 5
+    subsample: 0.9135704409703993
+    col_sample: 0.9749332495510818
+    reg_lambda: 0.0277837065133397
+    reg_alpha: 0.0001264539295750939
+    min_child_weight: 1.9688195852782846
+    gamma: 4.5585671480121706
+    grow_policy: lossguide
+- trial_number: 775
+  values:
+  - 0.9554
+  - 0.2323
+  params:
+    n_estimators: 900
+    learning_rate: 0.16382800027158428
+    max_depth: 2
+    subsample: 0.6091711146693936
+    col_sample: 0.9749332495510818
+    reg_lambda: 0.013040614451152595
+    reg_alpha: 0.11351350977762978
+    min_child_weight: 9.177547993892938
+    gamma: 0.058673123375626024
+    grow_policy: depthwise
+- trial_number: 778
+  values:
+  - 0.9493
+  - 0.2334
+  params:
+    n_estimators: 900
+    learning_rate: 0.16382800027158428
+    max_depth: 2
+    subsample: 0.6091711146693936
+    col_sample: 0.970791314635364
+    reg_lambda: 0.009526186508017367
+    reg_alpha: 0.11351350977762978
+    min_child_weight: 8.270718820746332
+    gamma: 0.058673123375626024
+    grow_policy: depthwise
+- trial_number: 785
+  values:
+  - 0.9267
+  - 0.2413
+  params:
+    n_estimators: 1000
+    learning_rate: 0.28622819488064655
+    max_depth: 3
+    subsample: 0.68061084494544
+    col_sample: 0.99591457891935
+    reg_lambda: 0.013040614451152595
+    reg_alpha: 0.11351350977762978
+    min_child_weight: 1.0839610680610055
+    gamma: 0.058673123375626024
+    grow_policy: depthwise
+- trial_number: 807
+  values:
+  - 0.982
+  - 0.1775
+  params:
+    n_estimators: 1000
+    learning_rate: 0.08284171799481742
+    max_depth: 5
+    subsample: 0.9135704409703993
+    col_sample: 0.9466021163435451
+    reg_lambda: 0.0013811557572407603
+    reg_alpha: 0.022709748056692815
+    min_child_weight: 9.817960091943547
+    gamma: 3.5015678061407343
+    grow_policy: lossguide
+- trial_number: 808
+  values:
+  - 0.9554
+  - 0.2323
+  params:
+    n_estimators: 900
+    learning_rate: 0.16382800027158428
+    max_depth: 2
+    subsample: 0.6091711146693936
+    col_sample: 0.9749332495510818
+    reg_lambda: 0.00039606580258945564
+    reg_alpha: 0.11351350977762978
+    min_child_weight: 9.177547993892938
+    gamma: 0.058673123375626024
+    grow_policy: lossguide
+- trial_number: 820
+  values:
+  - 0.9568
+  - 0.2199
+  params:
+    n_estimators: 840
+    learning_rate: 0.16382800027158428
+    max_depth: 2
+    subsample: 0.6091711146693936
+    col_sample: 0.98136266918991
+    reg_lambda: 0.009526186508017367
+    reg_alpha: 0.0001264539295750939
+    min_child_weight: 9.177547993892938
+    gamma: 1.1758117736394014
+    grow_policy: lossguide
+- trial_number: 880
+  values:
+  - 0.9554
+  - 0.2323
+  params:
+    n_estimators: 480
+    learning_rate: 0.16382800027158428
+    max_depth: 2
+    subsample: 0.6091711146693936
+    col_sample: 0.98136266918991
+    reg_lambda: 0.009526186508017367
+    reg_alpha: 0.11351350977762978
+    min_child_weight: 9.177547993892938
+    gamma: 0.058673123375626024
+    grow_policy: lossguide
+- trial_number: 882
+  values:
+  - 0.982
+  - 0.1775
+  params:
+    n_estimators: 1000
+    learning_rate: 0.08284171799481742
+    max_depth: 5
+    subsample: 0.9135704409703993
+    col_sample: 0.9466021163435451
+    reg_lambda: 0.0013811557572407603
+    reg_alpha: 0.022709748056692815
+    min_child_weight: 9.817960091943547
+    gamma: 3.5015678061407343
+    grow_policy: lossguide
+- trial_number: 889
+  values:
+  - 0.9554
+  - 0.2323
+  params:
+    n_estimators: 900
+    learning_rate: 0.16382800027158428
+    max_depth: 2
+    subsample: 0.6091711146693936
+    col_sample: 0.9749332495510818
+    reg_lambda: 0.009526186508017367
+    reg_alpha: 0.11351350977762978
+    min_child_weight: 9.177547993892938
+    gamma: 0.058673123375626024
+    grow_policy: lossguide
+- trial_number: 943
+  values:
+  - 0.9554
+  - 0.2323
+  params:
+    n_estimators: 840
+    learning_rate: 0.16382800027158428
+    max_depth: 2
+    subsample: 0.6091711146693936
+    col_sample: 0.98136266918991
+    reg_lambda: 0.009526186508017367
+    reg_alpha: 0.11351350977762978
+    min_child_weight: 9.177547993892938
+    gamma: 0.058673123375626024
+    grow_policy: lossguide
+- trial_number: 944
+  values:
+  - 0.9804
+  - 0.1814
+  params:
+    n_estimators: 1000
+    learning_rate: 0.08284171799481742
+    max_depth: 3
+    subsample: 0.8525180492827571
+    col_sample: 0.99591457891935
+    reg_lambda: 0.0013811557572407603
+    reg_alpha: 0.022709748056692815
+    min_child_weight: 8.270718820746332
+    gamma: 3.5015678061407343
+    grow_policy: lossguide
+- trial_number: 966
+  values:
+  - 0.9692
+  - 0.1835
+  params:
+    n_estimators: 180
+    learning_rate: 0.28622819488064655
+    max_depth: 3
+    subsample: 0.9669400919177515
+    col_sample: 0.98136266918991
+    reg_lambda: 0.008355364473668062
+    reg_alpha: 0.0001264539295750939
+    min_child_weight: 1.9688195852782846
+    gamma: 4.5585671480121706
+    grow_policy: lossguide
+- trial_number: 981
+  values:
+  - 0.9493
+  - 0.2334
+  params:
+    n_estimators: 900
+    learning_rate: 0.16382800027158428
+    max_depth: 2
+    subsample: 0.6091711146693936
+    col_sample: 0.970791314635364
+    reg_lambda: 0.009526186508017367
+    reg_alpha: 0.11351350977762978
+    min_child_weight: 8.270718820746332
+    gamma: 0.058673123375626024
+    grow_policy: depthwise
+- trial_number: 995
+  values:
+  - 0.9554
+  - 0.2323
+  params:
+    n_estimators: 900
+    learning_rate: 0.16382800027158428
+    max_depth: 2
+    subsample: 0.6091711146693936
+    col_sample: 0.9749332495510818
+    reg_lambda: 0.007288156686469011
+    reg_alpha: 0.11351350977762978
+    min_child_weight: 9.177547993892938
+    gamma: 0.058673123375626024
+    grow_policy: depthwise
