@@ -3,3 +3,4 @@
 .vscode/
 venv-dw3/
 *.csv
+.Rhistory

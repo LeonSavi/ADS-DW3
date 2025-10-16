@@ -4,6 +4,7 @@
 library(tidyverse)    # For data manipulation and visualization
 library(caret)        # For machine learning workflows (cross-validation, model training)
 library(randomForest) # For Random Forest algorithm
+setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
 
 #Set random seed for reproducibility
 set.seed(1)
@@ -12,8 +13,8 @@ set.seed(1)
 ###Step 2: Data Loading=====================================================
 
 #Load data
-train = read_rds("train.rds")
-test = read_rds("test.rds")
+train = read_rds("datasets/train.rds")
+test = read_rds("datasets/test.rds")
 
 #Check dimensions
 cat('Train dimensions:', nrow(train), 'rows,', ncol(train), 'columns\n')
