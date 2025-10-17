@@ -1,15 +1,151 @@
 best_trials:
-- trial_number: 1974
+- trial_number: 961
   values:
-  - 0.8476
+  - 0.9247
+  - 0.1916
   params:
     Model__n_estimators: 740
-    Model__learning_rate: 0.025
-    Model__max_depth: 8
-    Model__subsample: 0.6542015999970789
-    Model__colsample_bytree: 0.9909839817915416
-    Model__reg_lambda: 0.022006236738228067
-    Model__reg_alpha: 0.38032281400008183
-    Model__min_child_weight: 8
-    Model__gamma: 2.2884885424786443
+    Model__learning_rate: 0.16
+    Model__max_depth: 4
+    Model__subsample: 0.5552997171468768
+    Model__colsample_bytree: 0.9815919085306092
+    Model__reg_lambda: 0.24481085805808236
+    Model__reg_alpha: 3.7839122777002308
+    Model__min_child_weight: 5
+    Model__gamma: 2.5266054240330855
     Model__grow_policy: lossguide
+- trial_number: 1607
+  values:
+  - 0.9793
+  - 0.1866
+  params:
+    Model__n_estimators: 1140
+    Model__learning_rate: 0.155
+    Model__max_depth: 7
+    Model__subsample: 0.5052737109178391
+    Model__colsample_bytree: 0.9815919085306092
+    Model__reg_lambda: 0.08987209283758651
+    Model__reg_alpha: 9.426525988906485
+    Model__min_child_weight: 7
+    Model__gamma: 4.131821180400187
+    Model__grow_policy: depthwise
+- trial_number: 1706
+  values:
+  - 0.9162
+  - 0.2192
+  params:
+    Model__n_estimators: 540
+    Model__learning_rate: 0.04
+    Model__max_depth: 4
+    Model__subsample: 0.555662543594597
+    Model__colsample_bytree: 0.9949858218644236
+    Model__reg_lambda: 0.04123466313236838
+    Model__reg_alpha: 1.1921881047507574
+    Model__min_child_weight: 8
+    Model__gamma: 2.5266054240330855
+    Model__grow_policy: depthwise
+- trial_number: 1708
+  values:
+  - 0.9245
+  - 0.1919
+  params:
+    Model__n_estimators: 740
+    Model__learning_rate: 0.16
+    Model__max_depth: 4
+    Model__subsample: 0.555662543594597
+    Model__colsample_bytree: 0.9815919085306092
+    Model__reg_lambda: 0.0507566811158479
+    Model__reg_alpha: 3.7839122777002308
+    Model__min_child_weight: 5
+    Model__gamma: 2.5266054240330855
+    Model__grow_policy: lossguide
+- trial_number: 1762
+  values:
+  - 0.9793
+  - 0.1866
+  params:
+    Model__n_estimators: 1140
+    Model__learning_rate: 0.155
+    Model__max_depth: 7
+    Model__subsample: 0.5052737109178391
+    Model__colsample_bytree: 0.9815919085306092
+    Model__reg_lambda: 0.08987209283758651
+    Model__reg_alpha: 9.426525988906485
+    Model__min_child_weight: 7
+    Model__gamma: 4.131821180400187
+    Model__grow_policy: depthwise
+- trial_number: 1936
+  values:
+  - 0.9224
+  - 0.1942
+  params:
+    Model__n_estimators: 740
+    Model__learning_rate: 0.16
+    Model__max_depth: 4
+    Model__subsample: 0.555662543594597
+    Model__colsample_bytree: 0.9815919085306092
+    Model__reg_lambda: 0.0507566811158479
+    Model__reg_alpha: 3.7839122777002308
+    Model__min_child_weight: 2
+    Model__gamma: 2.5266054240330855
+    Model__grow_policy: lossguide
+- trial_number: 1965
+  values:
+  - 0.9224
+  - 0.1942
+  params:
+    Model__n_estimators: 740
+    Model__learning_rate: 0.16
+    Model__max_depth: 4
+    Model__subsample: 0.555662543594597
+    Model__colsample_bytree: 0.9815919085306092
+    Model__reg_lambda: 0.0507566811158479
+    Model__reg_alpha: 3.7839122777002308
+    Model__min_child_weight: 2
+    Model__gamma: 2.5266054240330855
+    Model__grow_policy: lossguide
+- trial_number: 1985
+  values:
+  - 0.9279
+  - 0.1889
+  params:
+    Model__n_estimators: 740
+    Model__learning_rate: 0.155
+    Model__max_depth: 4
+    Model__subsample: 0.5552997171468768
+    Model__colsample_bytree: 0.9815919085306092
+    Model__reg_lambda: 0.24481085805808236
+    Model__reg_alpha: 3.7839122777002308
+    Model__min_child_weight: 5
+    Model__gamma: 2.6568459110039457
+    Model__grow_policy: lossguide
+- trial_number: 1998
+  values:
+  - 0.9793
+  - 0.1866
+  params:
+    Model__n_estimators: 1140
+    Model__learning_rate: 0.155
+    Model__max_depth: 7
+    Model__subsample: 0.5052737109178391
+    Model__colsample_bytree: 0.9815919085306092
+    Model__reg_lambda: 0.08987209283758651
+    Model__reg_alpha: 9.426525988906485
+    Model__min_child_weight: 7
+    Model__gamma: 4.131821180400187
+    Model__grow_policy: depthwise
+- trial_number: 2006
+  values:
+  - 0.9793
+  - 0.1866
+  params:
+    Model__n_estimators: 1140
+    Model__learning_rate: 0.155
+    Model__max_depth: 7
+    Model__subsample: 0.5052737109178391
+    Model__colsample_bytree: 0.9815919085306092
+    Model__reg_lambda: 0.014609293830298724
+    Model__reg_alpha: 9.426525988906485
+    Model__min_child_weight: 8
+    Model__gamma: 4.131821180400187
+    Model__grow_policy: depthwise

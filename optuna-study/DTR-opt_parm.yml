@@ -1,12 +1,4729 @@
 best_trials:
-- trial_number: 3530
+- trial_number: 671
   values:
-  - 0.8494
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 9
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 713
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 9
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 725
+  values:
+  - 0.8995
+  - 0.117
+  params:
+    Model__criterion: squared_error
+    Model__max_depth: 16
+    Model__min_samples_split: 24
+    Model__min_samples_leaf: 10
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 743
+  values:
+  - 0.8908
+  - 0.1266
+  params:
+    Model__criterion: squared_error
+    Model__max_depth: 16
+    Model__min_samples_split: 24
+    Model__min_samples_leaf: 11
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 777
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 9
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 782
+  values:
+  - 0.8908
+  - 0.1266
+  params:
+    Model__criterion: squared_error
+    Model__max_depth: 16
+    Model__min_samples_split: 24
+    Model__min_samples_leaf: 11
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 799
+  values:
+  - 0.8995
+  - 0.117
+  params:
+    Model__criterion: squared_error
+    Model__max_depth: 16
+    Model__min_samples_split: 24
+    Model__min_samples_leaf: 10
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 803
+  values:
+  - 0.8995
+  - 0.117
+  params:
+    Model__criterion: squared_error
+    Model__max_depth: 16
+    Model__min_samples_split: 24
+    Model__min_samples_leaf: 10
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 820
+  values:
+  - 0.8908
+  - 0.1266
+  params:
+    Model__criterion: squared_error
+    Model__max_depth: 20
+    Model__min_samples_split: 24
+    Model__min_samples_leaf: 11
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019291811413185273
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 871
+  values:
+  - 0.8995
+  - 0.117
+  params:
+    Model__criterion: squared_error
+    Model__max_depth: 16
+    Model__min_samples_split: 24
+    Model__min_samples_leaf: 10
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 880
+  values:
+  - 0.8908
+  - 0.1266
+  params:
+    Model__criterion: squared_error
+    Model__max_depth: 20
+    Model__min_samples_split: 24
+    Model__min_samples_leaf: 11
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 890
+  values:
+  - 0.8847
+  - 0.1382
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 15
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.014733458988280225
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 926
+  values:
+  - 0.8995
+  - 0.117
+  params:
+    Model__criterion: squared_error
+    Model__max_depth: 16
+    Model__min_samples_split: 24
+    Model__min_samples_leaf: 10
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 943
+  values:
+  - 0.8995
+  - 0.117
+  params:
+    Model__criterion: squared_error
+    Model__max_depth: 16
+    Model__min_samples_split: 24
+    Model__min_samples_leaf: 10
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 956
+  values:
+  - 0.8908
+  - 0.1266
+  params:
+    Model__criterion: squared_error
+    Model__max_depth: 16
+    Model__min_samples_split: 24
+    Model__min_samples_leaf: 11
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 962
+  values:
+  - 0.8908
+  - 0.1266
+  params:
+    Model__criterion: squared_error
+    Model__max_depth: 20
+    Model__min_samples_split: 24
+    Model__min_samples_leaf: 11
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 979
+  values:
+  - 0.8908
+  - 0.1266
+  params:
+    Model__criterion: squared_error
+    Model__max_depth: 16
+    Model__min_samples_split: 24
+    Model__min_samples_leaf: 11
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 987
+  values:
+  - 0.8847
+  - 0.1382
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 16
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.014733458988280225
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1004
+  values:
+  - 0.8995
+  - 0.117
+  params:
+    Model__criterion: squared_error
+    Model__max_depth: 13
+    Model__min_samples_split: 24
+    Model__min_samples_leaf: 10
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1023
+  values:
+  - 0.8908
+  - 0.1266
   params:
     Model__criterion: squared_error
     Model__max_depth: 17
+    Model__min_samples_split: 24
+    Model__min_samples_leaf: 11
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1028
+  values:
+  - 0.8908
+  - 0.1266
+  params:
+    Model__criterion: squared_error
+    Model__max_depth: 16
+    Model__min_samples_split: 24
+    Model__min_samples_leaf: 11
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1031
+  values:
+  - 0.8995
+  - 0.117
+  params:
+    Model__criterion: squared_error
+    Model__max_depth: 16
+    Model__min_samples_split: 24
+    Model__min_samples_leaf: 10
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1047
+  values:
+  - 0.8908
+  - 0.1266
+  params:
+    Model__criterion: squared_error
+    Model__max_depth: 20
+    Model__min_samples_split: 24
+    Model__min_samples_leaf: 11
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1058
+  values:
+  - 0.8995
+  - 0.117
+  params:
+    Model__criterion: squared_error
+    Model__max_depth: 23
+    Model__min_samples_split: 24
+    Model__min_samples_leaf: 10
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1061
+  values:
+  - 0.8995
+  - 0.117
+  params:
+    Model__criterion: squared_error
+    Model__max_depth: 17
+    Model__min_samples_split: 24
+    Model__min_samples_leaf: 10
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1063
+  values:
+  - 0.9007
+  - 0.1111
+  params:
+    Model__criterion: squared_error
+    Model__max_depth: 14
+    Model__min_samples_split: 25
+    Model__min_samples_leaf: 10
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.003998550744245144
+- trial_number: 1073
+  values:
+  - 0.8847
+  - 0.1382
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 20
     Model__min_samples_split: 18
     Model__min_samples_leaf: 6
-    Model__max_features: 0.7
-    Model__ccp_alpha: 0.024031798097269876
-    Model__min_impurity_decrease: 0.006881680308909269
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.014733458988280225
+    Model__min_impurity_decrease: 0.004575002715790961
+- trial_number: 1074
+  values:
+  - 0.8908
+  - 0.1266
+  params:
+    Model__criterion: squared_error
+    Model__max_depth: 14
+    Model__min_samples_split: 24
+    Model__min_samples_leaf: 11
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1079
+  values:
+  - 0.8995
+  - 0.117
+  params:
+    Model__criterion: squared_error
+    Model__max_depth: 16
+    Model__min_samples_split: 24
+    Model__min_samples_leaf: 10
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1087
+  values:
+  - 0.8908
+  - 0.1266
+  params:
+    Model__criterion: squared_error
+    Model__max_depth: 16
+    Model__min_samples_split: 24
+    Model__min_samples_leaf: 11
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1090
+  values:
+  - 0.8908
+  - 0.1266
+  params:
+    Model__criterion: squared_error
+    Model__max_depth: 16
+    Model__min_samples_split: 24
+    Model__min_samples_leaf: 11
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1099
+  values:
+  - 0.8995
+  - 0.117
+  params:
+    Model__criterion: squared_error
+    Model__max_depth: 20
+    Model__min_samples_split: 24
+    Model__min_samples_leaf: 10
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1102
+  values:
+  - 0.8995
+  - 0.117
+  params:
+    Model__criterion: squared_error
+    Model__max_depth: 23
+    Model__min_samples_split: 24
+    Model__min_samples_leaf: 10
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1108
+  values:
+  - 0.8908
+  - 0.1266
+  params:
+    Model__criterion: squared_error
+    Model__max_depth: 16
+    Model__min_samples_split: 24
+    Model__min_samples_leaf: 11
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1114
+  values:
+  - 0.8995
+  - 0.117
+  params:
+    Model__criterion: squared_error
+    Model__max_depth: 18
+    Model__min_samples_split: 24
+    Model__min_samples_leaf: 10
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1115
+  values:
+  - 0.8908
+  - 0.1266
+  params:
+    Model__criterion: squared_error
+    Model__max_depth: 16
+    Model__min_samples_split: 24
+    Model__min_samples_leaf: 11
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1116
+  values:
+  - 0.8908
+  - 0.1266
+  params:
+    Model__criterion: squared_error
+    Model__max_depth: 20
+    Model__min_samples_split: 24
+    Model__min_samples_leaf: 11
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1120
+  values:
+  - 0.8995
+  - 0.117
+  params:
+    Model__criterion: squared_error
+    Model__max_depth: 16
+    Model__min_samples_split: 24
+    Model__min_samples_leaf: 10
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1121
+  values:
+  - 0.8995
+  - 0.117
+  params:
+    Model__criterion: squared_error
+    Model__max_depth: 23
+    Model__min_samples_split: 24
+    Model__min_samples_leaf: 10
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1122
+  values:
+  - 0.8908
+  - 0.1266
+  params:
+    Model__criterion: squared_error
+    Model__max_depth: 20
+    Model__min_samples_split: 24
+    Model__min_samples_leaf: 11
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1124
+  values:
+  - 0.8995
+  - 0.117
+  params:
+    Model__criterion: squared_error
+    Model__max_depth: 16
+    Model__min_samples_split: 24
+    Model__min_samples_leaf: 10
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1128
+  values:
+  - 0.8995
+  - 0.117
+  params:
+    Model__criterion: squared_error
+    Model__max_depth: 16
+    Model__min_samples_split: 24
+    Model__min_samples_leaf: 10
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1129
+  values:
+  - 0.8995
+  - 0.117
+  params:
+    Model__criterion: squared_error
+    Model__max_depth: 20
+    Model__min_samples_split: 24
+    Model__min_samples_leaf: 10
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1133
+  values:
+  - 0.8908
+  - 0.1266
+  params:
+    Model__criterion: squared_error
+    Model__max_depth: 16
+    Model__min_samples_split: 24
+    Model__min_samples_leaf: 11
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1140
+  values:
+  - 0.8847
+  - 0.1382
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 15
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.014733458988280225
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1145
+  values:
+  - 0.8847
+  - 0.1382
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 16
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.014733458988280225
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1158
+  values:
+  - 0.8995
+  - 0.117
+  params:
+    Model__criterion: squared_error
+    Model__max_depth: 16
+    Model__min_samples_split: 24
+    Model__min_samples_leaf: 10
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1159
+  values:
+  - 0.8995
+  - 0.117
+  params:
+    Model__criterion: squared_error
+    Model__max_depth: 16
+    Model__min_samples_split: 24
+    Model__min_samples_leaf: 10
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1163
+  values:
+  - 0.8995
+  - 0.117
+  params:
+    Model__criterion: squared_error
+    Model__max_depth: 16
+    Model__min_samples_split: 24
+    Model__min_samples_leaf: 10
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1167
+  values:
+  - 0.8908
+  - 0.1266
+  params:
+    Model__criterion: squared_error
+    Model__max_depth: 17
+    Model__min_samples_split: 24
+    Model__min_samples_leaf: 11
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008678241749076636
+- trial_number: 1169
+  values:
+  - 0.8908
+  - 0.1266
+  params:
+    Model__criterion: squared_error
+    Model__max_depth: 15
+    Model__min_samples_split: 24
+    Model__min_samples_leaf: 11
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1170
+  values:
+  - 0.8908
+  - 0.1266
+  params:
+    Model__criterion: squared_error
+    Model__max_depth: 20
+    Model__min_samples_split: 24
+    Model__min_samples_leaf: 11
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1171
+  values:
+  - 0.8908
+  - 0.1266
+  params:
+    Model__criterion: squared_error
+    Model__max_depth: 12
+    Model__min_samples_split: 24
+    Model__min_samples_leaf: 11
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1175
+  values:
+  - 0.8908
+  - 0.1266
+  params:
+    Model__criterion: squared_error
+    Model__max_depth: 17
+    Model__min_samples_split: 24
+    Model__min_samples_leaf: 11
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1176
+  values:
+  - 0.8847
+  - 0.1382
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 15
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.014733458988280225
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1181
+  values:
+  - 0.8995
+  - 0.117
+  params:
+    Model__criterion: squared_error
+    Model__max_depth: 23
+    Model__min_samples_split: 24
+    Model__min_samples_leaf: 10
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1183
+  values:
+  - 0.8908
+  - 0.1266
+  params:
+    Model__criterion: squared_error
+    Model__max_depth: 16
+    Model__min_samples_split: 24
+    Model__min_samples_leaf: 11
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1187
+  values:
+  - 0.8995
+  - 0.117
+  params:
+    Model__criterion: squared_error
+    Model__max_depth: 16
+    Model__min_samples_split: 24
+    Model__min_samples_leaf: 10
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1189
+  values:
+  - 0.8995
+  - 0.117
+  params:
+    Model__criterion: squared_error
+    Model__max_depth: 23
+    Model__min_samples_split: 24
+    Model__min_samples_leaf: 10
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1194
+  values:
+  - 0.8995
+  - 0.117
+  params:
+    Model__criterion: squared_error
+    Model__max_depth: 16
+    Model__min_samples_split: 24
+    Model__min_samples_leaf: 10
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1196
+  values:
+  - 0.8995
+  - 0.117
+  params:
+    Model__criterion: squared_error
+    Model__max_depth: 16
+    Model__min_samples_split: 24
+    Model__min_samples_leaf: 10
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1199
+  values:
+  - 0.8995
+  - 0.117
+  params:
+    Model__criterion: squared_error
+    Model__max_depth: 20
+    Model__min_samples_split: 24
+    Model__min_samples_leaf: 10
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1203
+  values:
+  - 0.8908
+  - 0.1266
+  params:
+    Model__criterion: squared_error
+    Model__max_depth: 16
+    Model__min_samples_split: 24
+    Model__min_samples_leaf: 11
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1213
+  values:
+  - 0.8995
+  - 0.117
+  params:
+    Model__criterion: squared_error
+    Model__max_depth: 20
+    Model__min_samples_split: 24
+    Model__min_samples_leaf: 10
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1215
+  values:
+  - 0.8995
+  - 0.117
+  params:
+    Model__criterion: squared_error
+    Model__max_depth: 23
+    Model__min_samples_split: 24
+    Model__min_samples_leaf: 10
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1216
+  values:
+  - 0.8995
+  - 0.117
+  params:
+    Model__criterion: squared_error
+    Model__max_depth: 20
+    Model__min_samples_split: 24
+    Model__min_samples_leaf: 10
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1220
+  values:
+  - 0.8908
+  - 0.1266
+  params:
+    Model__criterion: squared_error
+    Model__max_depth: 16
+    Model__min_samples_split: 24
+    Model__min_samples_leaf: 11
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1226
+  values:
+  - 0.8908
+  - 0.1266
+  params:
+    Model__criterion: squared_error
+    Model__max_depth: 16
+    Model__min_samples_split: 24
+    Model__min_samples_leaf: 11
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1228
+  values:
+  - 0.8995
+  - 0.117
+  params:
+    Model__criterion: squared_error
+    Model__max_depth: 23
+    Model__min_samples_split: 24
+    Model__min_samples_leaf: 10
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1233
+  values:
+  - 0.8995
+  - 0.117
+  params:
+    Model__criterion: squared_error
+    Model__max_depth: 23
+    Model__min_samples_split: 24
+    Model__min_samples_leaf: 10
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1241
+  values:
+  - 0.8847
+  - 0.1382
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 20
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.014733458988280225
+    Model__min_impurity_decrease: 0.004575002715790961
+- trial_number: 1244
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 16
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1245
+  values:
+  - 0.8995
+  - 0.117
+  params:
+    Model__criterion: squared_error
+    Model__max_depth: 12
+    Model__min_samples_split: 24
+    Model__min_samples_leaf: 10
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1251
+  values:
+  - 0.8908
+  - 0.1266
+  params:
+    Model__criterion: squared_error
+    Model__max_depth: 16
+    Model__min_samples_split: 24
+    Model__min_samples_leaf: 11
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1255
+  values:
+  - 0.8995
+  - 0.117
+  params:
+    Model__criterion: squared_error
+    Model__max_depth: 16
+    Model__min_samples_split: 24
+    Model__min_samples_leaf: 10
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1256
+  values:
+  - 0.8908
+  - 0.1266
+  params:
+    Model__criterion: squared_error
+    Model__max_depth: 16
+    Model__min_samples_split: 24
+    Model__min_samples_leaf: 11
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1257
+  values:
+  - 0.8995
+  - 0.117
+  params:
+    Model__criterion: squared_error
+    Model__max_depth: 9
+    Model__min_samples_split: 24
+    Model__min_samples_leaf: 10
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1259
+  values:
+  - 0.8995
+  - 0.117
+  params:
+    Model__criterion: squared_error
+    Model__max_depth: 23
+    Model__min_samples_split: 24
+    Model__min_samples_leaf: 10
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1260
+  values:
+  - 0.8908
+  - 0.1266
+  params:
+    Model__criterion: squared_error
+    Model__max_depth: 20
+    Model__min_samples_split: 24
+    Model__min_samples_leaf: 11
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1269
+  values:
+  - 0.8908
+  - 0.1266
+  params:
+    Model__criterion: squared_error
+    Model__max_depth: 8
+    Model__min_samples_split: 24
+    Model__min_samples_leaf: 11
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1272
+  values:
+  - 0.8908
+  - 0.1266
+  params:
+    Model__criterion: squared_error
+    Model__max_depth: 20
+    Model__min_samples_split: 24
+    Model__min_samples_leaf: 11
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1273
+  values:
+  - 0.8908
+  - 0.1266
+  params:
+    Model__criterion: squared_error
+    Model__max_depth: 16
+    Model__min_samples_split: 24
+    Model__min_samples_leaf: 11
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1274
+  values:
+  - 0.8908
+  - 0.1266
+  params:
+    Model__criterion: squared_error
+    Model__max_depth: 16
+    Model__min_samples_split: 24
+    Model__min_samples_leaf: 11
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1276
+  values:
+  - 0.8995
+  - 0.117
+  params:
+    Model__criterion: squared_error
+    Model__max_depth: 20
+    Model__min_samples_split: 24
+    Model__min_samples_leaf: 10
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1277
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 16
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1278
+  values:
+  - 0.8995
+  - 0.117
+  params:
+    Model__criterion: squared_error
+    Model__max_depth: 16
+    Model__min_samples_split: 24
+    Model__min_samples_leaf: 10
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1279
+  values:
+  - 0.8908
+  - 0.1266
+  params:
+    Model__criterion: squared_error
+    Model__max_depth: 20
+    Model__min_samples_split: 24
+    Model__min_samples_leaf: 11
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1282
+  values:
+  - 0.8847
+  - 0.1382
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 16
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.014733458988280225
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1285
+  values:
+  - 0.8847
+  - 0.1382
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 15
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.014733458988280225
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1286
+  values:
+  - 0.8908
+  - 0.1266
+  params:
+    Model__criterion: squared_error
+    Model__max_depth: 14
+    Model__min_samples_split: 24
+    Model__min_samples_leaf: 11
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1288
+  values:
+  - 0.8908
+  - 0.1266
+  params:
+    Model__criterion: squared_error
+    Model__max_depth: 16
+    Model__min_samples_split: 24
+    Model__min_samples_leaf: 11
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1290
+  values:
+  - 0.8908
+  - 0.1266
+  params:
+    Model__criterion: squared_error
+    Model__max_depth: 16
+    Model__min_samples_split: 24
+    Model__min_samples_leaf: 11
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1297
+  values:
+  - 0.8908
+  - 0.1266
+  params:
+    Model__criterion: squared_error
+    Model__max_depth: 9
+    Model__min_samples_split: 24
+    Model__min_samples_leaf: 11
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1303
+  values:
+  - 0.8908
+  - 0.1266
+  params:
+    Model__criterion: squared_error
+    Model__max_depth: 20
+    Model__min_samples_split: 24
+    Model__min_samples_leaf: 11
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1306
+  values:
+  - 0.8908
+  - 0.1266
+  params:
+    Model__criterion: squared_error
+    Model__max_depth: 17
+    Model__min_samples_split: 24
+    Model__min_samples_leaf: 11
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1310
+  values:
+  - 0.8908
+  - 0.1266
+  params:
+    Model__criterion: squared_error
+    Model__max_depth: 20
+    Model__min_samples_split: 24
+    Model__min_samples_leaf: 11
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1311
+  values:
+  - 0.8908
+  - 0.1266
+  params:
+    Model__criterion: squared_error
+    Model__max_depth: 16
+    Model__min_samples_split: 24
+    Model__min_samples_leaf: 11
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1312
+  values:
+  - 0.8847
+  - 0.1382
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 15
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.014733458988280225
+    Model__min_impurity_decrease: 0.007550257292422198
+- trial_number: 1315
+  values:
+  - 0.8908
+  - 0.1266
+  params:
+    Model__criterion: squared_error
+    Model__max_depth: 16
+    Model__min_samples_split: 24
+    Model__min_samples_leaf: 11
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1317
+  values:
+  - 0.9007
+  - 0.1111
+  params:
+    Model__criterion: squared_error
+    Model__max_depth: 14
+    Model__min_samples_split: 25
+    Model__min_samples_leaf: 10
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.003998550744245144
+- trial_number: 1321
+  values:
+  - 0.8908
+  - 0.1266
+  params:
+    Model__criterion: squared_error
+    Model__max_depth: 16
+    Model__min_samples_split: 24
+    Model__min_samples_leaf: 11
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1324
+  values:
+  - 0.8995
+  - 0.117
+  params:
+    Model__criterion: squared_error
+    Model__max_depth: 12
+    Model__min_samples_split: 24
+    Model__min_samples_leaf: 10
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1331
+  values:
+  - 0.8908
+  - 0.1266
+  params:
+    Model__criterion: squared_error
+    Model__max_depth: 12
+    Model__min_samples_split: 24
+    Model__min_samples_leaf: 11
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1335
+  values:
+  - 0.8908
+  - 0.1266
+  params:
+    Model__criterion: squared_error
+    Model__max_depth: 16
+    Model__min_samples_split: 24
+    Model__min_samples_leaf: 11
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1337
+  values:
+  - 0.8908
+  - 0.1266
+  params:
+    Model__criterion: squared_error
+    Model__max_depth: 9
+    Model__min_samples_split: 24
+    Model__min_samples_leaf: 11
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1340
+  values:
+  - 0.8908
+  - 0.1266
+  params:
+    Model__criterion: squared_error
+    Model__max_depth: 16
+    Model__min_samples_split: 24
+    Model__min_samples_leaf: 11
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1349
+  values:
+  - 0.8908
+  - 0.1266
+  params:
+    Model__criterion: squared_error
+    Model__max_depth: 20
+    Model__min_samples_split: 24
+    Model__min_samples_leaf: 11
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1352
+  values:
+  - 0.8847
+  - 0.1382
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 16
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.014733458988280225
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1357
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 9
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008091257403434226
+- trial_number: 1359
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 11
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1361
+  values:
+  - 0.8908
+  - 0.1266
+  params:
+    Model__criterion: squared_error
+    Model__max_depth: 20
+    Model__min_samples_split: 24
+    Model__min_samples_leaf: 11
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1363
+  values:
+  - 0.8847
+  - 0.1382
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 9
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.014733458988280225
+    Model__min_impurity_decrease: 0.005126415333824002
+- trial_number: 1364
+  values:
+  - 0.8908
+  - 0.1266
+  params:
+    Model__criterion: squared_error
+    Model__max_depth: 16
+    Model__min_samples_split: 24
+    Model__min_samples_leaf: 11
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1366
+  values:
+  - 0.8908
+  - 0.1266
+  params:
+    Model__criterion: squared_error
+    Model__max_depth: 17
+    Model__min_samples_split: 24
+    Model__min_samples_leaf: 11
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008678241749076636
+- trial_number: 1369
+  values:
+  - 0.8847
+  - 0.1382
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 15
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.014733458988280225
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1370
+  values:
+  - 0.8995
+  - 0.117
+  params:
+    Model__criterion: squared_error
+    Model__max_depth: 23
+    Model__min_samples_split: 24
+    Model__min_samples_leaf: 10
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1371
+  values:
+  - 0.8908
+  - 0.1266
+  params:
+    Model__criterion: squared_error
+    Model__max_depth: 16
+    Model__min_samples_split: 24
+    Model__min_samples_leaf: 11
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1376
+  values:
+  - 0.8908
+  - 0.1266
+  params:
+    Model__criterion: squared_error
+    Model__max_depth: 20
+    Model__min_samples_split: 24
+    Model__min_samples_leaf: 11
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1389
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 16
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1392
+  values:
+  - 0.8908
+  - 0.1266
+  params:
+    Model__criterion: squared_error
+    Model__max_depth: 16
+    Model__min_samples_split: 24
+    Model__min_samples_leaf: 11
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1393
+  values:
+  - 0.8908
+  - 0.1266
+  params:
+    Model__criterion: squared_error
+    Model__max_depth: 9
+    Model__min_samples_split: 24
+    Model__min_samples_leaf: 11
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1395
+  values:
+  - 0.8847
+  - 0.1382
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 11
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.014733458988280225
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1400
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 15
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1402
+  values:
+  - 0.8908
+  - 0.1266
+  params:
+    Model__criterion: squared_error
+    Model__max_depth: 20
+    Model__min_samples_split: 24
+    Model__min_samples_leaf: 11
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1403
+  values:
+  - 0.8908
+  - 0.1266
+  params:
+    Model__criterion: squared_error
+    Model__max_depth: 17
+    Model__min_samples_split: 24
+    Model__min_samples_leaf: 11
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1407
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 15
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1408
+  values:
+  - 0.8908
+  - 0.1266
+  params:
+    Model__criterion: squared_error
+    Model__max_depth: 14
+    Model__min_samples_split: 24
+    Model__min_samples_leaf: 11
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1409
+  values:
+  - 0.8908
+  - 0.1266
+  params:
+    Model__criterion: squared_error
+    Model__max_depth: 20
+    Model__min_samples_split: 24
+    Model__min_samples_leaf: 11
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1415
+  values:
+  - 0.8908
+  - 0.1266
+  params:
+    Model__criterion: squared_error
+    Model__max_depth: 16
+    Model__min_samples_split: 24
+    Model__min_samples_leaf: 11
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1416
+  values:
+  - 0.8908
+  - 0.1266
+  params:
+    Model__criterion: squared_error
+    Model__max_depth: 17
+    Model__min_samples_split: 24
+    Model__min_samples_leaf: 11
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1418
+  values:
+  - 0.8847
+  - 0.1382
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 20
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.014733458988280225
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1424
+  values:
+  - 0.8995
+  - 0.117
+  params:
+    Model__criterion: squared_error
+    Model__max_depth: 20
+    Model__min_samples_split: 24
+    Model__min_samples_leaf: 10
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1432
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 9
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1436
+  values:
+  - 0.8908
+  - 0.1266
+  params:
+    Model__criterion: squared_error
+    Model__max_depth: 12
+    Model__min_samples_split: 24
+    Model__min_samples_leaf: 11
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1437
+  values:
+  - 0.8908
+  - 0.1266
+  params:
+    Model__criterion: squared_error
+    Model__max_depth: 18
+    Model__min_samples_split: 24
+    Model__min_samples_leaf: 11
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1439
+  values:
+  - 0.8847
+  - 0.1382
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 15
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.014733458988280225
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1440
+  values:
+  - 0.8995
+  - 0.117
+  params:
+    Model__criterion: squared_error
+    Model__max_depth: 20
+    Model__min_samples_split: 24
+    Model__min_samples_leaf: 10
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1448
+  values:
+  - 0.8847
+  - 0.1382
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 16
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.014733458988280225
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1450
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 9
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1452
+  values:
+  - 0.8847
+  - 0.1382
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 16
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.014733458988280225
+    Model__min_impurity_decrease: 0.00360278142325697
+- trial_number: 1454
+  values:
+  - 0.8908
+  - 0.1266
+  params:
+    Model__criterion: squared_error
+    Model__max_depth: 20
+    Model__min_samples_split: 24
+    Model__min_samples_leaf: 11
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1457
+  values:
+  - 0.8847
+  - 0.1382
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 20
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.014733458988280225
+    Model__min_impurity_decrease: 0.004575002715790961
+- trial_number: 1460
+  values:
+  - 0.8847
+  - 0.1382
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 9
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.014733458988280225
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1462
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 20
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1463
+  values:
+  - 0.8847
+  - 0.1382
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 9
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.014733458988280225
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1465
+  values:
+  - 0.8847
+  - 0.1382
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 15
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.014733458988280225
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1466
+  values:
+  - 0.8847
+  - 0.1382
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 15
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.014733458988280225
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1470
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 15
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1471
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 16
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1472
+  values:
+  - 0.8847
+  - 0.1382
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 15
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.014733458988280225
+    Model__min_impurity_decrease: 0.008759595814034625
+- trial_number: 1477
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 11
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1480
+  values:
+  - 0.8908
+  - 0.1266
+  params:
+    Model__criterion: squared_error
+    Model__max_depth: 16
+    Model__min_samples_split: 24
+    Model__min_samples_leaf: 11
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1483
+  values:
+  - 0.8847
+  - 0.1382
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 15
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.014733458988280225
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1486
+  values:
+  - 0.8847
+  - 0.1382
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 15
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.014733458988280225
+    Model__min_impurity_decrease: 0.003908798365786626
+- trial_number: 1489
+  values:
+  - 0.8847
+  - 0.1382
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 15
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.014733458988280225
+    Model__min_impurity_decrease: 0.009949564833942085
+- trial_number: 1500
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 15
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1501
+  values:
+  - 0.8847
+  - 0.1382
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 20
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.014733458988280225
+    Model__min_impurity_decrease: 0.004575002715790961
+- trial_number: 1502
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 9
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.003987645255736086
+- trial_number: 1505
+  values:
+  - 0.8847
+  - 0.1382
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 22
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.014733458988280225
+    Model__min_impurity_decrease: 0.005088888590371133
+- trial_number: 1508
+  values:
+  - 0.8847
+  - 0.1382
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 13
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.014733458988280225
+    Model__min_impurity_decrease: 0.004575002715790961
+- trial_number: 1509
+  values:
+  - 0.8847
+  - 0.1382
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 16
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.014733458988280225
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1510
+  values:
+  - 0.8847
+  - 0.1382
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 16
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.014733458988280225
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1515
+  values:
+  - 0.9007
+  - 0.1111
+  params:
+    Model__criterion: squared_error
+    Model__max_depth: 20
+    Model__min_samples_split: 25
+    Model__min_samples_leaf: 10
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.003998550744245144
+- trial_number: 1516
+  values:
+  - 0.8995
+  - 0.117
+  params:
+    Model__criterion: squared_error
+    Model__max_depth: 20
+    Model__min_samples_split: 24
+    Model__min_samples_leaf: 10
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1520
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 15
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1521
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 9
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1522
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 20
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.004748929638125223
+- trial_number: 1526
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 16
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1528
+  values:
+  - 0.8847
+  - 0.1382
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 15
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.014733458988280225
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1531
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 15
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.02010319107468559
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1532
+  values:
+  - 0.8847
+  - 0.1382
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 15
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.014733458988280225
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1533
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 9
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1534
+  values:
+  - 0.8847
+  - 0.1382
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 9
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.014733458988280225
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1535
+  values:
+  - 0.8847
+  - 0.1382
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 20
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.014733458988280225
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1537
+  values:
+  - 0.8847
+  - 0.1382
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 15
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.014733458988280225
+    Model__min_impurity_decrease: 0.008273272349387783
+- trial_number: 1541
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 16
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1542
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 16
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1543
+  values:
+  - 0.8847
+  - 0.1382
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 9
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.014733458988280225
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1546
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 15
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1548
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 20
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1549
+  values:
+  - 0.9007
+  - 0.1111
+  params:
+    Model__criterion: squared_error
+    Model__max_depth: 19
+    Model__min_samples_split: 25
+    Model__min_samples_leaf: 10
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.003998550744245144
+- trial_number: 1552
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 15
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1556
+  values:
+  - 0.8847
+  - 0.1382
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 9
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.014733458988280225
+    Model__min_impurity_decrease: 0.0006475131589149841
+- trial_number: 1557
+  values:
+  - 0.8847
+  - 0.1382
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 15
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.014733458988280225
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1559
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 20
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1562
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 20
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1563
+  values:
+  - 0.8847
+  - 0.1382
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 15
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.014733458988280225
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1566
+  values:
+  - 0.8847
+  - 0.1382
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 11
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.014733458988280225
+    Model__min_impurity_decrease: 0.005763880524920932
+- trial_number: 1571
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 16
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1572
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 15
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.004465450147343869
+- trial_number: 1575
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 9
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.004748929638125223
+- trial_number: 1577
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 15
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1579
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 20
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.003998550744245144
+- trial_number: 1581
+  values:
+  - 0.8847
+  - 0.1382
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 20
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.014733458988280225
+    Model__min_impurity_decrease: 0.004575002715790961
+- trial_number: 1582
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 16
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.004890601049493079
+- trial_number: 1583
+  values:
+  - 0.8847
+  - 0.1382
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 15
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.014733458988280225
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1585
+  values:
+  - 0.8847
+  - 0.1382
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 9
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.014733458988280225
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1587
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 20
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1588
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 18
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1590
+  values:
+  - 0.8847
+  - 0.1382
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 15
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.014733458988280225
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1592
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 15
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1593
+  values:
+  - 0.8847
+  - 0.1382
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 15
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.014733458988280225
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1596
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 9
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.002922764995768763
+- trial_number: 1599
+  values:
+  - 0.8847
+  - 0.1382
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 22
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.014733458988280225
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1600
+  values:
+  - 0.8908
+  - 0.1266
+  params:
+    Model__criterion: squared_error
+    Model__max_depth: 20
+    Model__min_samples_split: 24
+    Model__min_samples_leaf: 11
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1604
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 9
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1606
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 9
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1607
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 9
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.002922764995768763
+- trial_number: 1609
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 9
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1610
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 20
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.004748929638125223
+- trial_number: 1612
+  values:
+  - 0.8995
+  - 0.117
+  params:
+    Model__criterion: squared_error
+    Model__max_depth: 20
+    Model__min_samples_split: 24
+    Model__min_samples_leaf: 10
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1614
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 16
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1616
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 9
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1617
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 9
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1618
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 15
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1621
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 20
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.004748929638125223
+- trial_number: 1623
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 15
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1625
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 20
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1627
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 20
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1630
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 15
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1634
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 9
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1636
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 16
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1638
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 15
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1644
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 9
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1645
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 20
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1648
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 20
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.00328407132501092
+- trial_number: 1650
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 11
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.003998550744245144
+- trial_number: 1652
+  values:
+  - 0.8995
+  - 0.117
+  params:
+    Model__criterion: squared_error
+    Model__max_depth: 20
+    Model__min_samples_split: 24
+    Model__min_samples_leaf: 10
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1653
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 15
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1659
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 9
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1660
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 16
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1662
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 9
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008091257403434226
+- trial_number: 1664
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 16
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1667
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 9
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.003998550744245144
+- trial_number: 1670
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 15
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1675
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 15
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.02010319107468559
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1677
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 15
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1678
+  values:
+  - 0.8995
+  - 0.117
+  params:
+    Model__criterion: squared_error
+    Model__max_depth: 20
+    Model__min_samples_split: 24
+    Model__min_samples_leaf: 10
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1679
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 20
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.02026253244121003
+    Model__min_impurity_decrease: 0.002922764995768763
+- trial_number: 1680
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 9
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1683
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 9
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1687
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 16
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1689
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 15
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1692
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 20
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1693
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 19
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008091257403434226
+- trial_number: 1694
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 18
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.0012906808323577702
+- trial_number: 1695
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 15
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.001368091620061478
+- trial_number: 1699
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 9
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1701
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 15
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1702
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 16
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1703
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 9
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1704
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 11
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1705
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 20
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1706
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 20
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1708
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 10
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1709
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 15
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1710
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 15
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.02010319107468559
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1711
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 15
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1713
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 11
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1714
+  values:
+  - 0.8908
+  - 0.1266
+  params:
+    Model__criterion: squared_error
+    Model__max_depth: 20
+    Model__min_samples_split: 24
+    Model__min_samples_leaf: 11
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1715
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 9
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1721
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 9
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.004748929638125223
+- trial_number: 1725
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 9
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1727
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 20
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.0009509931235570668
+- trial_number: 1728
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 15
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1730
+  values:
+  - 0.8847
+  - 0.1382
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 9
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.014733458988280225
+    Model__min_impurity_decrease: 0.002922764995768763
+- trial_number: 1731
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 20
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1737
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 9
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1741
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 20
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1744
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 9
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.003998550744245144
+- trial_number: 1745
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 20
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1746
+  values:
+  - 0.8995
+  - 0.117
+  params:
+    Model__criterion: squared_error
+    Model__max_depth: 18
+    Model__min_samples_split: 24
+    Model__min_samples_leaf: 10
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1747
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 11
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1749
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 9
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1750
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 17
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1751
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 20
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1752
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 9
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.004748929638125223
+- trial_number: 1755
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 15
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1756
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 9
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1757
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 15
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1760
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 21
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1763
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 9
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1765
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 16
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.003987645255736086
+- trial_number: 1768
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 9
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.006719406935337575
+- trial_number: 1770
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 9
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1773
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 15
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.002078166252345849
+- trial_number: 1774
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 11
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1776
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 15
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1779
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 16
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1780
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 16
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.003987645255736086
+- trial_number: 1782
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 9
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1783
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 15
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1784
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 15
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.0038476560677625925
+- trial_number: 1785
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 9
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1787
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 20
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1789
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 15
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.004465450147343869
+- trial_number: 1790
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 9
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1796
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 16
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1799
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 9
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1800
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 9
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.0006475131589149841
+- trial_number: 1804
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 20
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1808
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 9
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1809
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 15
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.002663339748063669
+- trial_number: 1812
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 11
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1813
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 20
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1814
+  values:
+  - 0.8847
+  - 0.1382
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 21
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.014733458988280225
+    Model__min_impurity_decrease: 0.004748929638125223
+- trial_number: 1816
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 15
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1817
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 20
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.003998550744245144
+- trial_number: 1820
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 9
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.0013820824984306524
+- trial_number: 1822
+  values:
+  - 0.8847
+  - 0.1382
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 9
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.014733458988280225
+    Model__min_impurity_decrease: 0.002922764995768763
+- trial_number: 1824
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 24
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.004338156958781341
+- trial_number: 1827
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 15
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.0028235268704254637
+- trial_number: 1830
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 9
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1831
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 11
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1833
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 11
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.005059377207550469
+- trial_number: 1837
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 16
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1838
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 9
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.002922764995768763
+- trial_number: 1840
+  values:
+  - 0.8847
+  - 0.1382
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 9
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.014733458988280225
+    Model__min_impurity_decrease: 0.0006475131589149841
+- trial_number: 1845
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 15
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1847
+  values:
+  - 0.8847
+  - 0.1382
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 9
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.014733458988280225
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1848
+  values:
+  - 0.8847
+  - 0.1382
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 9
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.014733458988280225
+    Model__min_impurity_decrease: 0.002922764995768763
+- trial_number: 1851
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 17
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1852
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 15
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1856
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 20
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.003277296441822256
+- trial_number: 1865
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 15
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1866
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 16
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.003987645255736086
+- trial_number: 1871
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 20
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1873
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 15
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1874
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 16
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1877
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 16
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1878
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 9
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1879
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 20
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1881
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 16
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1883
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 16
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.003987645255736086
+- trial_number: 1884
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 16
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.004465450147343869
+- trial_number: 1885
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 15
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.004748929638125223
+- trial_number: 1886
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 20
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.009134264674321274
+- trial_number: 1888
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 11
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1889
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 17
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.005875361807425708
+- trial_number: 1891
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 9
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.007160106861980578
+- trial_number: 1893
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 20
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1894
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 9
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1897
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 15
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1898
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 17
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1902
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 20
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.0059882576889724315
+- trial_number: 1903
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 20
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1905
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 9
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.004748929638125223
+- trial_number: 1906
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 10
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.004748929638125223
+- trial_number: 1907
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 15
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1909
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 16
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008570083837639762
+- trial_number: 1910
+  values:
+  - 0.8995
+  - 0.117
+  params:
+    Model__criterion: squared_error
+    Model__max_depth: 20
+    Model__min_samples_split: 24
+    Model__min_samples_leaf: 10
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1912
+  values:
+  - 0.8995
+  - 0.117
+  params:
+    Model__criterion: squared_error
+    Model__max_depth: 19
+    Model__min_samples_split: 24
+    Model__min_samples_leaf: 10
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1914
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 15
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1915
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 20
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.004748929638125223
+- trial_number: 1916
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 9
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.004748929638125223
+- trial_number: 1918
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 15
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1920
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 20
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.004748929638125223
+- trial_number: 1921
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 9
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1924
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 15
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.0027412112249146914
+- trial_number: 1926
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 20
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.004018960972776558
+- trial_number: 1927
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 9
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1932
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 15
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1933
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 17
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1937
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 9
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.002922764995768763
+- trial_number: 1940
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 15
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1946
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 16
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1947
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 9
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1949
+  values:
+  - 0.8822
+  - 0.1427
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 15
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.015509288515925103
+    Model__min_impurity_decrease: 0.004465450147343869
+- trial_number: 1950
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 9
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.004748929638125223
+- trial_number: 1951
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 18
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.003998550744245144
+- trial_number: 1952
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 9
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.007163518527152482
+- trial_number: 1954
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 9
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1957
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 16
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1960
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 17
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1963
+  values:
+  - 0.8822
+  - 0.1427
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 20
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.015509288515925103
+    Model__min_impurity_decrease: 0.004465450147343869
+- trial_number: 1965
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 16
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.02050781112020607
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1968
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 15
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008768031339738776
+- trial_number: 1969
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 16
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1972
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 20
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.003998550744245144
+- trial_number: 1973
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 9
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1974
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 9
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.0006475131589149841
+- trial_number: 1975
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 17
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1977
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 22
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1979
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 9
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1981
+  values:
+  - 0.8847
+  - 0.1382
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 21
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.014733458988280225
+    Model__min_impurity_decrease: 0.004748929638125223
+- trial_number: 1983
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 24
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.009106909236514579
+- trial_number: 1984
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 11
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1986
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 15
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1990
+  values:
+  - 0.9007
+  - 0.1111
+  params:
+    Model__criterion: squared_error
+    Model__max_depth: 14
+    Model__min_samples_split: 25
+    Model__min_samples_leaf: 10
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.003998550744245144
+- trial_number: 1994
+  values:
+  - 0.8847
+  - 0.1382
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 20
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.014733458988280225
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1995
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 9
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 1997
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 20
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.002922764995768763
+- trial_number: 1999
+  values:
+  - 0.8908
+  - 0.1266
+  params:
+    Model__criterion: squared_error
+    Model__max_depth: 20
+    Model__min_samples_split: 24
+    Model__min_samples_leaf: 11
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.008663363461552305
+- trial_number: 2000
+  values:
+  - 0.8837
+  - 0.1417
+  params:
+    Model__criterion: friedman_mse
+    Model__max_depth: 20
+    Model__min_samples_split: 18
+    Model__min_samples_leaf: 6
+    Model__max_features: 0.5
+    Model__ccp_alpha: 0.019465532586941975
+    Model__min_impurity_decrease: 0.004465450147343869
