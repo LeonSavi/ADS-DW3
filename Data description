@@ -1,0 +1,30 @@
+##Q: Describe the data and use a visualization to support your story. (approx. one or two paragraphs)
+
+##COrrelation Heatmap
+library(corrplot)                                            #Library for correlation visualization
+
+key_vars = train %>%                                         #Key variables
+  select(score, failures, studytime, absences, age, Medu, Fedu, goout, Dalc, Walc)
+
+cor_matrix = cor(key_vars, use = "complete.obs")             #Calculate correlation matrix
+
+corrplot(cor_matrix, 
+         method = "color",
+         type = "upper",                                      #SHow only upper trianlge
+         order = "hclust",                                    #Group similar variables together
+         tl.col = "black",
+         tl.cex = 0.9,
+         addCoef.col = "black",  
+         number.cex = 0.9,
+         col = colorRampPalette(c("red", "white", "green"))(200),
+         title = "Correlation Between Key Variables",
+         mar = c(0, 0, 2, 0),                                 #Space for the title
+         diag = FALSE)                                        #Hide diagonal
+
+
+Summary:
+The correlation heatmap reveals several notable relationships among the selected variables. The three strongest positive correlations identified are: 1) workday and weekend alcohol consumption (Dalc - Walc, r = 0.65), 
+indicating that students who drink during the week also tend to drink on weekends, 2) mother's and father's education levels (Medu - Fedu, r = 0.62), suggesting that parents typically have similar educational backgrounds 
+and 3) frequency of going out with friends and weekend alcohol consumption (goout - Walc, r = 0.42), reflecting social drinking patterns among students. Most critically for our prediction objective, past class failures 
+exhibits the strongest negative correlation with student performance (failures - score, r = -0.36), confirming our exploratory analysis that academic history is the single most important predictor of current 
+academic outcomes.
