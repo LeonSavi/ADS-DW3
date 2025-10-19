@@ -2508,19 +2508,6 @@ best_trials:
     Model__max_leaf_nodes: null
     Model__min_impurity_decrease: 4.328121683117624e-09
     Model__ccp_alpha: 0.017186175692849814
-- trial_number: 2370
-  values:
-  - 0.9557
-  - 0.201
-  params:
-    Model__n_estimators: 280
-    Model__max_depth: 8
-    Model__min_samples_split: 10
-    Model__min_samples_leaf: 12
-    Model__max_features: 0.3
-    Model__max_leaf_nodes: null
-    Model__min_impurity_decrease: 8.060890650013585e-09
-    Model__ccp_alpha: 0.01944501440728755
 - trial_number: 2373
   values:
   - 0.9771
@@ -4289,3 +4276,380 @@ best_trials:
     Model__max_leaf_nodes: null
     Model__min_impurity_decrease: 3.5798749034080957e-09
     Model__ccp_alpha: 0.015562507634841525
+- trial_number: 3061
+  values:
+  - 0.9127
+  - 0.2076
+  params:
+    Model__n_estimators: 340
+    Model__max_depth: 7
+    Model__min_samples_split: 15
+    Model__min_samples_leaf: 9
+    Model__max_features: 1.0
+    Model__max_leaf_nodes: null
+    Model__min_impurity_decrease: 6.410785230903136e-09
+    Model__ccp_alpha: 0.019534093354456262
+- trial_number: 3068
+  values:
+  - 0.9121
+  - 0.2099
+  params:
+    Model__n_estimators: 340
+    Model__max_depth: 6
+    Model__min_samples_split: 5
+    Model__min_samples_leaf: 8
+    Model__max_features: 1.0
+    Model__max_leaf_nodes: 110
+    Model__min_impurity_decrease: 7.1371504614369594e-09
+    Model__ccp_alpha: 0.019534093354456262
+- trial_number: 3073
+  values:
+  - 0.9581
+  - 0.1992
+  params:
+    Model__n_estimators: 280
+    Model__max_depth: 6
+    Model__min_samples_split: 4
+    Model__min_samples_leaf: 13
+    Model__max_features: 0.3
+    Model__max_leaf_nodes: null
+    Model__min_impurity_decrease: 5.708865721672355e-09
+    Model__ccp_alpha: 0.019534093354456262
+- trial_number: 3074
+  values:
+  - 0.9888
+  - 0.1892
+  params:
+    Model__n_estimators: 280
+    Model__max_depth: 3
+    Model__min_samples_split: 15
+    Model__min_samples_leaf: 13
+    Model__max_features: sqrt
+    Model__max_leaf_nodes: null
+    Model__min_impurity_decrease: 9.992918082532876e-09
+    Model__ccp_alpha: 0.018441425389070478
+- trial_number: 3078
+  values:
+  - 0.9855
+  - 0.1896
+  params:
+    Model__n_estimators: 280
+    Model__max_depth: 4
+    Model__min_samples_split: 3
+    Model__min_samples_leaf: 14
+    Model__max_features: sqrt
+    Model__max_leaf_nodes: null
+    Model__min_impurity_decrease: 5.708865721672355e-09
+    Model__ccp_alpha: 0.019534093354456262
+- trial_number: 3080
+  values:
+  - 0.9225
+  - 0.2032
+  params:
+    Model__n_estimators: 360
+    Model__max_depth: 3
+    Model__min_samples_split: 13
+    Model__min_samples_leaf: 13
+    Model__max_features: 1.0
+    Model__max_leaf_nodes: null
+    Model__min_impurity_decrease: 2.0054433937167484e-09
+    Model__ccp_alpha: 0.015859642384347245
+- trial_number: 3082
+  values:
+  - 0.9127
+  - 0.2082
+  params:
+    Model__n_estimators: 340
+    Model__max_depth: 5
+    Model__min_samples_split: 2
+    Model__min_samples_leaf: 8
+    Model__max_features: 1.0
+    Model__max_leaf_nodes: null
+    Model__min_impurity_decrease: 1.4160708077239647e-09
+    Model__ccp_alpha: 0.019534093354456262
+- trial_number: 3085
+  values:
+  - 0.9127
+  - 0.2087
+  params:
+    Model__n_estimators: 300
+    Model__max_depth: 6
+    Model__min_samples_split: 12
+    Model__min_samples_leaf: 9
+    Model__max_features: 1.0
+    Model__max_leaf_nodes: null
+    Model__min_impurity_decrease: 6.410785230903136e-09
+    Model__ccp_alpha: 0.019275676997572443
+- trial_number: 3089
+  values:
+  - 0.912
+  - 0.2106
+  params:
+    Model__n_estimators: 340
+    Model__max_depth: 7
+    Model__min_samples_split: 4
+    Model__min_samples_leaf: 8
+    Model__max_features: 1.0
+    Model__max_leaf_nodes: null
+    Model__min_impurity_decrease: 6.410785230903136e-09
+    Model__ccp_alpha: 0.019534093354456262
+- trial_number: 3091
+  values:
+  - 0.9645
+  - 0.197
+  params:
+    Model__n_estimators: 240
+    Model__max_depth: 3
+    Model__min_samples_split: 15
+    Model__min_samples_leaf: 13
+    Model__max_features: 0.3
+    Model__max_leaf_nodes: null
+    Model__min_impurity_decrease: 6.698270378126093e-10
+    Model__ccp_alpha: 0.019534093354456262
+- trial_number: 3102
+  values:
+  - 0.9836
+  - 0.1898
+  params:
+    Model__n_estimators: 280
+    Model__max_depth: 4
+    Model__min_samples_split: 17
+    Model__min_samples_leaf: 13
+    Model__max_features: sqrt
+    Model__max_leaf_nodes: null
+    Model__min_impurity_decrease: 7.1371504614369594e-09
+    Model__ccp_alpha: 0.019965452478268444
+- trial_number: 3103
+  values:
+  - 0.9238
+  - 0.2028
+  params:
+    Model__n_estimators: 400
+    Model__max_depth: 3
+    Model__min_samples_split: 4
+    Model__min_samples_leaf: 12
+    Model__max_features: 1.0
+    Model__max_leaf_nodes: 110
+    Model__min_impurity_decrease: 6.3450006369043554e-09
+    Model__ccp_alpha: 0.019534093354456262
+- trial_number: 3104
+  values:
+  - 0.9665
+  - 0.1958
+  params:
+    Model__n_estimators: 280
+    Model__max_depth: 3
+    Model__min_samples_split: 12
+    Model__min_samples_leaf: 14
+    Model__max_features: 0.3
+    Model__max_leaf_nodes: null
+    Model__min_impurity_decrease: 7.1371504614369594e-09
+    Model__ccp_alpha: 0.019534093354456262
+- trial_number: 3107
+  values:
+  - 0.9545
+  - 0.2019
+  params:
+    Model__n_estimators: 280
+    Model__max_depth: 6
+    Model__min_samples_split: 15
+    Model__min_samples_leaf: 12
+    Model__max_features: 0.3
+    Model__max_leaf_nodes: null
+    Model__min_impurity_decrease: 3.685742904108993e-09
+    Model__ccp_alpha: 0.017186175692849814
+- trial_number: 3108
+  values:
+  - 0.9656
+  - 0.1963
+  params:
+    Model__n_estimators: 280
+    Model__max_depth: 3
+    Model__min_samples_split: 15
+    Model__min_samples_leaf: 14
+    Model__max_features: 0.3
+    Model__max_leaf_nodes: null
+    Model__min_impurity_decrease: 3.5798749034080957e-09
+    Model__ccp_alpha: 0.017186175692849814
+- trial_number: 3110
+  values:
+  - 0.9616
+  - 0.1986
+  params:
+    Model__n_estimators: 280
+    Model__max_depth: 3
+    Model__min_samples_split: 9
+    Model__min_samples_leaf: 11
+    Model__max_features: 0.3
+    Model__max_leaf_nodes: 170
+    Model__min_impurity_decrease: 7.1371504614369594e-09
+    Model__ccp_alpha: 0.019534093354456262
+- trial_number: 3111
+  values:
+  - 0.9209
+  - 0.2048
+  params:
+    Model__n_estimators: 300
+    Model__max_depth: 3
+    Model__min_samples_split: 4
+    Model__min_samples_leaf: 8
+    Model__max_features: 1.0
+    Model__max_leaf_nodes: 55
+    Model__min_impurity_decrease: 7.362943268959355e-10
+    Model__ccp_alpha: 0.015562507634841525
+- trial_number: 3121
+  values:
+  - 0.9825
+  - 0.1908
+  params:
+    Model__n_estimators: 280
+    Model__max_depth: 4
+    Model__min_samples_split: 2
+    Model__min_samples_leaf: 13
+    Model__max_features: sqrt
+    Model__max_leaf_nodes: null
+    Model__min_impurity_decrease: 7.1371504614369594e-09
+    Model__ccp_alpha: 0.017186175692849814
+- trial_number: 3122
+  values:
+  - 0.9577
+  - 0.1999
+  params:
+    Model__n_estimators: 280
+    Model__max_depth: 6
+    Model__min_samples_split: 3
+    Model__min_samples_leaf: 13
+    Model__max_features: 0.3
+    Model__max_leaf_nodes: null
+    Model__min_impurity_decrease: 5.708865721672355e-09
+    Model__ccp_alpha: 0.018563842620655552
+- trial_number: 3123
+  values:
+  - 0.9557
+  - 0.2007
+  params:
+    Model__n_estimators: 300
+    Model__max_depth: 6
+    Model__min_samples_split: 8
+    Model__min_samples_leaf: 12
+    Model__max_features: 0.3
+    Model__max_leaf_nodes: null
+    Model__min_impurity_decrease: 5.708865721672355e-09
+    Model__ccp_alpha: 0.019534093354456262
+- trial_number: 3127
+  values:
+  - 0.9644
+  - 0.1978
+  params:
+    Model__n_estimators: 460
+    Model__max_depth: 3
+    Model__min_samples_split: 2
+    Model__min_samples_leaf: 13
+    Model__max_features: 0.3
+    Model__max_leaf_nodes: null
+    Model__min_impurity_decrease: 5.344014209576944e-09
+    Model__ccp_alpha: 0.019534093354456262
+- trial_number: 3132
+  values:
+  - 0.9778
+  - 0.195
+  params:
+    Model__n_estimators: 280
+    Model__max_depth: 7
+    Model__min_samples_split: 17
+    Model__min_samples_leaf: 10
+    Model__max_features: sqrt
+    Model__max_leaf_nodes: null
+    Model__min_impurity_decrease: 7.1371504614369594e-09
+    Model__ccp_alpha: 0.019534093354456262
+- trial_number: 3134
+  values:
+  - 0.9114
+  - 0.2204
+  params:
+    Model__n_estimators: 340
+    Model__max_depth: 8
+    Model__min_samples_split: 2
+    Model__min_samples_leaf: 8
+    Model__max_features: 1.0
+    Model__max_leaf_nodes: 80
+    Model__min_impurity_decrease: 5.7324574876686e-09
+    Model__ccp_alpha: 0.015859642384347245
+- trial_number: 3135
+  values:
+  - 0.9113
+  - 0.221
+  params:
+    Model__n_estimators: 340
+    Model__max_depth: 7
+    Model__min_samples_split: 8
+    Model__min_samples_leaf: 8
+    Model__max_features: 1.0
+    Model__max_leaf_nodes: null
+    Model__min_impurity_decrease: 8.61398806699748e-10
+    Model__ccp_alpha: 0.015562507634841525
+- trial_number: 3139
+  values:
+  - 0.9645
+  - 0.197
+  params:
+    Model__n_estimators: 240
+    Model__max_depth: 3
+    Model__min_samples_split: 4
+    Model__min_samples_leaf: 13
+    Model__max_features: 0.3
+    Model__max_leaf_nodes: null
+    Model__min_impurity_decrease: 2.0054433937167484e-09
+    Model__ccp_alpha: 0.019534093354456262
+- trial_number: 3142
+  values:
+  - 0.9577
+  - 0.1999
+  params:
+    Model__n_estimators: 280
+    Model__max_depth: 6
+    Model__min_samples_split: 4
+    Model__min_samples_leaf: 13
+    Model__max_features: 0.3
+    Model__max_leaf_nodes: null
+    Model__min_impurity_decrease: 5.2718408682613964e-09
+    Model__ccp_alpha: 0.018563842620655552
+- trial_number: 3144
+  values:
+  - 0.9644
+  - 0.1978
+  params:
+    Model__n_estimators: 460
+    Model__max_depth: 3
+    Model__min_samples_split: 11
+    Model__min_samples_leaf: 13
+    Model__max_features: 0.3
+    Model__max_leaf_nodes: null
+    Model__min_impurity_decrease: 5.344014209576944e-09
+    Model__ccp_alpha: 0.019534093354456262
+- trial_number: 3150
+  values:
+  - 0.9778
+  - 0.195
+  params:
+    Model__n_estimators: 280
+    Model__max_depth: 7
+    Model__min_samples_split: 17
+    Model__min_samples_leaf: 10
+    Model__max_features: sqrt
+    Model__max_leaf_nodes: null
+    Model__min_impurity_decrease: 5.708865721672355e-09
+    Model__ccp_alpha: 0.019534093354456262
+- trial_number: 3153
+  values:
+  - 0.9123
+  - 0.2093
+  params:
+    Model__n_estimators: 340
+    Model__max_depth: 6
+    Model__min_samples_split: 9
+    Model__min_samples_leaf: 8
+    Model__max_features: 1.0
+    Model__max_leaf_nodes: null
+    Model__min_impurity_decrease: 5.7324574876686e-09
+    Model__ccp_alpha: 0.01981346447238392

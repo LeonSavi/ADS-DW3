@@ -1,0 +1,181 @@
+best_trials:
+- trial_number: 251
+  values:
+  - 0.919
+  - 0.2169
+  params:
+    Model__bootstrap: false
+    Model__n_estimators: 100
+    Model__max_samples: 0.9047172717351308
+    Model__max_features: 0.8939532601340191
+    Model__bootstrap_features: false
+- trial_number: 477
+  values:
+  - 0.9267
+  - 0.2036
+  params:
+    Model__bootstrap: false
+    Model__n_estimators: 60
+    Model__max_samples: 0.98467950011571
+    Model__max_features: 0.9107242324950899
+    Model__bootstrap_features: true
+- trial_number: 607
+  values:
+  - 0.9504
+  - 0.1956
+  params:
+    Model__bootstrap: false
+    Model__n_estimators: 60
+    Model__max_samples: 0.9850701075613575
+    Model__max_features: 0.5289726968715945
+    Model__bootstrap_features: true
+- trial_number: 626
+  values:
+  - 0.9192
+  - 0.2153
+  params:
+    Model__bootstrap: false
+    Model__n_estimators: 230
+    Model__max_samples: 0.9691205052079329
+    Model__max_features: 0.9943547101223772
+    Model__bootstrap_features: false
+- trial_number: 793
+  values:
+  - 0.9201
+  - 0.2108
+  params:
+    Model__bootstrap: false
+    Model__n_estimators: 100
+    Model__max_samples: 0.96768019495289
+    Model__max_features: 0.9802444140609133
+    Model__bootstrap_features: false
+- trial_number: 866
+  values:
+  - 0.9186
+  - 0.2212
+  params:
+    Model__bootstrap: false
+    Model__n_estimators: 230
+    Model__max_samples: 0.8278153912882611
+    Model__max_features: 0.9943547101223772
+    Model__bootstrap_features: false
+- trial_number: 879
+  values:
+  - 0.9269
+  - 0.1983
+  params:
+    Model__bootstrap: false
+    Model__n_estimators: 60
+    Model__max_samples: 0.9966645547096952
+    Model__max_features: 0.9107242324950899
+    Model__bootstrap_features: true
+- trial_number: 1019
+  values:
+  - 0.9218
+  - 0.2095
+  params:
+    Model__bootstrap: false
+    Model__n_estimators: 100
+    Model__max_samples: 0.9939471123312619
+    Model__max_features: 0.9943547101223772
+    Model__bootstrap_features: false
+- trial_number: 1141
+  values:
+  - 0.9186
+  - 0.2212
+  params:
+    Model__bootstrap: false
+    Model__n_estimators: 230
+    Model__max_samples: 0.8267398736218395
+    Model__max_features: 0.9943547101223772
+    Model__bootstrap_features: false
+- trial_number: 1217
+  values:
+  - 0.9194
+  - 0.2113
+  params:
+    Model__bootstrap: false
+    Model__n_estimators: 60
+    Model__max_samples: 0.9157525680359736
+    Model__max_features: 0.8329923370563018
+    Model__bootstrap_features: false
+- trial_number: 1255
+  values:
+  - 0.9188
+  - 0.2209
+  params:
+    Model__bootstrap: false
+    Model__n_estimators: 100
+    Model__max_samples: 0.7945814696975608
+    Model__max_features: 0.9802444140609133
+    Model__bootstrap_features: false
+- trial_number: 1307
+  values:
+  - 0.9191
+  - 0.2154
+  params:
+    Model__bootstrap: false
+    Model__n_estimators: 60
+    Model__max_samples: 0.9007999388554464
+    Model__max_features: 0.9943547101223772
+    Model__bootstrap_features: false
+- trial_number: 1444
+  values:
+  - 0.9267
+  - 0.2036
+  params:
+    Model__bootstrap: false
+    Model__n_estimators: 60
+    Model__max_samples: 0.9831510150371375
+    Model__max_features: 0.9107242324950899
+    Model__bootstrap_features: true
+- trial_number: 1501
+  values:
+  - 0.9248
+  - 0.2038
+  params:
+    Model__bootstrap: false
+    Model__n_estimators: 60
+    Model__max_samples: 0.977495078995913
+    Model__max_features: 0.9107242324950899
+    Model__bootstrap_features: true
+- trial_number: 1654
+  values:
+  - 0.9192
+  - 0.2153
+  params:
+    Model__bootstrap: false
+    Model__n_estimators: 230
+    Model__max_samples: 0.9675969360560834
+    Model__max_features: 0.9943547101223772
+    Model__bootstrap_features: false
+- trial_number: 1786
+  values:
+  - 0.9186
+  - 0.2212
+  params:
+    Model__bootstrap: false
+    Model__n_estimators: 230
+    Model__max_samples: 0.8274875751897932
+    Model__max_features: 0.9943547101223772
+    Model__bootstrap_features: false
+- trial_number: 1839
+  values:
+  - 0.919
+  - 0.2206
+  params:
+    Model__bootstrap: false
+    Model__n_estimators: 230
+    Model__max_samples: 0.8228571330811164
+    Model__max_features: 0.9943547101223772
+    Model__bootstrap_features: false
+- trial_number: 1931
+  values:
+  - 0.9269
+  - 0.1983
+  params:
+    Model__bootstrap: false
+    Model__n_estimators: 60
+    Model__max_samples: 0.9986339690965622
+    Model__max_features: 0.9107242324950899
+    Model__bootstrap_features: true

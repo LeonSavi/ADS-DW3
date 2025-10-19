@@ -1,0 +1,1881 @@
+best_trials:
+- trial_number: 740
+  values:
+  - 0.9208
+  - 0.2639
+  params:
+    Model__n_estimators: 500
+    Model__learning_rate: 0.0012458021665451183
+    Model__loss: exponential
+- trial_number: 866
+  values:
+  - 0.9208
+  - 0.2639
+  params:
+    Model__n_estimators: 500
+    Model__learning_rate: 0.0012458021665451183
+    Model__loss: exponential
+- trial_number: 868
+  values:
+  - 0.9208
+  - 0.2639
+  params:
+    Model__n_estimators: 500
+    Model__learning_rate: 0.0012458021665451183
+    Model__loss: exponential
+- trial_number: 886
+  values:
+  - 0.9208
+  - 0.2639
+  params:
+    Model__n_estimators: 500
+    Model__learning_rate: 0.0012458021665451183
+    Model__loss: exponential
+- trial_number: 981
+  values:
+  - 0.9208
+  - 0.2639
+  params:
+    Model__n_estimators: 500
+    Model__learning_rate: 0.0012458021665451183
+    Model__loss: exponential
+- trial_number: 1013
+  values:
+  - 0.9209
+  - 0.2535
+  params:
+    Model__n_estimators: 150
+    Model__learning_rate: 0.0006359186875864301
+    Model__loss: linear
+- trial_number: 1026
+  values:
+  - 0.9208
+  - 0.2639
+  params:
+    Model__n_estimators: 500
+    Model__learning_rate: 0.0012458021665451183
+    Model__loss: exponential
+- trial_number: 1063
+  values:
+  - 0.9208
+  - 0.2639
+  params:
+    Model__n_estimators: 500
+    Model__learning_rate: 0.0012458021665451183
+    Model__loss: exponential
+- trial_number: 1068
+  values:
+  - 0.9209
+  - 0.2535
+  params:
+    Model__n_estimators: 150
+    Model__learning_rate: 0.0006359186875864301
+    Model__loss: linear
+- trial_number: 1107
+  values:
+  - 0.9208
+  - 0.2639
+  params:
+    Model__n_estimators: 500
+    Model__learning_rate: 0.0012458021665451183
+    Model__loss: exponential
+- trial_number: 1114
+  values:
+  - 0.9225
+  - 0.2517
+  params:
+    Model__n_estimators: 110
+    Model__learning_rate: 0.0006359186875864301
+    Model__loss: linear
+- trial_number: 1123
+  values:
+  - 0.9208
+  - 0.2639
+  params:
+    Model__n_estimators: 500
+    Model__learning_rate: 0.0012458021665451183
+    Model__loss: exponential
+- trial_number: 1124
+  values:
+  - 0.9225
+  - 0.2517
+  params:
+    Model__n_estimators: 110
+    Model__learning_rate: 0.0006359186875864301
+    Model__loss: linear
+- trial_number: 1125
+  values:
+  - 0.9208
+  - 0.2639
+  params:
+    Model__n_estimators: 500
+    Model__learning_rate: 0.0012458021665451183
+    Model__loss: exponential
+- trial_number: 1148
+  values:
+  - 0.9208
+  - 0.2639
+  params:
+    Model__n_estimators: 500
+    Model__learning_rate: 0.0012458021665451183
+    Model__loss: exponential
+- trial_number: 1152
+  values:
+  - 0.9208
+  - 0.2639
+  params:
+    Model__n_estimators: 500
+    Model__learning_rate: 0.0012458021665451183
+    Model__loss: exponential
+- trial_number: 1156
+  values:
+  - 0.9209
+  - 0.2535
+  params:
+    Model__n_estimators: 150
+    Model__learning_rate: 0.0006359186875864301
+    Model__loss: linear
+- trial_number: 1166
+  values:
+  - 0.9208
+  - 0.2639
+  params:
+    Model__n_estimators: 500
+    Model__learning_rate: 0.0012458021665451183
+    Model__loss: exponential
+- trial_number: 1179
+  values:
+  - 0.9208
+  - 0.2639
+  params:
+    Model__n_estimators: 500
+    Model__learning_rate: 0.0012458021665451183
+    Model__loss: exponential
+- trial_number: 1184
+  values:
+  - 0.9225
+  - 0.2517
+  params:
+    Model__n_estimators: 110
+    Model__learning_rate: 0.0006359186875864301
+    Model__loss: linear
+- trial_number: 1187
+  values:
+  - 0.9225
+  - 0.2517
+  params:
+    Model__n_estimators: 110
+    Model__learning_rate: 0.0006359186875864301
+    Model__loss: linear
+- trial_number: 1196
+  values:
+  - 0.9225
+  - 0.2517
+  params:
+    Model__n_estimators: 110
+    Model__learning_rate: 0.0006359186875864301
+    Model__loss: linear
+- trial_number: 1200
+  values:
+  - 0.9225
+  - 0.2517
+  params:
+    Model__n_estimators: 110
+    Model__learning_rate: 0.0006359186875864301
+    Model__loss: linear
+- trial_number: 1206
+  values:
+  - 0.9208
+  - 0.2639
+  params:
+    Model__n_estimators: 500
+    Model__learning_rate: 0.0012458021665451183
+    Model__loss: exponential
+- trial_number: 1208
+  values:
+  - 0.9208
+  - 0.2639
+  params:
+    Model__n_estimators: 500
+    Model__learning_rate: 0.0012458021665451183
+    Model__loss: exponential
+- trial_number: 1209
+  values:
+  - 0.9208
+  - 0.2639
+  params:
+    Model__n_estimators: 500
+    Model__learning_rate: 0.0012458021665451183
+    Model__loss: exponential
+- trial_number: 1219
+  values:
+  - 0.9208
+  - 0.2639
+  params:
+    Model__n_estimators: 500
+    Model__learning_rate: 0.0012458021665451183
+    Model__loss: exponential
+- trial_number: 1235
+  values:
+  - 0.9208
+  - 0.2639
+  params:
+    Model__n_estimators: 500
+    Model__learning_rate: 0.0012458021665451183
+    Model__loss: exponential
+- trial_number: 1254
+  values:
+  - 0.9208
+  - 0.2639
+  params:
+    Model__n_estimators: 500
+    Model__learning_rate: 0.0012458021665451183
+    Model__loss: exponential
+- trial_number: 1255
+  values:
+  - 0.9208
+  - 0.2639
+  params:
+    Model__n_estimators: 500
+    Model__learning_rate: 0.0012458021665451183
+    Model__loss: exponential
+- trial_number: 1265
+  values:
+  - 0.9225
+  - 0.2517
+  params:
+    Model__n_estimators: 110
+    Model__learning_rate: 0.0006359186875864301
+    Model__loss: linear
+- trial_number: 1269
+  values:
+  - 0.9208
+  - 0.2639
+  params:
+    Model__n_estimators: 500
+    Model__learning_rate: 0.0012458021665451183
+    Model__loss: exponential
+- trial_number: 1273
+  values:
+  - 0.9208
+  - 0.2639
+  params:
+    Model__n_estimators: 500
+    Model__learning_rate: 0.0012458021665451183
+    Model__loss: exponential
+- trial_number: 1275
+  values:
+  - 0.9208
+  - 0.2639
+  params:
+    Model__n_estimators: 500
+    Model__learning_rate: 0.0012458021665451183
+    Model__loss: exponential
+- trial_number: 1283
+  values:
+  - 0.9225
+  - 0.2517
+  params:
+    Model__n_estimators: 110
+    Model__learning_rate: 0.0006359186875864301
+    Model__loss: linear
+- trial_number: 1285
+  values:
+  - 0.9225
+  - 0.2517
+  params:
+    Model__n_estimators: 110
+    Model__learning_rate: 0.0006359186875864301
+    Model__loss: linear
+- trial_number: 1299
+  values:
+  - 0.9209
+  - 0.2535
+  params:
+    Model__n_estimators: 150
+    Model__learning_rate: 0.0006359186875864301
+    Model__loss: linear
+- trial_number: 1306
+  values:
+  - 0.9208
+  - 0.2639
+  params:
+    Model__n_estimators: 500
+    Model__learning_rate: 0.0012458021665451183
+    Model__loss: exponential
+- trial_number: 1312
+  values:
+  - 0.9225
+  - 0.2517
+  params:
+    Model__n_estimators: 110
+    Model__learning_rate: 0.0006359186875864301
+    Model__loss: linear
+- trial_number: 1318
+  values:
+  - 0.9225
+  - 0.2517
+  params:
+    Model__n_estimators: 110
+    Model__learning_rate: 0.0006359186875864301
+    Model__loss: linear
+- trial_number: 1319
+  values:
+  - 0.9225
+  - 0.2517
+  params:
+    Model__n_estimators: 110
+    Model__learning_rate: 0.0006359186875864301
+    Model__loss: linear
+- trial_number: 1320
+  values:
+  - 0.9208
+  - 0.2639
+  params:
+    Model__n_estimators: 500
+    Model__learning_rate: 0.0012458021665451183
+    Model__loss: exponential
+- trial_number: 1329
+  values:
+  - 0.9208
+  - 0.2639
+  params:
+    Model__n_estimators: 500
+    Model__learning_rate: 0.0012458021665451183
+    Model__loss: exponential
+- trial_number: 1334
+  values:
+  - 0.9225
+  - 0.2517
+  params:
+    Model__n_estimators: 110
+    Model__learning_rate: 0.0006359186875864301
+    Model__loss: linear
+- trial_number: 1344
+  values:
+  - 0.9225
+  - 0.2517
+  params:
+    Model__n_estimators: 110
+    Model__learning_rate: 0.0006359186875864301
+    Model__loss: linear
+- trial_number: 1359
+  values:
+  - 0.9208
+  - 0.2639
+  params:
+    Model__n_estimators: 500
+    Model__learning_rate: 0.0012458021665451183
+    Model__loss: exponential
+- trial_number: 1366
+  values:
+  - 0.9208
+  - 0.2639
+  params:
+    Model__n_estimators: 500
+    Model__learning_rate: 0.0012458021665451183
+    Model__loss: exponential
+- trial_number: 1369
+  values:
+  - 0.9208
+  - 0.2639
+  params:
+    Model__n_estimators: 500
+    Model__learning_rate: 0.0012458021665451183
+    Model__loss: exponential
+- trial_number: 1371
+  values:
+  - 0.9208
+  - 0.2639
+  params:
+    Model__n_estimators: 500
+    Model__learning_rate: 0.0012458021665451183
+    Model__loss: exponential
+- trial_number: 1376
+  values:
+  - 0.9208
+  - 0.2639
+  params:
+    Model__n_estimators: 500
+    Model__learning_rate: 0.0012458021665451183
+    Model__loss: exponential
+- trial_number: 1378
+  values:
+  - 0.9225
+  - 0.2517
+  params:
+    Model__n_estimators: 110
+    Model__learning_rate: 0.0006359186875864301
+    Model__loss: linear
+- trial_number: 1379
+  values:
+  - 0.9208
+  - 0.2639
+  params:
+    Model__n_estimators: 500
+    Model__learning_rate: 0.0012458021665451183
+    Model__loss: exponential
+- trial_number: 1382
+  values:
+  - 0.9208
+  - 0.2639
+  params:
+    Model__n_estimators: 500
+    Model__learning_rate: 0.0012458021665451183
+    Model__loss: exponential
+- trial_number: 1395
+  values:
+  - 0.9225
+  - 0.2517
+  params:
+    Model__n_estimators: 110
+    Model__learning_rate: 0.0006359186875864301
+    Model__loss: linear
+- trial_number: 1399
+  values:
+  - 0.9225
+  - 0.2517
+  params:
+    Model__n_estimators: 110
+    Model__learning_rate: 0.0006359186875864301
+    Model__loss: linear
+- trial_number: 1400
+  values:
+  - 0.9208
+  - 0.2639
+  params:
+    Model__n_estimators: 500
+    Model__learning_rate: 0.0012458021665451183
+    Model__loss: exponential
+- trial_number: 1403
+  values:
+  - 0.9208
+  - 0.2639
+  params:
+    Model__n_estimators: 500
+    Model__learning_rate: 0.0012458021665451183
+    Model__loss: exponential
+- trial_number: 1410
+  values:
+  - 0.9208
+  - 0.2639
+  params:
+    Model__n_estimators: 500
+    Model__learning_rate: 0.0012458021665451183
+    Model__loss: exponential
+- trial_number: 1411
+  values:
+  - 0.9208
+  - 0.2639
+  params:
+    Model__n_estimators: 500
+    Model__learning_rate: 0.0012458021665451183
+    Model__loss: exponential
+- trial_number: 1413
+  values:
+  - 0.9208
+  - 0.2639
+  params:
+    Model__n_estimators: 500
+    Model__learning_rate: 0.0012458021665451183
+    Model__loss: exponential
+- trial_number: 1417
+  values:
+  - 0.9208
+  - 0.2639
+  params:
+    Model__n_estimators: 500
+    Model__learning_rate: 0.0012458021665451183
+    Model__loss: exponential
+- trial_number: 1418
+  values:
+  - 0.9208
+  - 0.2639
+  params:
+    Model__n_estimators: 500
+    Model__learning_rate: 0.0012458021665451183
+    Model__loss: exponential
+- trial_number: 1419
+  values:
+  - 0.9225
+  - 0.2517
+  params:
+    Model__n_estimators: 110
+    Model__learning_rate: 0.0006359186875864301
+    Model__loss: linear
+- trial_number: 1426
+  values:
+  - 0.9209
+  - 0.2535
+  params:
+    Model__n_estimators: 150
+    Model__learning_rate: 0.0006359186875864301
+    Model__loss: linear
+- trial_number: 1427
+  values:
+  - 0.9208
+  - 0.2639
+  params:
+    Model__n_estimators: 500
+    Model__learning_rate: 0.0012458021665451183
+    Model__loss: exponential
+- trial_number: 1443
+  values:
+  - 0.9209
+  - 0.2535
+  params:
+    Model__n_estimators: 150
+    Model__learning_rate: 0.0006359186875864301
+    Model__loss: linear
+- trial_number: 1448
+  values:
+  - 0.9208
+  - 0.2639
+  params:
+    Model__n_estimators: 500
+    Model__learning_rate: 0.0012458021665451183
+    Model__loss: exponential
+- trial_number: 1458
+  values:
+  - 0.9208
+  - 0.2639
+  params:
+    Model__n_estimators: 500
+    Model__learning_rate: 0.0012458021665451183
+    Model__loss: exponential
+- trial_number: 1459
+  values:
+  - 0.9208
+  - 0.2639
+  params:
+    Model__n_estimators: 500
+    Model__learning_rate: 0.0012458021665451183
+    Model__loss: exponential
+- trial_number: 1461
+  values:
+  - 0.9208
+  - 0.2639
+  params:
+    Model__n_estimators: 500
+    Model__learning_rate: 0.0012458021665451183
+    Model__loss: exponential
+- trial_number: 1463
+  values:
+  - 0.9208
+  - 0.2639
+  params:
+    Model__n_estimators: 500
+    Model__learning_rate: 0.0012458021665451183
+    Model__loss: exponential
+- trial_number: 1467
+  values:
+  - 0.9208
+  - 0.2639
+  params:
+    Model__n_estimators: 500
+    Model__learning_rate: 0.0012458021665451183
+    Model__loss: exponential
+- trial_number: 1469
+  values:
+  - 0.9208
+  - 0.2639
+  params:
+    Model__n_estimators: 500
+    Model__learning_rate: 0.0012458021665451183
+    Model__loss: exponential
+- trial_number: 1472
+  values:
+  - 0.9208
+  - 0.2639
+  params:
+    Model__n_estimators: 500
+    Model__learning_rate: 0.0012458021665451183
+    Model__loss: exponential
+- trial_number: 1476
+  values:
+  - 0.9208
+  - 0.2639
+  params:
+    Model__n_estimators: 500
+    Model__learning_rate: 0.0012458021665451183
+    Model__loss: exponential
+- trial_number: 1482
+  values:
+  - 0.9208
+  - 0.2639
+  params:
+    Model__n_estimators: 500
+    Model__learning_rate: 0.0012458021665451183
+    Model__loss: exponential
+- trial_number: 1487
+  values:
+  - 0.9208
+  - 0.2639
+  params:
+    Model__n_estimators: 500
+    Model__learning_rate: 0.0012458021665451183
+    Model__loss: exponential
+- trial_number: 1493
+  values:
+  - 0.9209
+  - 0.2535
+  params:
+    Model__n_estimators: 150
+    Model__learning_rate: 0.0006359186875864301
+    Model__loss: linear
+- trial_number: 1498
+  values:
+  - 0.9208
+  - 0.2639
+  params:
+    Model__n_estimators: 500
+    Model__learning_rate: 0.0012458021665451183
+    Model__loss: exponential
+- trial_number: 1499
+  values:
+  - 0.9208
+  - 0.2639
+  params:
+    Model__n_estimators: 500
+    Model__learning_rate: 0.0012458021665451183
+    Model__loss: exponential
+- trial_number: 1506
+  values:
+  - 0.9208
+  - 0.2639
+  params:
+    Model__n_estimators: 500
+    Model__learning_rate: 0.0012458021665451183
+    Model__loss: exponential
+- trial_number: 1508
+  values:
+  - 0.9208
+  - 0.2639
+  params:
+    Model__n_estimators: 500
+    Model__learning_rate: 0.0012458021665451183
+    Model__loss: exponential
+- trial_number: 1509
+  values:
+  - 0.9208
+  - 0.2639
+  params:
+    Model__n_estimators: 500
+    Model__learning_rate: 0.0012458021665451183
+    Model__loss: exponential
+- trial_number: 1511
+  values:
+  - 0.9208
+  - 0.2639
+  params:
+    Model__n_estimators: 500
+    Model__learning_rate: 0.0012458021665451183
+    Model__loss: exponential
+- trial_number: 1512
+  values:
+  - 0.9208
+  - 0.2639
+  params:
+    Model__n_estimators: 500
+    Model__learning_rate: 0.0012458021665451183
+    Model__loss: exponential
+- trial_number: 1521
+  values:
+  - 0.9208
+  - 0.2639
+  params:
+    Model__n_estimators: 500
+    Model__learning_rate: 0.0012458021665451183
+    Model__loss: exponential
+- trial_number: 1523
+  values:
+  - 0.9208
+  - 0.2639
+  params:
+    Model__n_estimators: 500
+    Model__learning_rate: 0.0012458021665451183
+    Model__loss: exponential
+- trial_number: 1524
+  values:
+  - 0.9208
+  - 0.2639
+  params:
+    Model__n_estimators: 500
+    Model__learning_rate: 0.0012458021665451183
+    Model__loss: exponential
+- trial_number: 1527
+  values:
+  - 0.9208
+  - 0.2639
+  params:
+    Model__n_estimators: 500
+    Model__learning_rate: 0.0012458021665451183
+    Model__loss: exponential
+- trial_number: 1528
+  values:
+  - 0.9208
+  - 0.2639
+  params:
+    Model__n_estimators: 500
+    Model__learning_rate: 0.0012458021665451183
+    Model__loss: exponential
+- trial_number: 1532
+  values:
+  - 0.9208
+  - 0.2639
+  params:
+    Model__n_estimators: 500
+    Model__learning_rate: 0.0012458021665451183
+    Model__loss: exponential
+- trial_number: 1540
+  values:
+  - 0.9208
+  - 0.2639
+  params:
+    Model__n_estimators: 500
+    Model__learning_rate: 0.0012458021665451183
+    Model__loss: exponential
+- trial_number: 1543
+  values:
+  - 0.9208
+  - 0.2639
+  params:
+    Model__n_estimators: 500
+    Model__learning_rate: 0.0012458021665451183
+    Model__loss: exponential
+- trial_number: 1544
+  values:
+  - 0.9208
+  - 0.2639
+  params:
+    Model__n_estimators: 500
+    Model__learning_rate: 0.0012458021665451183
+    Model__loss: exponential
+- trial_number: 1550
+  values:
+  - 0.9208
+  - 0.2639
+  params:
+    Model__n_estimators: 500
+    Model__learning_rate: 0.0012458021665451183
+    Model__loss: exponential
+- trial_number: 1551
+  values:
+  - 0.9208
+  - 0.2639
+  params:
+    Model__n_estimators: 500
+    Model__learning_rate: 0.0012458021665451183
+    Model__loss: exponential
+- trial_number: 1557
+  values:
+  - 0.9208
+  - 0.2639
+  params:
+    Model__n_estimators: 500
+    Model__learning_rate: 0.0012458021665451183
+    Model__loss: exponential
+- trial_number: 1559
+  values:
+  - 0.9208
+  - 0.2639
+  params:
+    Model__n_estimators: 500
+    Model__learning_rate: 0.0012458021665451183
+    Model__loss: exponential
+- trial_number: 1566
+  values:
+  - 0.9208
+  - 0.2639
+  params:
+    Model__n_estimators: 500
+    Model__learning_rate: 0.0012458021665451183
+    Model__loss: exponential
+- trial_number: 1570
+  values:
+  - 0.9208
+  - 0.2639
+  params:
+    Model__n_estimators: 500
+    Model__learning_rate: 0.0012458021665451183
+    Model__loss: exponential
+- trial_number: 1572
+  values:
+  - 0.9208
+  - 0.2639
+  params:
+    Model__n_estimators: 500
+    Model__learning_rate: 0.0012458021665451183
+    Model__loss: exponential
+- trial_number: 1574
+  values:
+  - 0.9208
+  - 0.2639
+  params:
+    Model__n_estimators: 500
+    Model__learning_rate: 0.0012458021665451183
+    Model__loss: exponential
+- trial_number: 1575
+  values:
+  - 0.9208
+  - 0.2639
+  params:
+    Model__n_estimators: 500
+    Model__learning_rate: 0.0012458021665451183
+    Model__loss: exponential
+- trial_number: 1580
+  values:
+  - 0.9208
+  - 0.2639
+  params:
+    Model__n_estimators: 500
+    Model__learning_rate: 0.0012458021665451183
+    Model__loss: exponential
+- trial_number: 1581
+  values:
+  - 0.9209
+  - 0.2535
+  params:
+    Model__n_estimators: 150
+    Model__learning_rate: 0.0006359186875864301
+    Model__loss: linear
+- trial_number: 1584
+  values:
+  - 0.9208
+  - 0.2639
+  params:
+    Model__n_estimators: 500
+    Model__learning_rate: 0.0012458021665451183
+    Model__loss: exponential
+- trial_number: 1586
+  values:
+  - 0.9208
+  - 0.2639
+  params:
+    Model__n_estimators: 500
+    Model__learning_rate: 0.0012458021665451183
+    Model__loss: exponential
+- trial_number: 1589
+  values:
+  - 0.9208
+  - 0.2639
+  params:
+    Model__n_estimators: 500
+    Model__learning_rate: 0.0012458021665451183
+    Model__loss: exponential
+- trial_number: 1593
+  values:
+  - 0.9208
+  - 0.2639
+  params:
+    Model__n_estimators: 500
+    Model__learning_rate: 0.0012458021665451183
+    Model__loss: exponential
+- trial_number: 1599
+  values:
+  - 0.9208
+  - 0.2639
+  params:
+    Model__n_estimators: 500
+    Model__learning_rate: 0.0012458021665451183
+    Model__loss: exponential
+- trial_number: 1603
+  values:
+  - 0.9208
+  - 0.2639
+  params:
+    Model__n_estimators: 500
+    Model__learning_rate: 0.0012458021665451183
+    Model__loss: exponential
+- trial_number: 1604
+  values:
+  - 0.9208
+  - 0.2639
+  params:
+    Model__n_estimators: 500
+    Model__learning_rate: 0.0012458021665451183
+    Model__loss: exponential
+- trial_number: 1609
+  values:
+  - 0.9225
+  - 0.2517
+  params:
+    Model__n_estimators: 110
+    Model__learning_rate: 0.0006359186875864301
+    Model__loss: linear
+- trial_number: 1614
+  values:
+  - 0.9208
+  - 0.2639
+  params:
+    Model__n_estimators: 500
+    Model__learning_rate: 0.0012458021665451183
+    Model__loss: exponential
+- trial_number: 1618
+  values:
+  - 0.9208
+  - 0.2639
+  params:
+    Model__n_estimators: 500
+    Model__learning_rate: 0.0012458021665451183
+    Model__loss: exponential
+- trial_number: 1621
+  values:
+  - 0.9208
+  - 0.2639
+  params:
+    Model__n_estimators: 500
+    Model__learning_rate: 0.0012458021665451183
+    Model__loss: exponential
+- trial_number: 1623
+  values:
+  - 0.9208
+  - 0.2639
+  params:
+    Model__n_estimators: 500
+    Model__learning_rate: 0.0012458021665451183
+    Model__loss: exponential
+- trial_number: 1624
+  values:
+  - 0.9208
+  - 0.2639
+  params:
+    Model__n_estimators: 500
+    Model__learning_rate: 0.0012458021665451183
+    Model__loss: exponential
+- trial_number: 1625
+  values:
+  - 0.9208
+  - 0.2639
+  params:
+    Model__n_estimators: 500
+    Model__learning_rate: 0.0012458021665451183
+    Model__loss: exponential
+- trial_number: 1626
+  values:
+  - 0.9208
+  - 0.2639
+  params:
+    Model__n_estimators: 500
+    Model__learning_rate: 0.0012458021665451183
+    Model__loss: exponential
+- trial_number: 1630
+  values:
+  - 0.9225
+  - 0.2517
+  params:
+    Model__n_estimators: 110
+    Model__learning_rate: 0.0006359186875864301
+    Model__loss: linear
+- trial_number: 1632
+  values:
+  - 0.9208
+  - 0.2639
+  params:
+    Model__n_estimators: 500
+    Model__learning_rate: 0.0012458021665451183
+    Model__loss: exponential
+- trial_number: 1634
+  values:
+  - 0.9208
+  - 0.2639
+  params:
+    Model__n_estimators: 500
+    Model__learning_rate: 0.0012458021665451183
+    Model__loss: exponential
+- trial_number: 1635
+  values:
+  - 0.9208
+  - 0.2639
+  params:
+    Model__n_estimators: 500
+    Model__learning_rate: 0.0012458021665451183
+    Model__loss: exponential
+- trial_number: 1636
+  values:
+  - 0.9208
+  - 0.2639
+  params:
+    Model__n_estimators: 500
+    Model__learning_rate: 0.0012458021665451183
+    Model__loss: exponential
+- trial_number: 1637
+  values:
+  - 0.9208
+  - 0.2639
+  params:
+    Model__n_estimators: 500
+    Model__learning_rate: 0.0012458021665451183
+    Model__loss: exponential
+- trial_number: 1638
+  values:
+  - 0.9208
+  - 0.2639
+  params:
+    Model__n_estimators: 500
+    Model__learning_rate: 0.0012458021665451183
+    Model__loss: exponential
+- trial_number: 1639
+  values:
+  - 0.9208
+  - 0.2639
+  params:
+    Model__n_estimators: 500
+    Model__learning_rate: 0.0012458021665451183
+    Model__loss: exponential
+- trial_number: 1642
+  values:
+  - 0.9208
+  - 0.2639
+  params:
+    Model__n_estimators: 500
+    Model__learning_rate: 0.0012458021665451183
+    Model__loss: exponential
+- trial_number: 1644
+  values:
+  - 0.9208
+  - 0.2639
+  params:
+    Model__n_estimators: 500
+    Model__learning_rate: 0.0012458021665451183
+    Model__loss: exponential
+- trial_number: 1645
+  values:
+  - 0.9208
+  - 0.2639
+  params:
+    Model__n_estimators: 500
+    Model__learning_rate: 0.0012458021665451183
+    Model__loss: exponential
+- trial_number: 1646
+  values:
+  - 0.9208
+  - 0.2639
+  params:
+    Model__n_estimators: 500
+    Model__learning_rate: 0.0012458021665451183
+    Model__loss: exponential
+- trial_number: 1648
+  values:
+  - 0.9208
+  - 0.2639
+  params:
+    Model__n_estimators: 500
+    Model__learning_rate: 0.0012458021665451183
+    Model__loss: exponential
+- trial_number: 1653
+  values:
+  - 0.9208
+  - 0.2639
+  params:
+    Model__n_estimators: 500
+    Model__learning_rate: 0.0012458021665451183
+    Model__loss: exponential
+- trial_number: 1655
+  values:
+  - 0.9208
+  - 0.2639
+  params:
+    Model__n_estimators: 500
+    Model__learning_rate: 0.0012458021665451183
+    Model__loss: exponential
+- trial_number: 1657
+  values:
+  - 0.9208
+  - 0.2639
+  params:
+    Model__n_estimators: 500
+    Model__learning_rate: 0.0012458021665451183
+    Model__loss: exponential
+- trial_number: 1659
+  values:
+  - 0.9208
+  - 0.2639
+  params:
+    Model__n_estimators: 500
+    Model__learning_rate: 0.0012458021665451183
+    Model__loss: exponential
+- trial_number: 1660
+  values:
+  - 0.9208
+  - 0.2639
+  params:
+    Model__n_estimators: 500
+    Model__learning_rate: 0.0012458021665451183
+    Model__loss: exponential
+- trial_number: 1662
+  values:
+  - 0.9208
+  - 0.2639
+  params:
+    Model__n_estimators: 500
+    Model__learning_rate: 0.0012458021665451183
+    Model__loss: exponential
+- trial_number: 1672
+  values:
+  - 0.9208
+  - 0.2639
+  params:
+    Model__n_estimators: 500
+    Model__learning_rate: 0.0012458021665451183
+    Model__loss: exponential
+- trial_number: 1673
+  values:
+  - 0.9208
+  - 0.2639
+  params:
+    Model__n_estimators: 500
+    Model__learning_rate: 0.0012458021665451183
+    Model__loss: exponential
+- trial_number: 1674
+  values:
+  - 0.9208
+  - 0.2639
+  params:
+    Model__n_estimators: 500
+    Model__learning_rate: 0.0012458021665451183
+    Model__loss: exponential
+- trial_number: 1677
+  values:
+  - 0.9208
+  - 0.2639
+  params:
+    Model__n_estimators: 500
+    Model__learning_rate: 0.0012458021665451183
+    Model__loss: exponential
+- trial_number: 1682
+  values:
+  - 0.9208
+  - 0.2639
+  params:
+    Model__n_estimators: 500
+    Model__learning_rate: 0.0012458021665451183
+    Model__loss: exponential
+- trial_number: 1683
+  values:
+  - 0.9208
+  - 0.2639
+  params:
+    Model__n_estimators: 500
+    Model__learning_rate: 0.0012458021665451183
+    Model__loss: exponential
+- trial_number: 1690
+  values:
+  - 0.9208
+  - 0.2639
+  params:
+    Model__n_estimators: 500
+    Model__learning_rate: 0.0012458021665451183
+    Model__loss: exponential
+- trial_number: 1691
+  values:
+  - 0.9208
+  - 0.2639
+  params:
+    Model__n_estimators: 500
+    Model__learning_rate: 0.0012458021665451183
+    Model__loss: exponential
+- trial_number: 1696
+  values:
+  - 0.9208
+  - 0.2639
+  params:
+    Model__n_estimators: 500
+    Model__learning_rate: 0.0012458021665451183
+    Model__loss: exponential
+- trial_number: 1698
+  values:
+  - 0.9208
+  - 0.2639
+  params:
+    Model__n_estimators: 500
+    Model__learning_rate: 0.0012458021665451183
+    Model__loss: exponential
+- trial_number: 1701
+  values:
+  - 0.9208
+  - 0.2639
+  params:
+    Model__n_estimators: 500
+    Model__learning_rate: 0.0012458021665451183
+    Model__loss: exponential
+- trial_number: 1703
+  values:
+  - 0.9208
+  - 0.2639
+  params:
+    Model__n_estimators: 500
+    Model__learning_rate: 0.0012458021665451183
+    Model__loss: exponential
+- trial_number: 1708
+  values:
+  - 0.9208
+  - 0.2639
+  params:
+    Model__n_estimators: 500
+    Model__learning_rate: 0.0012458021665451183
+    Model__loss: exponential
+- trial_number: 1712
+  values:
+  - 0.9208
+  - 0.2639
+  params:
+    Model__n_estimators: 500
+    Model__learning_rate: 0.0012458021665451183
+    Model__loss: exponential
+- trial_number: 1713
+  values:
+  - 0.9208
+  - 0.2639
+  params:
+    Model__n_estimators: 500
+    Model__learning_rate: 0.0012458021665451183
+    Model__loss: exponential
+- trial_number: 1719
+  values:
+  - 0.9208
+  - 0.2639
+  params:
+    Model__n_estimators: 500
+    Model__learning_rate: 0.0012458021665451183
+    Model__loss: exponential
+- trial_number: 1721
+  values:
+  - 0.9208
+  - 0.2639
+  params:
+    Model__n_estimators: 500
+    Model__learning_rate: 0.0012458021665451183
+    Model__loss: exponential
+- trial_number: 1724
+  values:
+  - 0.9208
+  - 0.2639
+  params:
+    Model__n_estimators: 500
+    Model__learning_rate: 0.0012458021665451183
+    Model__loss: exponential
+- trial_number: 1725
+  values:
+  - 0.9208
+  - 0.2639
+  params:
+    Model__n_estimators: 500
+    Model__learning_rate: 0.0012458021665451183
+    Model__loss: exponential
+- trial_number: 1729
+  values:
+  - 0.9208
+  - 0.2639
+  params:
+    Model__n_estimators: 500
+    Model__learning_rate: 0.0012458021665451183
+    Model__loss: exponential
+- trial_number: 1731
+  values:
+  - 0.9208
+  - 0.2639
+  params:
+    Model__n_estimators: 500
+    Model__learning_rate: 0.0012458021665451183
+    Model__loss: exponential
+- trial_number: 1735
+  values:
+  - 0.9208
+  - 0.2639
+  params:
+    Model__n_estimators: 500
+    Model__learning_rate: 0.0012458021665451183
+    Model__loss: exponential
+- trial_number: 1740
+  values:
+  - 0.9208
+  - 0.2639
+  params:
+    Model__n_estimators: 500
+    Model__learning_rate: 0.0012458021665451183
+    Model__loss: exponential
+- trial_number: 1741
+  values:
+  - 0.9208
+  - 0.2639
+  params:
+    Model__n_estimators: 500
+    Model__learning_rate: 0.0012458021665451183
+    Model__loss: exponential
+- trial_number: 1742
+  values:
+  - 0.9208
+  - 0.2639
+  params:
+    Model__n_estimators: 500
+    Model__learning_rate: 0.0012458021665451183
+    Model__loss: exponential
+- trial_number: 1743
+  values:
+  - 0.9208
+  - 0.2639
+  params:
+    Model__n_estimators: 500
+    Model__learning_rate: 0.0012458021665451183
+    Model__loss: exponential
+- trial_number: 1749
+  values:
+  - 0.9208
+  - 0.2639
+  params:
+    Model__n_estimators: 500
+    Model__learning_rate: 0.0012458021665451183
+    Model__loss: exponential
+- trial_number: 1752
+  values:
+  - 0.9208
+  - 0.2639
+  params:
+    Model__n_estimators: 500
+    Model__learning_rate: 0.0012458021665451183
+    Model__loss: exponential
+- trial_number: 1754
+  values:
+  - 0.9208
+  - 0.2639
+  params:
+    Model__n_estimators: 500
+    Model__learning_rate: 0.0012458021665451183
+    Model__loss: exponential
+- trial_number: 1761
+  values:
+  - 0.9208
+  - 0.2639
+  params:
+    Model__n_estimators: 500
+    Model__learning_rate: 0.0012458021665451183
+    Model__loss: exponential
+- trial_number: 1762
+  values:
+  - 0.9208
+  - 0.2639
+  params:
+    Model__n_estimators: 500
+    Model__learning_rate: 0.0012458021665451183
+    Model__loss: exponential
+- trial_number: 1764
+  values:
+  - 0.9208
+  - 0.2639
+  params:
+    Model__n_estimators: 500
+    Model__learning_rate: 0.0012458021665451183
+    Model__loss: exponential
+- trial_number: 1768
+  values:
+  - 0.9208
+  - 0.2639
+  params:
+    Model__n_estimators: 500
+    Model__learning_rate: 0.0012458021665451183
+    Model__loss: exponential
+- trial_number: 1770
+  values:
+  - 0.9208
+  - 0.2639
+  params:
+    Model__n_estimators: 500
+    Model__learning_rate: 0.0012458021665451183
+    Model__loss: exponential
+- trial_number: 1772
+  values:
+  - 0.9208
+  - 0.2639
+  params:
+    Model__n_estimators: 500
+    Model__learning_rate: 0.0012458021665451183
+    Model__loss: exponential
+- trial_number: 1774
+  values:
+  - 0.9208
+  - 0.2639
+  params:
+    Model__n_estimators: 500
+    Model__learning_rate: 0.0012458021665451183
+    Model__loss: exponential
+- trial_number: 1775
+  values:
+  - 0.9208
+  - 0.2639
+  params:
+    Model__n_estimators: 500
+    Model__learning_rate: 0.0012458021665451183
+    Model__loss: exponential
+- trial_number: 1780
+  values:
+  - 0.9208
+  - 0.2639
+  params:
+    Model__n_estimators: 500
+    Model__learning_rate: 0.0012458021665451183
+    Model__loss: exponential
+- trial_number: 1782
+  values:
+  - 0.9208
+  - 0.2639
+  params:
+    Model__n_estimators: 500
+    Model__learning_rate: 0.0012458021665451183
+    Model__loss: exponential
+- trial_number: 1788
+  values:
+  - 0.9209
+  - 0.2535
+  params:
+    Model__n_estimators: 150
+    Model__learning_rate: 0.0006359186875864301
+    Model__loss: linear
+- trial_number: 1789
+  values:
+  - 0.9208
+  - 0.2639
+  params:
+    Model__n_estimators: 500
+    Model__learning_rate: 0.0012458021665451183
+    Model__loss: exponential
+- trial_number: 1790
+  values:
+  - 0.9208
+  - 0.2639
+  params:
+    Model__n_estimators: 500
+    Model__learning_rate: 0.0012458021665451183
+    Model__loss: exponential
+- trial_number: 1791
+  values:
+  - 0.9208
+  - 0.2639
+  params:
+    Model__n_estimators: 500
+    Model__learning_rate: 0.0012458021665451183
+    Model__loss: exponential
+- trial_number: 1792
+  values:
+  - 0.9208
+  - 0.2639
+  params:
+    Model__n_estimators: 500
+    Model__learning_rate: 0.0012458021665451183
+    Model__loss: exponential
+- trial_number: 1796
+  values:
+  - 0.9208
+  - 0.2639
+  params:
+    Model__n_estimators: 500
+    Model__learning_rate: 0.0012458021665451183
+    Model__loss: exponential
+- trial_number: 1797
+  values:
+  - 0.9208
+  - 0.2639
+  params:
+    Model__n_estimators: 500
+    Model__learning_rate: 0.0012458021665451183
+    Model__loss: exponential
+- trial_number: 1799
+  values:
+  - 0.9208
+  - 0.2639
+  params:
+    Model__n_estimators: 500
+    Model__learning_rate: 0.0012458021665451183
+    Model__loss: exponential
+- trial_number: 1803
+  values:
+  - 0.9208
+  - 0.2639
+  params:
+    Model__n_estimators: 500
+    Model__learning_rate: 0.0012458021665451183
+    Model__loss: exponential
+- trial_number: 1810
+  values:
+  - 0.9208
+  - 0.2639
+  params:
+    Model__n_estimators: 500
+    Model__learning_rate: 0.0012458021665451183
+    Model__loss: exponential
+- trial_number: 1811
+  values:
+  - 0.9208
+  - 0.2639
+  params:
+    Model__n_estimators: 500
+    Model__learning_rate: 0.0012458021665451183
+    Model__loss: exponential
+- trial_number: 1816
+  values:
+  - 0.9208
+  - 0.2639
+  params:
+    Model__n_estimators: 500
+    Model__learning_rate: 0.0012458021665451183
+    Model__loss: exponential
+- trial_number: 1817
+  values:
+  - 0.9208
+  - 0.2639
+  params:
+    Model__n_estimators: 500
+    Model__learning_rate: 0.0012458021665451183
+    Model__loss: exponential
+- trial_number: 1820
+  values:
+  - 0.9208
+  - 0.2639
+  params:
+    Model__n_estimators: 500
+    Model__learning_rate: 0.0012458021665451183
+    Model__loss: exponential
+- trial_number: 1821
+  values:
+  - 0.9208
+  - 0.2639
+  params:
+    Model__n_estimators: 500
+    Model__learning_rate: 0.0012458021665451183
+    Model__loss: exponential
+- trial_number: 1823
+  values:
+  - 0.9208
+  - 0.2639
+  params:
+    Model__n_estimators: 500
+    Model__learning_rate: 0.0012458021665451183
+    Model__loss: exponential
+- trial_number: 1830
+  values:
+  - 0.9208
+  - 0.2639
+  params:
+    Model__n_estimators: 500
+    Model__learning_rate: 0.0012458021665451183
+    Model__loss: exponential
+- trial_number: 1831
+  values:
+  - 0.9208
+  - 0.2639
+  params:
+    Model__n_estimators: 500
+    Model__learning_rate: 0.0012458021665451183
+    Model__loss: exponential
+- trial_number: 1835
+  values:
+  - 0.9208
+  - 0.2639
+  params:
+    Model__n_estimators: 500
+    Model__learning_rate: 0.0012458021665451183
+    Model__loss: exponential
+- trial_number: 1837
+  values:
+  - 0.9208
+  - 0.2639
+  params:
+    Model__n_estimators: 500
+    Model__learning_rate: 0.0012458021665451183
+    Model__loss: exponential
+- trial_number: 1840
+  values:
+  - 0.9208
+  - 0.2639
+  params:
+    Model__n_estimators: 500
+    Model__learning_rate: 0.0012458021665451183
+    Model__loss: exponential
+- trial_number: 1851
+  values:
+  - 0.9208
+  - 0.2639
+  params:
+    Model__n_estimators: 500
+    Model__learning_rate: 0.0012458021665451183
+    Model__loss: exponential
+- trial_number: 1853
+  values:
+  - 0.9208
+  - 0.2639
+  params:
+    Model__n_estimators: 500
+    Model__learning_rate: 0.0012458021665451183
+    Model__loss: exponential
+- trial_number: 1856
+  values:
+  - 0.9208
+  - 0.2639
+  params:
+    Model__n_estimators: 500
+    Model__learning_rate: 0.0012458021665451183
+    Model__loss: exponential
+- trial_number: 1859
+  values:
+  - 0.9208
+  - 0.2639
+  params:
+    Model__n_estimators: 500
+    Model__learning_rate: 0.0012458021665451183
+    Model__loss: exponential
+- trial_number: 1860
+  values:
+  - 0.9208
+  - 0.2639
+  params:
+    Model__n_estimators: 500
+    Model__learning_rate: 0.0012458021665451183
+    Model__loss: exponential
+- trial_number: 1863
+  values:
+  - 0.9208
+  - 0.2639
+  params:
+    Model__n_estimators: 500
+    Model__learning_rate: 0.0012458021665451183
+    Model__loss: exponential
+- trial_number: 1864
+  values:
+  - 0.9208
+  - 0.2639
+  params:
+    Model__n_estimators: 500
+    Model__learning_rate: 0.0012458021665451183
+    Model__loss: exponential
+- trial_number: 1875
+  values:
+  - 0.9208
+  - 0.2639
+  params:
+    Model__n_estimators: 500
+    Model__learning_rate: 0.0012458021665451183
+    Model__loss: exponential
+- trial_number: 1881
+  values:
+  - 0.9208
+  - 0.2639
+  params:
+    Model__n_estimators: 500
+    Model__learning_rate: 0.0012458021665451183
+    Model__loss: exponential
+- trial_number: 1884
+  values:
+  - 0.9208
+  - 0.2639
+  params:
+    Model__n_estimators: 500
+    Model__learning_rate: 0.0012458021665451183
+    Model__loss: exponential
+- trial_number: 1887
+  values:
+  - 0.9208
+  - 0.2639
+  params:
+    Model__n_estimators: 500
+    Model__learning_rate: 0.0012458021665451183
+    Model__loss: exponential
+- trial_number: 1890
+  values:
+  - 0.9208
+  - 0.2639
+  params:
+    Model__n_estimators: 500
+    Model__learning_rate: 0.0012458021665451183
+    Model__loss: exponential
+- trial_number: 1895
+  values:
+  - 0.9208
+  - 0.2639
+  params:
+    Model__n_estimators: 500
+    Model__learning_rate: 0.0012458021665451183
+    Model__loss: exponential
+- trial_number: 1896
+  values:
+  - 0.9208
+  - 0.2639
+  params:
+    Model__n_estimators: 500
+    Model__learning_rate: 0.0012458021665451183
+    Model__loss: exponential
+- trial_number: 1904
+  values:
+  - 0.9208
+  - 0.2639
+  params:
+    Model__n_estimators: 500
+    Model__learning_rate: 0.0012458021665451183
+    Model__loss: exponential
+- trial_number: 1906
+  values:
+  - 0.9208
+  - 0.2639
+  params:
+    Model__n_estimators: 500
+    Model__learning_rate: 0.0012458021665451183
+    Model__loss: exponential
+- trial_number: 1910
+  values:
+  - 0.9208
+  - 0.2639
+  params:
+    Model__n_estimators: 500
+    Model__learning_rate: 0.0012458021665451183
+    Model__loss: exponential
+- trial_number: 1913
+  values:
+  - 0.9208
+  - 0.2639
+  params:
+    Model__n_estimators: 500
+    Model__learning_rate: 0.0012458021665451183
+    Model__loss: exponential
+- trial_number: 1914
+  values:
+  - 0.9208
+  - 0.2639
+  params:
+    Model__n_estimators: 500
+    Model__learning_rate: 0.0012458021665451183
+    Model__loss: exponential
+- trial_number: 1916
+  values:
+  - 0.9208
+  - 0.2639
+  params:
+    Model__n_estimators: 500
+    Model__learning_rate: 0.0012458021665451183
+    Model__loss: exponential
+- trial_number: 1922
+  values:
+  - 0.9208
+  - 0.2639
+  params:
+    Model__n_estimators: 500
+    Model__learning_rate: 0.0012458021665451183
+    Model__loss: exponential
+- trial_number: 1928
+  values:
+  - 0.9208
+  - 0.2639
+  params:
+    Model__n_estimators: 500
+    Model__learning_rate: 0.0012458021665451183
+    Model__loss: exponential
+- trial_number: 1934
+  values:
+  - 0.9208
+  - 0.2639
+  params:
+    Model__n_estimators: 500
+    Model__learning_rate: 0.0012458021665451183
+    Model__loss: exponential
+- trial_number: 1944
+  values:
+  - 0.9208
+  - 0.2639
+  params:
+    Model__n_estimators: 500
+    Model__learning_rate: 0.0012458021665451183
+    Model__loss: exponential
+- trial_number: 1946
+  values:
+  - 0.9208
+  - 0.2639
+  params:
+    Model__n_estimators: 500
+    Model__learning_rate: 0.0012458021665451183
+    Model__loss: exponential
+- trial_number: 1947
+  values:
+  - 0.9208
+  - 0.2639
+  params:
+    Model__n_estimators: 500
+    Model__learning_rate: 0.0012458021665451183
+    Model__loss: exponential
+- trial_number: 1948
+  values:
+  - 0.9208
+  - 0.2639
+  params:
+    Model__n_estimators: 500
+    Model__learning_rate: 0.0012458021665451183
+    Model__loss: exponential
+- trial_number: 1957
+  values:
+  - 0.9208
+  - 0.2639
+  params:
+    Model__n_estimators: 500
+    Model__learning_rate: 0.0012458021665451183
+    Model__loss: exponential
+- trial_number: 1958
+  values:
+  - 0.9208
+  - 0.2639
+  params:
+    Model__n_estimators: 500
+    Model__learning_rate: 0.0012458021665451183
+    Model__loss: exponential
+- trial_number: 1967
+  values:
+  - 0.9208
+  - 0.2639
+  params:
+    Model__n_estimators: 500
+    Model__learning_rate: 0.0012458021665451183
+    Model__loss: exponential
+- trial_number: 1984
+  values:
+  - 0.9208
+  - 0.2639
+  params:
+    Model__n_estimators: 500
+    Model__learning_rate: 0.0012458021665451183
+    Model__loss: exponential
+- trial_number: 1990
+  values:
+  - 0.9208
+  - 0.2639
+  params:
+    Model__n_estimators: 500
+    Model__learning_rate: 0.0012458021665451183
+    Model__loss: exponential
+- trial_number: 1993
+  values:
+  - 0.9208
+  - 0.2639
+  params:
+    Model__n_estimators: 500
+    Model__learning_rate: 0.0012458021665451183
+    Model__loss: exponential
+- trial_number: 1994
+  values:
+  - 0.9208
+  - 0.2639
+  params:
+    Model__n_estimators: 500
+    Model__learning_rate: 0.0012458021665451183
+    Model__loss: exponential
+- trial_number: 1996
+  values:
+  - 0.9208
+  - 0.2639
+  params:
+    Model__n_estimators: 500
+    Model__learning_rate: 0.0012458021665451183
+    Model__loss: exponential
+- trial_number: 1998
+  values:
+  - 0.9208
+  - 0.2639
+  params:
+    Model__n_estimators: 500
+    Model__learning_rate: 0.0012458021665451183
+    Model__loss: exponential
