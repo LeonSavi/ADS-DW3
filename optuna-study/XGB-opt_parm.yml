@@ -1,151 +1,3053 @@
 best_trials:
-- trial_number: 961
+- trial_number: 4806
   values:
-  - 0.9247
-  - 0.1916
+  - 0.9197
+  - 0.1932
   params:
-    Model__n_estimators: 740
-    Model__learning_rate: 0.16
-    Model__max_depth: 4
-    Model__subsample: 0.5552997171468768
-    Model__colsample_bytree: 0.9815919085306092
-    Model__reg_lambda: 0.24481085805808236
-    Model__reg_alpha: 3.7839122777002308
-    Model__min_child_weight: 5
-    Model__gamma: 2.5266054240330855
-    Model__grow_policy: lossguide
-- trial_number: 1607
+    Model__max_depth: 3
+    Model__min_child_weight: 17
+    Model__n_estimators: 520
+    Model__learning_rate: 0.04758365155217088
+    Model__subsample: 0.9396954259072104
+    Model__colsample_bytree: 0.969668899643183
+    Model__reg_lambda: 1.8729992654727945
+    Model__reg_alpha: 2.144839544058323
+    Model__gamma: 1.7721693958288127
+- trial_number: 4901
   values:
-  - 0.9793
-  - 0.1866
+  - 0.9335
+  - 0.1796
   params:
-    Model__n_estimators: 1140
-    Model__learning_rate: 0.155
-    Model__max_depth: 7
-    Model__subsample: 0.5052737109178391
-    Model__colsample_bytree: 0.9815919085306092
-    Model__reg_lambda: 0.08987209283758651
-    Model__reg_alpha: 9.426525988906485
-    Model__min_child_weight: 7
-    Model__gamma: 4.131821180400187
-    Model__grow_policy: depthwise
-- trial_number: 1706
+    Model__max_depth: 2
+    Model__min_child_weight: 25
+    Model__n_estimators: 990
+    Model__learning_rate: 0.1828613069648902
+    Model__subsample: 0.5622819499186238
+    Model__colsample_bytree: 0.8988767508796425
+    Model__reg_lambda: 0.17198472386986008
+    Model__reg_alpha: 0.7096275843117972
+    Model__gamma: 3.732080866395301
+- trial_number: 5013
   values:
-  - 0.9162
-  - 0.2192
+  - 0.9334
+  - 0.1798
   params:
-    Model__n_estimators: 540
-    Model__learning_rate: 0.04
-    Model__max_depth: 4
-    Model__subsample: 0.555662543594597
-    Model__colsample_bytree: 0.9949858218644236
-    Model__reg_lambda: 0.04123466313236838
-    Model__reg_alpha: 1.1921881047507574
-    Model__min_child_weight: 8
-    Model__gamma: 2.5266054240330855
-    Model__grow_policy: depthwise
-- trial_number: 1708
+    Model__max_depth: 2
+    Model__min_child_weight: 25
+    Model__n_estimators: 990
+    Model__learning_rate: 0.1828613069648902
+    Model__subsample: 0.5622819499186238
+    Model__colsample_bytree: 0.8988767508796425
+    Model__reg_lambda: 0.12983843349487506
+    Model__reg_alpha: 0.7096275843117972
+    Model__gamma: 3.732080866395301
+- trial_number: 5110
+  values:
+  - 0.9335
+  - 0.1796
+  params:
+    Model__max_depth: 2
+    Model__min_child_weight: 25
+    Model__n_estimators: 990
+    Model__learning_rate: 0.1828613069648902
+    Model__subsample: 0.5622819499186238
+    Model__colsample_bytree: 0.8988767508796425
+    Model__reg_lambda: 0.17198472386986008
+    Model__reg_alpha: 0.7096275843117972
+    Model__gamma: 3.732080866395301
+- trial_number: 5159
+  values:
+  - 0.9197
+  - 0.1932
+  params:
+    Model__max_depth: 3
+    Model__min_child_weight: 17
+    Model__n_estimators: 520
+    Model__learning_rate: 0.04758365155217088
+    Model__subsample: 0.9396954259072104
+    Model__colsample_bytree: 0.969668899643183
+    Model__reg_lambda: 1.8729992654727945
+    Model__reg_alpha: 2.144839544058323
+    Model__gamma: 1.7721693958288127
+- trial_number: 5296
+  values:
+  - 0.9197
+  - 0.1932
+  params:
+    Model__max_depth: 3
+    Model__min_child_weight: 17
+    Model__n_estimators: 520
+    Model__learning_rate: 0.04758365155217088
+    Model__subsample: 0.9396954259072104
+    Model__colsample_bytree: 0.969668899643183
+    Model__reg_lambda: 1.8729992654727945
+    Model__reg_alpha: 2.144839544058323
+    Model__gamma: 1.7721693958288127
+- trial_number: 5331
+  values:
+  - 0.9335
+  - 0.1796
+  params:
+    Model__max_depth: 2
+    Model__min_child_weight: 25
+    Model__n_estimators: 990
+    Model__learning_rate: 0.1828613069648902
+    Model__subsample: 0.5622819499186238
+    Model__colsample_bytree: 0.8988767508796425
+    Model__reg_lambda: 0.17198472386986008
+    Model__reg_alpha: 0.7096275843117972
+    Model__gamma: 3.732080866395301
+- trial_number: 5369
+  values:
+  - 0.9335
+  - 0.1796
+  params:
+    Model__max_depth: 2
+    Model__min_child_weight: 25
+    Model__n_estimators: 990
+    Model__learning_rate: 0.1828613069648902
+    Model__subsample: 0.5622819499186238
+    Model__colsample_bytree: 0.8988767508796425
+    Model__reg_lambda: 0.17198472386986008
+    Model__reg_alpha: 0.7096275843117972
+    Model__gamma: 3.732080866395301
+- trial_number: 5391
+  values:
+  - 0.9335
+  - 0.1796
+  params:
+    Model__max_depth: 2
+    Model__min_child_weight: 25
+    Model__n_estimators: 990
+    Model__learning_rate: 0.1828613069648902
+    Model__subsample: 0.5622819499186238
+    Model__colsample_bytree: 0.8988767508796425
+    Model__reg_lambda: 0.17198472386986008
+    Model__reg_alpha: 0.7096275843117972
+    Model__gamma: 3.732080866395301
+- trial_number: 5454
+  values:
+  - 0.9197
+  - 0.1932
+  params:
+    Model__max_depth: 3
+    Model__min_child_weight: 17
+    Model__n_estimators: 520
+    Model__learning_rate: 0.04758365155217088
+    Model__subsample: 0.9396954259072104
+    Model__colsample_bytree: 0.969668899643183
+    Model__reg_lambda: 1.8729992654727945
+    Model__reg_alpha: 2.144839544058323
+    Model__gamma: 1.7721693958288127
+- trial_number: 5546
+  values:
+  - 0.9197
+  - 0.1932
+  params:
+    Model__max_depth: 3
+    Model__min_child_weight: 17
+    Model__n_estimators: 520
+    Model__learning_rate: 0.04758365155217088
+    Model__subsample: 0.9396954259072104
+    Model__colsample_bytree: 0.969668899643183
+    Model__reg_lambda: 1.8729992654727945
+    Model__reg_alpha: 2.144839544058323
+    Model__gamma: 1.7721693958288127
+- trial_number: 5592
+  values:
+  - 0.9335
+  - 0.1796
+  params:
+    Model__max_depth: 2
+    Model__min_child_weight: 25
+    Model__n_estimators: 990
+    Model__learning_rate: 0.1828613069648902
+    Model__subsample: 0.5622819499186238
+    Model__colsample_bytree: 0.8988767508796425
+    Model__reg_lambda: 0.17198472386986008
+    Model__reg_alpha: 0.7096275843117972
+    Model__gamma: 3.732080866395301
+- trial_number: 5596
+  values:
+  - 0.9197
+  - 0.1932
+  params:
+    Model__max_depth: 3
+    Model__min_child_weight: 17
+    Model__n_estimators: 520
+    Model__learning_rate: 0.04758365155217088
+    Model__subsample: 0.9396954259072104
+    Model__colsample_bytree: 0.969668899643183
+    Model__reg_lambda: 1.8729992654727945
+    Model__reg_alpha: 2.144839544058323
+    Model__gamma: 1.7721693958288127
+- trial_number: 5610
+  values:
+  - 0.9197
+  - 0.1932
+  params:
+    Model__max_depth: 3
+    Model__min_child_weight: 17
+    Model__n_estimators: 520
+    Model__learning_rate: 0.04758365155217088
+    Model__subsample: 0.9396954259072104
+    Model__colsample_bytree: 0.969668899643183
+    Model__reg_lambda: 1.8729992654727945
+    Model__reg_alpha: 2.144839544058323
+    Model__gamma: 1.7721693958288127
+- trial_number: 5612
+  values:
+  - 0.9197
+  - 0.1932
+  params:
+    Model__max_depth: 3
+    Model__min_child_weight: 17
+    Model__n_estimators: 520
+    Model__learning_rate: 0.04758365155217088
+    Model__subsample: 0.9396954259072104
+    Model__colsample_bytree: 0.969668899643183
+    Model__reg_lambda: 1.8729992654727945
+    Model__reg_alpha: 2.144839544058323
+    Model__gamma: 1.7721693958288127
+- trial_number: 5684
+  values:
+  - 0.9197
+  - 0.1932
+  params:
+    Model__max_depth: 3
+    Model__min_child_weight: 17
+    Model__n_estimators: 520
+    Model__learning_rate: 0.04758365155217088
+    Model__subsample: 0.9396954259072104
+    Model__colsample_bytree: 0.969668899643183
+    Model__reg_lambda: 1.8729992654727945
+    Model__reg_alpha: 2.144839544058323
+    Model__gamma: 1.7721693958288127
+- trial_number: 5722
+  values:
+  - 0.9197
+  - 0.1932
+  params:
+    Model__max_depth: 3
+    Model__min_child_weight: 17
+    Model__n_estimators: 520
+    Model__learning_rate: 0.04758365155217088
+    Model__subsample: 0.9396954259072104
+    Model__colsample_bytree: 0.969668899643183
+    Model__reg_lambda: 1.8729992654727945
+    Model__reg_alpha: 2.144839544058323
+    Model__gamma: 1.7721693958288127
+- trial_number: 5730
+  values:
+  - 0.9197
+  - 0.1932
+  params:
+    Model__max_depth: 3
+    Model__min_child_weight: 17
+    Model__n_estimators: 520
+    Model__learning_rate: 0.04758365155217088
+    Model__subsample: 0.9396954259072104
+    Model__colsample_bytree: 0.969668899643183
+    Model__reg_lambda: 1.8729992654727945
+    Model__reg_alpha: 2.144839544058323
+    Model__gamma: 1.7721693958288127
+- trial_number: 5734
+  values:
+  - 0.9197
+  - 0.1932
+  params:
+    Model__max_depth: 3
+    Model__min_child_weight: 17
+    Model__n_estimators: 520
+    Model__learning_rate: 0.04758365155217088
+    Model__subsample: 0.9396954259072104
+    Model__colsample_bytree: 0.969668899643183
+    Model__reg_lambda: 1.8729992654727945
+    Model__reg_alpha: 2.144839544058323
+    Model__gamma: 1.7721693958288127
+- trial_number: 5757
+  values:
+  - 0.9197
+  - 0.1932
+  params:
+    Model__max_depth: 3
+    Model__min_child_weight: 17
+    Model__n_estimators: 520
+    Model__learning_rate: 0.04758365155217088
+    Model__subsample: 0.9396954259072104
+    Model__colsample_bytree: 0.969668899643183
+    Model__reg_lambda: 1.8729992654727945
+    Model__reg_alpha: 2.144839544058323
+    Model__gamma: 1.7721693958288127
+- trial_number: 5766
+  values:
+  - 0.9197
+  - 0.1932
+  params:
+    Model__max_depth: 3
+    Model__min_child_weight: 17
+    Model__n_estimators: 520
+    Model__learning_rate: 0.04758365155217088
+    Model__subsample: 0.9396954259072104
+    Model__colsample_bytree: 0.969668899643183
+    Model__reg_lambda: 1.8729992654727945
+    Model__reg_alpha: 2.144839544058323
+    Model__gamma: 1.7721693958288127
+- trial_number: 5797
+  values:
+  - 0.9197
+  - 0.1932
+  params:
+    Model__max_depth: 3
+    Model__min_child_weight: 17
+    Model__n_estimators: 520
+    Model__learning_rate: 0.04758365155217088
+    Model__subsample: 0.9396954259072104
+    Model__colsample_bytree: 0.969668899643183
+    Model__reg_lambda: 1.8729992654727945
+    Model__reg_alpha: 2.144839544058323
+    Model__gamma: 1.7721693958288127
+- trial_number: 5803
+  values:
+  - 0.9197
+  - 0.1932
+  params:
+    Model__max_depth: 3
+    Model__min_child_weight: 17
+    Model__n_estimators: 520
+    Model__learning_rate: 0.04758365155217088
+    Model__subsample: 0.9396954259072104
+    Model__colsample_bytree: 0.969668899643183
+    Model__reg_lambda: 1.8729992654727945
+    Model__reg_alpha: 2.144839544058323
+    Model__gamma: 1.7721693958288127
+- trial_number: 5810
+  values:
+  - 0.9197
+  - 0.1932
+  params:
+    Model__max_depth: 3
+    Model__min_child_weight: 17
+    Model__n_estimators: 520
+    Model__learning_rate: 0.04758365155217088
+    Model__subsample: 0.9396954259072104
+    Model__colsample_bytree: 0.969668899643183
+    Model__reg_lambda: 1.8729992654727945
+    Model__reg_alpha: 2.144839544058323
+    Model__gamma: 1.7721693958288127
+- trial_number: 5824
+  values:
+  - 0.9197
+  - 0.1932
+  params:
+    Model__max_depth: 3
+    Model__min_child_weight: 17
+    Model__n_estimators: 520
+    Model__learning_rate: 0.04758365155217088
+    Model__subsample: 0.9396954259072104
+    Model__colsample_bytree: 0.969668899643183
+    Model__reg_lambda: 1.8729992654727945
+    Model__reg_alpha: 2.144839544058323
+    Model__gamma: 1.7721693958288127
+- trial_number: 5829
+  values:
+  - 0.9197
+  - 0.1932
+  params:
+    Model__max_depth: 3
+    Model__min_child_weight: 17
+    Model__n_estimators: 520
+    Model__learning_rate: 0.04758365155217088
+    Model__subsample: 0.9396954259072104
+    Model__colsample_bytree: 0.969668899643183
+    Model__reg_lambda: 1.8729992654727945
+    Model__reg_alpha: 2.144839544058323
+    Model__gamma: 1.7721693958288127
+- trial_number: 5840
+  values:
+  - 0.9197
+  - 0.1932
+  params:
+    Model__max_depth: 3
+    Model__min_child_weight: 17
+    Model__n_estimators: 520
+    Model__learning_rate: 0.04758365155217088
+    Model__subsample: 0.9396954259072104
+    Model__colsample_bytree: 0.969668899643183
+    Model__reg_lambda: 1.8729992654727945
+    Model__reg_alpha: 2.144839544058323
+    Model__gamma: 1.7721693958288127
+- trial_number: 5863
+  values:
+  - 0.9197
+  - 0.1932
+  params:
+    Model__max_depth: 3
+    Model__min_child_weight: 17
+    Model__n_estimators: 520
+    Model__learning_rate: 0.04758365155217088
+    Model__subsample: 0.9396954259072104
+    Model__colsample_bytree: 0.969668899643183
+    Model__reg_lambda: 1.8729992654727945
+    Model__reg_alpha: 2.144839544058323
+    Model__gamma: 1.7721693958288127
+- trial_number: 5867
+  values:
+  - 0.9194
+  - 0.1935
+  params:
+    Model__max_depth: 3
+    Model__min_child_weight: 17
+    Model__n_estimators: 670
+    Model__learning_rate: 0.04758365155217088
+    Model__subsample: 0.9396954259072104
+    Model__colsample_bytree: 0.9695853263297364
+    Model__reg_lambda: 1.8729992654727945
+    Model__reg_alpha: 2.144839544058323
+    Model__gamma: 1.7721693958288127
+- trial_number: 5880
+  values:
+  - 0.9335
+  - 0.1796
+  params:
+    Model__max_depth: 2
+    Model__min_child_weight: 25
+    Model__n_estimators: 990
+    Model__learning_rate: 0.1828613069648902
+    Model__subsample: 0.5622819499186238
+    Model__colsample_bytree: 0.8988767508796425
+    Model__reg_lambda: 0.17198472386986008
+    Model__reg_alpha: 0.7096275843117972
+    Model__gamma: 3.732080866395301
+- trial_number: 5966
+  values:
+  - 0.9197
+  - 0.1932
+  params:
+    Model__max_depth: 3
+    Model__min_child_weight: 17
+    Model__n_estimators: 520
+    Model__learning_rate: 0.04758365155217088
+    Model__subsample: 0.9396954259072104
+    Model__colsample_bytree: 0.969668899643183
+    Model__reg_lambda: 1.8729992654727945
+    Model__reg_alpha: 2.144839544058323
+    Model__gamma: 1.7721693958288127
+- trial_number: 5992
+  values:
+  - 0.9197
+  - 0.1932
+  params:
+    Model__max_depth: 3
+    Model__min_child_weight: 17
+    Model__n_estimators: 520
+    Model__learning_rate: 0.04758365155217088
+    Model__subsample: 0.9396954259072104
+    Model__colsample_bytree: 0.969668899643183
+    Model__reg_lambda: 1.8729992654727945
+    Model__reg_alpha: 2.144839544058323
+    Model__gamma: 1.7721693958288127
+- trial_number: 6151
+  values:
+  - 0.9197
+  - 0.1932
+  params:
+    Model__max_depth: 3
+    Model__min_child_weight: 17
+    Model__n_estimators: 520
+    Model__learning_rate: 0.04758365155217088
+    Model__subsample: 0.9396954259072104
+    Model__colsample_bytree: 0.969668899643183
+    Model__reg_lambda: 1.8729992654727945
+    Model__reg_alpha: 2.144839544058323
+    Model__gamma: 1.7721693958288127
+- trial_number: 6152
+  values:
+  - 0.9194
+  - 0.1935
+  params:
+    Model__max_depth: 3
+    Model__min_child_weight: 17
+    Model__n_estimators: 670
+    Model__learning_rate: 0.04758365155217088
+    Model__subsample: 0.9396954259072104
+    Model__colsample_bytree: 0.9695853263297364
+    Model__reg_lambda: 1.8729992654727945
+    Model__reg_alpha: 2.144839544058323
+    Model__gamma: 1.7721693958288127
+- trial_number: 6158
+  values:
+  - 0.9197
+  - 0.1932
+  params:
+    Model__max_depth: 3
+    Model__min_child_weight: 17
+    Model__n_estimators: 520
+    Model__learning_rate: 0.04758365155217088
+    Model__subsample: 0.9396954259072104
+    Model__colsample_bytree: 0.969668899643183
+    Model__reg_lambda: 1.8729992654727945
+    Model__reg_alpha: 2.144839544058323
+    Model__gamma: 1.7721693958288127
+- trial_number: 6179
+  values:
+  - 0.9197
+  - 0.1932
+  params:
+    Model__max_depth: 3
+    Model__min_child_weight: 17
+    Model__n_estimators: 520
+    Model__learning_rate: 0.04758365155217088
+    Model__subsample: 0.9396954259072104
+    Model__colsample_bytree: 0.969668899643183
+    Model__reg_lambda: 1.8729992654727945
+    Model__reg_alpha: 2.144839544058323
+    Model__gamma: 1.7721693958288127
+- trial_number: 6247
+  values:
+  - 0.9197
+  - 0.1932
+  params:
+    Model__max_depth: 3
+    Model__min_child_weight: 17
+    Model__n_estimators: 520
+    Model__learning_rate: 0.04758365155217088
+    Model__subsample: 0.9396954259072104
+    Model__colsample_bytree: 0.969668899643183
+    Model__reg_lambda: 1.8729992654727945
+    Model__reg_alpha: 2.144839544058323
+    Model__gamma: 1.7721693958288127
+- trial_number: 6269
+  values:
+  - 0.9194
+  - 0.1935
+  params:
+    Model__max_depth: 3
+    Model__min_child_weight: 17
+    Model__n_estimators: 670
+    Model__learning_rate: 0.04758365155217088
+    Model__subsample: 0.9396954259072104
+    Model__colsample_bytree: 0.9695853263297364
+    Model__reg_lambda: 1.8729992654727945
+    Model__reg_alpha: 2.144839544058323
+    Model__gamma: 1.7721693958288127
+- trial_number: 6285
+  values:
+  - 0.9194
+  - 0.1935
+  params:
+    Model__max_depth: 3
+    Model__min_child_weight: 17
+    Model__n_estimators: 670
+    Model__learning_rate: 0.04758365155217088
+    Model__subsample: 0.9396954259072104
+    Model__colsample_bytree: 0.969668899643183
+    Model__reg_lambda: 1.8729992654727945
+    Model__reg_alpha: 2.144839544058323
+    Model__gamma: 1.7721693958288127
+- trial_number: 6301
   values:
   - 0.9245
-  - 0.1919
+  - 0.1872
   params:
-    Model__n_estimators: 740
-    Model__learning_rate: 0.16
-    Model__max_depth: 4
-    Model__subsample: 0.555662543594597
-    Model__colsample_bytree: 0.9815919085306092
-    Model__reg_lambda: 0.0507566811158479
-    Model__reg_alpha: 3.7839122777002308
-    Model__min_child_weight: 5
-    Model__gamma: 2.5266054240330855
-    Model__grow_policy: lossguide
-- trial_number: 1762
+    Model__max_depth: 12
+    Model__min_child_weight: 17
+    Model__n_estimators: 150
+    Model__learning_rate: 0.12349091743355128
+    Model__subsample: 0.9396954259072104
+    Model__colsample_bytree: 0.969668899643183
+    Model__reg_lambda: 0.2717859301969407
+    Model__reg_alpha: 0.7096275843117972
+    Model__gamma: 3.732080866395301
+- trial_number: 6388
   values:
-  - 0.9793
+  - 0.9194
+  - 0.1935
+  params:
+    Model__max_depth: 3
+    Model__min_child_weight: 17
+    Model__n_estimators: 670
+    Model__learning_rate: 0.04758365155217088
+    Model__subsample: 0.9396954259072104
+    Model__colsample_bytree: 0.9695853263297364
+    Model__reg_lambda: 1.8729992654727945
+    Model__reg_alpha: 2.144839544058323
+    Model__gamma: 1.7721693958288127
+- trial_number: 6392
+  values:
+  - 0.9197
+  - 0.1932
+  params:
+    Model__max_depth: 3
+    Model__min_child_weight: 17
+    Model__n_estimators: 520
+    Model__learning_rate: 0.04758365155217088
+    Model__subsample: 0.9396954259072104
+    Model__colsample_bytree: 0.969668899643183
+    Model__reg_lambda: 1.8729992654727945
+    Model__reg_alpha: 2.144839544058323
+    Model__gamma: 1.7721693958288127
+- trial_number: 6443
+  values:
+  - 0.9197
+  - 0.1932
+  params:
+    Model__max_depth: 3
+    Model__min_child_weight: 17
+    Model__n_estimators: 520
+    Model__learning_rate: 0.04758365155217088
+    Model__subsample: 0.9396954259072104
+    Model__colsample_bytree: 0.969668899643183
+    Model__reg_lambda: 1.8729992654727945
+    Model__reg_alpha: 2.144839544058323
+    Model__gamma: 1.7721693958288127
+- trial_number: 6458
+  values:
+  - 0.9245
+  - 0.1872
+  params:
+    Model__max_depth: 12
+    Model__min_child_weight: 17
+    Model__n_estimators: 150
+    Model__learning_rate: 0.12349091743355128
+    Model__subsample: 0.9396954259072104
+    Model__colsample_bytree: 0.969668899643183
+    Model__reg_lambda: 0.2717859301969407
+    Model__reg_alpha: 0.7096275843117972
+    Model__gamma: 3.732080866395301
+- trial_number: 6500
+  values:
+  - 0.9197
+  - 0.1932
+  params:
+    Model__max_depth: 3
+    Model__min_child_weight: 17
+    Model__n_estimators: 520
+    Model__learning_rate: 0.04758365155217088
+    Model__subsample: 0.9396954259072104
+    Model__colsample_bytree: 0.969668899643183
+    Model__reg_lambda: 1.8729992654727945
+    Model__reg_alpha: 2.144839544058323
+    Model__gamma: 1.7721693958288127
+- trial_number: 6527
+  values:
+  - 0.921
+  - 0.1916
+  params:
+    Model__max_depth: 3
+    Model__min_child_weight: 17
+    Model__n_estimators: 100
+    Model__learning_rate: 0.04776258282762617
+    Model__subsample: 0.9396954259072104
+    Model__colsample_bytree: 0.969668899643183
+    Model__reg_lambda: 1.8729992654727945
+    Model__reg_alpha: 2.144839544058323
+    Model__gamma: 1.7721693958288127
+- trial_number: 6531
+  values:
+  - 0.9245
+  - 0.1872
+  params:
+    Model__max_depth: 10
+    Model__min_child_weight: 17
+    Model__n_estimators: 150
+    Model__learning_rate: 0.12349091743355128
+    Model__subsample: 0.9396954259072104
+    Model__colsample_bytree: 0.969668899643183
+    Model__reg_lambda: 0.2717859301969407
+    Model__reg_alpha: 0.7096275843117972
+    Model__gamma: 3.732080866395301
+- trial_number: 6566
+  values:
+  - 0.9197
+  - 0.1932
+  params:
+    Model__max_depth: 3
+    Model__min_child_weight: 17
+    Model__n_estimators: 520
+    Model__learning_rate: 0.04758365155217088
+    Model__subsample: 0.9396954259072104
+    Model__colsample_bytree: 0.969668899643183
+    Model__reg_lambda: 1.8729992654727945
+    Model__reg_alpha: 2.144839544058323
+    Model__gamma: 1.7721693958288127
+- trial_number: 6587
+  values:
+  - 0.9245
+  - 0.1872
+  params:
+    Model__max_depth: 12
+    Model__min_child_weight: 17
+    Model__n_estimators: 150
+    Model__learning_rate: 0.12349091743355128
+    Model__subsample: 0.9396954259072104
+    Model__colsample_bytree: 0.969668899643183
+    Model__reg_lambda: 0.2717859301969407
+    Model__reg_alpha: 0.7096275843117972
+    Model__gamma: 3.732080866395301
+- trial_number: 6615
+  values:
+  - 0.9197
+  - 0.1932
+  params:
+    Model__max_depth: 3
+    Model__min_child_weight: 17
+    Model__n_estimators: 520
+    Model__learning_rate: 0.04758365155217088
+    Model__subsample: 0.9396954259072104
+    Model__colsample_bytree: 0.969668899643183
+    Model__reg_lambda: 1.8729992654727945
+    Model__reg_alpha: 2.144839544058323
+    Model__gamma: 1.7721693958288127
+- trial_number: 6631
+  values:
+  - 0.9245
+  - 0.1872
+  params:
+    Model__max_depth: 12
+    Model__min_child_weight: 17
+    Model__n_estimators: 150
+    Model__learning_rate: 0.12349091743355128
+    Model__subsample: 0.9396954259072104
+    Model__colsample_bytree: 0.969668899643183
+    Model__reg_lambda: 0.2717859301969407
+    Model__reg_alpha: 0.7096275843117972
+    Model__gamma: 3.732080866395301
+- trial_number: 6679
+  values:
+  - 0.9194
+  - 0.1935
+  params:
+    Model__max_depth: 3
+    Model__min_child_weight: 17
+    Model__n_estimators: 670
+    Model__learning_rate: 0.04758365155217088
+    Model__subsample: 0.9396954259072104
+    Model__colsample_bytree: 0.9695853263297364
+    Model__reg_lambda: 1.8729992654727945
+    Model__reg_alpha: 2.144839544058323
+    Model__gamma: 1.7721693958288127
+- trial_number: 6762
+  values:
+  - 0.9253
   - 0.1866
   params:
-    Model__n_estimators: 1140
-    Model__learning_rate: 0.155
-    Model__max_depth: 7
-    Model__subsample: 0.5052737109178391
-    Model__colsample_bytree: 0.9815919085306092
-    Model__reg_lambda: 0.08987209283758651
-    Model__reg_alpha: 9.426525988906485
-    Model__min_child_weight: 7
-    Model__gamma: 4.131821180400187
-    Model__grow_policy: depthwise
-- trial_number: 1936
+    Model__max_depth: 12
+    Model__min_child_weight: 17
+    Model__n_estimators: 150
+    Model__learning_rate: 0.12349091743355128
+    Model__subsample: 0.9396954259072104
+    Model__colsample_bytree: 0.969668899643183
+    Model__reg_lambda: 0.6197505920600446
+    Model__reg_alpha: 0.7096275843117972
+    Model__gamma: 3.732080866395301
+- trial_number: 6771
   values:
-  - 0.9224
-  - 0.1942
+  - 0.9194
+  - 0.1935
   params:
-    Model__n_estimators: 740
-    Model__learning_rate: 0.16
-    Model__max_depth: 4
-    Model__subsample: 0.555662543594597
-    Model__colsample_bytree: 0.9815919085306092
-    Model__reg_lambda: 0.0507566811158479
-    Model__reg_alpha: 3.7839122777002308
-    Model__min_child_weight: 2
-    Model__gamma: 2.5266054240330855
-    Model__grow_policy: lossguide
-- trial_number: 1965
+    Model__max_depth: 3
+    Model__min_child_weight: 17
+    Model__n_estimators: 670
+    Model__learning_rate: 0.04758365155217088
+    Model__subsample: 0.9396954259072104
+    Model__colsample_bytree: 0.9695853263297364
+    Model__reg_lambda: 1.8729992654727945
+    Model__reg_alpha: 2.144839544058323
+    Model__gamma: 1.7721693958288127
+- trial_number: 6785
   values:
-  - 0.9224
-  - 0.1942
+  - 0.9334
+  - 0.1798
   params:
-    Model__n_estimators: 740
-    Model__learning_rate: 0.16
-    Model__max_depth: 4
-    Model__subsample: 0.555662543594597
-    Model__colsample_bytree: 0.9815919085306092
-    Model__reg_lambda: 0.0507566811158479
-    Model__reg_alpha: 3.7839122777002308
-    Model__min_child_weight: 2
-    Model__gamma: 2.5266054240330855
-    Model__grow_policy: lossguide
-- trial_number: 1985
+    Model__max_depth: 2
+    Model__min_child_weight: 25
+    Model__n_estimators: 990
+    Model__learning_rate: 0.1828613069648902
+    Model__subsample: 0.5622819499186238
+    Model__colsample_bytree: 0.8988767508796425
+    Model__reg_lambda: 0.12983843349487506
+    Model__reg_alpha: 0.7096275843117972
+    Model__gamma: 3.732080866395301
+- trial_number: 6810
   values:
-  - 0.9279
-  - 0.1889
+  - 0.921
+  - 0.1916
   params:
-    Model__n_estimators: 740
-    Model__learning_rate: 0.155
-    Model__max_depth: 4
-    Model__subsample: 0.5552997171468768
-    Model__colsample_bytree: 0.9815919085306092
-    Model__reg_lambda: 0.24481085805808236
-    Model__reg_alpha: 3.7839122777002308
-    Model__min_child_weight: 5
-    Model__gamma: 2.6568459110039457
-    Model__grow_policy: lossguide
-- trial_number: 1998
+    Model__max_depth: 3
+    Model__min_child_weight: 17
+    Model__n_estimators: 100
+    Model__learning_rate: 0.04776258282762617
+    Model__subsample: 0.9396954259072104
+    Model__colsample_bytree: 0.969668899643183
+    Model__reg_lambda: 1.8729992654727945
+    Model__reg_alpha: 2.144839544058323
+    Model__gamma: 1.7721693958288127
+- trial_number: 6818
   values:
-  - 0.9793
+  - 0.9245
+  - 0.1872
+  params:
+    Model__max_depth: 12
+    Model__min_child_weight: 17
+    Model__n_estimators: 150
+    Model__learning_rate: 0.12349091743355128
+    Model__subsample: 0.9396954259072104
+    Model__colsample_bytree: 0.969668899643183
+    Model__reg_lambda: 0.2717859301969407
+    Model__reg_alpha: 0.7096275843117972
+    Model__gamma: 3.732080866395301
+- trial_number: 6822
+  values:
+  - 0.9334
+  - 0.1798
+  params:
+    Model__max_depth: 2
+    Model__min_child_weight: 25
+    Model__n_estimators: 990
+    Model__learning_rate: 0.1828613069648902
+    Model__subsample: 0.5622819499186238
+    Model__colsample_bytree: 0.8988767508796425
+    Model__reg_lambda: 0.12983843349487506
+    Model__reg_alpha: 0.7096275843117972
+    Model__gamma: 3.732080866395301
+- trial_number: 6824
+  values:
+  - 0.9243
+  - 0.1874
+  params:
+    Model__max_depth: 8
+    Model__min_child_weight: 17
+    Model__n_estimators: 150
+    Model__learning_rate: 0.12349091743355128
+    Model__subsample: 0.9396954259072104
+    Model__colsample_bytree: 0.969668899643183
+    Model__reg_lambda: 0.2932433816593188
+    Model__reg_alpha: 0.7096275843117972
+    Model__gamma: 3.732080866395301
+- trial_number: 6849
+  values:
+  - 0.9245
+  - 0.1872
+  params:
+    Model__max_depth: 10
+    Model__min_child_weight: 17
+    Model__n_estimators: 150
+    Model__learning_rate: 0.12349091743355128
+    Model__subsample: 0.9396954259072104
+    Model__colsample_bytree: 0.969668899643183
+    Model__reg_lambda: 0.2717859301969407
+    Model__reg_alpha: 0.7096275843117972
+    Model__gamma: 3.732080866395301
+- trial_number: 6903
+  values:
+  - 0.9194
+  - 0.1935
+  params:
+    Model__max_depth: 3
+    Model__min_child_weight: 17
+    Model__n_estimators: 670
+    Model__learning_rate: 0.04758365155217088
+    Model__subsample: 0.9396954259072104
+    Model__colsample_bytree: 0.9695853263297364
+    Model__reg_lambda: 1.8729992654727945
+    Model__reg_alpha: 2.144839544058323
+    Model__gamma: 1.7721693958288127
+- trial_number: 7001
+  values:
+  - 0.9334
+  - 0.1798
+  params:
+    Model__max_depth: 2
+    Model__min_child_weight: 25
+    Model__n_estimators: 990
+    Model__learning_rate: 0.1828613069648902
+    Model__subsample: 0.5622819499186238
+    Model__colsample_bytree: 0.8988767508796425
+    Model__reg_lambda: 0.12983843349487506
+    Model__reg_alpha: 0.7096275843117972
+    Model__gamma: 3.732080866395301
+- trial_number: 7027
+  values:
+  - 0.9197
+  - 0.1932
+  params:
+    Model__max_depth: 3
+    Model__min_child_weight: 17
+    Model__n_estimators: 520
+    Model__learning_rate: 0.04758365155217088
+    Model__subsample: 0.9396954259072104
+    Model__colsample_bytree: 0.969668899643183
+    Model__reg_lambda: 1.8729992654727945
+    Model__reg_alpha: 2.144839544058323
+    Model__gamma: 1.7721693958288127
+- trial_number: 7084
+  values:
+  - 0.9335
+  - 0.1796
+  params:
+    Model__max_depth: 2
+    Model__min_child_weight: 25
+    Model__n_estimators: 990
+    Model__learning_rate: 0.1828613069648902
+    Model__subsample: 0.5622819499186238
+    Model__colsample_bytree: 0.8988767508796425
+    Model__reg_lambda: 0.17198472386986008
+    Model__reg_alpha: 0.7096275843117972
+    Model__gamma: 3.732080866395301
+- trial_number: 7115
+  values:
+  - 0.9194
+  - 0.1935
+  params:
+    Model__max_depth: 3
+    Model__min_child_weight: 17
+    Model__n_estimators: 670
+    Model__learning_rate: 0.04758365155217088
+    Model__subsample: 0.9396954259072104
+    Model__colsample_bytree: 0.969668899643183
+    Model__reg_lambda: 1.8729992654727945
+    Model__reg_alpha: 2.144839544058323
+    Model__gamma: 1.7721693958288127
+- trial_number: 7117
+  values:
+  - 0.9335
+  - 0.1796
+  params:
+    Model__max_depth: 2
+    Model__min_child_weight: 25
+    Model__n_estimators: 990
+    Model__learning_rate: 0.1828613069648902
+    Model__subsample: 0.5622819499186238
+    Model__colsample_bytree: 0.8988767508796425
+    Model__reg_lambda: 0.17198472386986008
+    Model__reg_alpha: 0.7096275843117972
+    Model__gamma: 3.732080866395301
+- trial_number: 7136
+  values:
+  - 0.9245
+  - 0.1872
+  params:
+    Model__max_depth: 8
+    Model__min_child_weight: 17
+    Model__n_estimators: 150
+    Model__learning_rate: 0.12349091743355128
+    Model__subsample: 0.9396954259072104
+    Model__colsample_bytree: 0.969668899643183
+    Model__reg_lambda: 0.2717859301969407
+    Model__reg_alpha: 0.7096275843117972
+    Model__gamma: 3.732080866395301
+- trial_number: 7137
+  values:
+  - 0.9335
+  - 0.1796
+  params:
+    Model__max_depth: 2
+    Model__min_child_weight: 25
+    Model__n_estimators: 990
+    Model__learning_rate: 0.1828613069648902
+    Model__subsample: 0.5622819499186238
+    Model__colsample_bytree: 0.8988767508796425
+    Model__reg_lambda: 0.17198472386986008
+    Model__reg_alpha: 0.7096275843117972
+    Model__gamma: 3.732080866395301
+- trial_number: 7170
+  values:
+  - 0.9197
+  - 0.1932
+  params:
+    Model__max_depth: 3
+    Model__min_child_weight: 17
+    Model__n_estimators: 520
+    Model__learning_rate: 0.04758365155217088
+    Model__subsample: 0.9396954259072104
+    Model__colsample_bytree: 0.969668899643183
+    Model__reg_lambda: 1.8729992654727945
+    Model__reg_alpha: 2.144839544058323
+    Model__gamma: 1.7721693958288127
+- trial_number: 7179
+  values:
+  - 0.9335
+  - 0.1796
+  params:
+    Model__max_depth: 2
+    Model__min_child_weight: 25
+    Model__n_estimators: 990
+    Model__learning_rate: 0.1828613069648902
+    Model__subsample: 0.5622819499186238
+    Model__colsample_bytree: 0.8988767508796425
+    Model__reg_lambda: 0.17198472386986008
+    Model__reg_alpha: 0.7096275843117972
+    Model__gamma: 3.732080866395301
+- trial_number: 7201
+  values:
+  - 0.921
+  - 0.1916
+  params:
+    Model__max_depth: 3
+    Model__min_child_weight: 17
+    Model__n_estimators: 100
+    Model__learning_rate: 0.04776258282762617
+    Model__subsample: 0.9396954259072104
+    Model__colsample_bytree: 0.969668899643183
+    Model__reg_lambda: 1.8729992654727945
+    Model__reg_alpha: 2.144839544058323
+    Model__gamma: 1.7721693958288127
+- trial_number: 7220
+  values:
+  - 0.9197
+  - 0.1932
+  params:
+    Model__max_depth: 3
+    Model__min_child_weight: 17
+    Model__n_estimators: 520
+    Model__learning_rate: 0.04758365155217088
+    Model__subsample: 0.9396954259072104
+    Model__colsample_bytree: 0.969668899643183
+    Model__reg_lambda: 1.8729992654727945
+    Model__reg_alpha: 2.144839544058323
+    Model__gamma: 1.7721693958288127
+- trial_number: 7221
+  values:
+  - 0.9335
+  - 0.1796
+  params:
+    Model__max_depth: 2
+    Model__min_child_weight: 25
+    Model__n_estimators: 990
+    Model__learning_rate: 0.1828613069648902
+    Model__subsample: 0.5622819499186238
+    Model__colsample_bytree: 0.8988767508796425
+    Model__reg_lambda: 0.17198472386986008
+    Model__reg_alpha: 0.7096275843117972
+    Model__gamma: 3.732080866395301
+- trial_number: 7225
+  values:
+  - 0.9245
+  - 0.1872
+  params:
+    Model__max_depth: 8
+    Model__min_child_weight: 17
+    Model__n_estimators: 150
+    Model__learning_rate: 0.12349091743355128
+    Model__subsample: 0.9396954259072104
+    Model__colsample_bytree: 0.969668899643183
+    Model__reg_lambda: 0.2717859301969407
+    Model__reg_alpha: 0.7096275843117972
+    Model__gamma: 3.732080866395301
+- trial_number: 7228
+  values:
+  - 0.9334
+  - 0.1798
+  params:
+    Model__max_depth: 2
+    Model__min_child_weight: 25
+    Model__n_estimators: 990
+    Model__learning_rate: 0.1828613069648902
+    Model__subsample: 0.5622819499186238
+    Model__colsample_bytree: 0.8988767508796425
+    Model__reg_lambda: 0.12983843349487506
+    Model__reg_alpha: 0.7096275843117972
+    Model__gamma: 3.732080866395301
+- trial_number: 7261
+  values:
+  - 0.9197
+  - 0.1932
+  params:
+    Model__max_depth: 3
+    Model__min_child_weight: 17
+    Model__n_estimators: 520
+    Model__learning_rate: 0.04758365155217088
+    Model__subsample: 0.9396954259072104
+    Model__colsample_bytree: 0.9695853263297364
+    Model__reg_lambda: 1.8729992654727945
+    Model__reg_alpha: 2.144839544058323
+    Model__gamma: 1.7721693958288127
+- trial_number: 7264
+  values:
+  - 0.921
+  - 0.1916
+  params:
+    Model__max_depth: 3
+    Model__min_child_weight: 17
+    Model__n_estimators: 100
+    Model__learning_rate: 0.04776258282762617
+    Model__subsample: 0.9396954259072104
+    Model__colsample_bytree: 0.969668899643183
+    Model__reg_lambda: 1.8729992654727945
+    Model__reg_alpha: 2.144839544058323
+    Model__gamma: 1.7721693958288127
+- trial_number: 7320
+  values:
+  - 0.9243
+  - 0.1874
+  params:
+    Model__max_depth: 8
+    Model__min_child_weight: 17
+    Model__n_estimators: 150
+    Model__learning_rate: 0.12349091743355128
+    Model__subsample: 0.9396954259072104
+    Model__colsample_bytree: 0.969668899643183
+    Model__reg_lambda: 0.2932433816593188
+    Model__reg_alpha: 0.7096275843117972
+    Model__gamma: 3.732080866395301
+- trial_number: 7350
+  values:
+  - 0.9194
+  - 0.1935
+  params:
+    Model__max_depth: 3
+    Model__min_child_weight: 17
+    Model__n_estimators: 670
+    Model__learning_rate: 0.04758365155217088
+    Model__subsample: 0.9396954259072104
+    Model__colsample_bytree: 0.9695853263297364
+    Model__reg_lambda: 1.8729992654727945
+    Model__reg_alpha: 2.144839544058323
+    Model__gamma: 1.7721693958288127
+- trial_number: 7356
+  values:
+  - 0.9194
+  - 0.1935
+  params:
+    Model__max_depth: 3
+    Model__min_child_weight: 17
+    Model__n_estimators: 670
+    Model__learning_rate: 0.04758365155217088
+    Model__subsample: 0.9396954259072104
+    Model__colsample_bytree: 0.969668899643183
+    Model__reg_lambda: 1.8729992654727945
+    Model__reg_alpha: 2.144839544058323
+    Model__gamma: 1.7721693958288127
+- trial_number: 7362
+  values:
+  - 0.9243
+  - 0.1874
+  params:
+    Model__max_depth: 6
+    Model__min_child_weight: 17
+    Model__n_estimators: 150
+    Model__learning_rate: 0.12349091743355128
+    Model__subsample: 0.9396954259072104
+    Model__colsample_bytree: 0.969668899643183
+    Model__reg_lambda: 0.2932433816593188
+    Model__reg_alpha: 0.7096275843117972
+    Model__gamma: 3.732080866395301
+- trial_number: 7382
+  values:
+  - 0.9194
+  - 0.1935
+  params:
+    Model__max_depth: 3
+    Model__min_child_weight: 17
+    Model__n_estimators: 670
+    Model__learning_rate: 0.04758365155217088
+    Model__subsample: 0.9396954259072104
+    Model__colsample_bytree: 0.9695853263297364
+    Model__reg_lambda: 1.8729992654727945
+    Model__reg_alpha: 2.144839544058323
+    Model__gamma: 1.7721693958288127
+- trial_number: 7392
+  values:
+  - 0.9194
+  - 0.1935
+  params:
+    Model__max_depth: 3
+    Model__min_child_weight: 17
+    Model__n_estimators: 670
+    Model__learning_rate: 0.04758365155217088
+    Model__subsample: 0.9396954259072104
+    Model__colsample_bytree: 0.9695853263297364
+    Model__reg_lambda: 1.8729992654727945
+    Model__reg_alpha: 2.144839544058323
+    Model__gamma: 1.7721693958288127
+- trial_number: 7408
+  values:
+  - 0.921
+  - 0.1916
+  params:
+    Model__max_depth: 3
+    Model__min_child_weight: 17
+    Model__n_estimators: 100
+    Model__learning_rate: 0.04776258282762617
+    Model__subsample: 0.9396954259072104
+    Model__colsample_bytree: 0.969668899643183
+    Model__reg_lambda: 1.8729992654727945
+    Model__reg_alpha: 2.144839544058323
+    Model__gamma: 1.7721693958288127
+- trial_number: 7412
+  values:
+  - 0.9197
+  - 0.1932
+  params:
+    Model__max_depth: 3
+    Model__min_child_weight: 17
+    Model__n_estimators: 520
+    Model__learning_rate: 0.04758365155217088
+    Model__subsample: 0.9396954259072104
+    Model__colsample_bytree: 0.969668899643183
+    Model__reg_lambda: 1.8729992654727945
+    Model__reg_alpha: 2.144839544058323
+    Model__gamma: 1.7721693958288127
+- trial_number: 7415
+  values:
+  - 0.9197
+  - 0.1932
+  params:
+    Model__max_depth: 3
+    Model__min_child_weight: 17
+    Model__n_estimators: 520
+    Model__learning_rate: 0.04758365155217088
+    Model__subsample: 0.9396954259072104
+    Model__colsample_bytree: 0.969668899643183
+    Model__reg_lambda: 1.8729992654727945
+    Model__reg_alpha: 2.144839544058323
+    Model__gamma: 1.7721693958288127
+- trial_number: 7432
+  values:
+  - 0.9197
+  - 0.1932
+  params:
+    Model__max_depth: 3
+    Model__min_child_weight: 17
+    Model__n_estimators: 520
+    Model__learning_rate: 0.04758365155217088
+    Model__subsample: 0.9396954259072104
+    Model__colsample_bytree: 0.969668899643183
+    Model__reg_lambda: 1.8729992654727945
+    Model__reg_alpha: 2.144839544058323
+    Model__gamma: 1.7721693958288127
+- trial_number: 7440
+  values:
+  - 0.9197
+  - 0.1932
+  params:
+    Model__max_depth: 3
+    Model__min_child_weight: 17
+    Model__n_estimators: 520
+    Model__learning_rate: 0.04758365155217088
+    Model__subsample: 0.9396954259072104
+    Model__colsample_bytree: 0.969668899643183
+    Model__reg_lambda: 1.8729992654727945
+    Model__reg_alpha: 2.144839544058323
+    Model__gamma: 1.7721693958288127
+- trial_number: 7443
+  values:
+  - 0.9194
+  - 0.1935
+  params:
+    Model__max_depth: 3
+    Model__min_child_weight: 17
+    Model__n_estimators: 670
+    Model__learning_rate: 0.04758365155217088
+    Model__subsample: 0.9396954259072104
+    Model__colsample_bytree: 0.969668899643183
+    Model__reg_lambda: 1.8729992654727945
+    Model__reg_alpha: 2.144839544058323
+    Model__gamma: 1.7721693958288127
+- trial_number: 7464
+  values:
+  - 0.9194
+  - 0.1935
+  params:
+    Model__max_depth: 3
+    Model__min_child_weight: 17
+    Model__n_estimators: 670
+    Model__learning_rate: 0.04758365155217088
+    Model__subsample: 0.9396954259072104
+    Model__colsample_bytree: 0.9695853263297364
+    Model__reg_lambda: 1.8729992654727945
+    Model__reg_alpha: 2.144839544058323
+    Model__gamma: 1.7721693958288127
+- trial_number: 7487
+  values:
+  - 0.9243
+  - 0.1874
+  params:
+    Model__max_depth: 12
+    Model__min_child_weight: 17
+    Model__n_estimators: 150
+    Model__learning_rate: 0.12349091743355128
+    Model__subsample: 0.9396954259072104
+    Model__colsample_bytree: 0.969668899643183
+    Model__reg_lambda: 0.2932433816593188
+    Model__reg_alpha: 0.7096275843117972
+    Model__gamma: 3.732080866395301
+- trial_number: 7510
+  values:
+  - 0.9197
+  - 0.1932
+  params:
+    Model__max_depth: 3
+    Model__min_child_weight: 17
+    Model__n_estimators: 520
+    Model__learning_rate: 0.04758365155217088
+    Model__subsample: 0.9396954259072104
+    Model__colsample_bytree: 0.9695853263297364
+    Model__reg_lambda: 1.8729992654727945
+    Model__reg_alpha: 2.144839544058323
+    Model__gamma: 1.7721693958288127
+- trial_number: 7523
+  values:
+  - 0.9197
+  - 0.1932
+  params:
+    Model__max_depth: 3
+    Model__min_child_weight: 17
+    Model__n_estimators: 520
+    Model__learning_rate: 0.04758365155217088
+    Model__subsample: 0.9396954259072104
+    Model__colsample_bytree: 0.969668899643183
+    Model__reg_lambda: 1.8729992654727945
+    Model__reg_alpha: 2.144839544058323
+    Model__gamma: 1.7721693958288127
+- trial_number: 7566
+  values:
+  - 0.921
+  - 0.1916
+  params:
+    Model__max_depth: 3
+    Model__min_child_weight: 17
+    Model__n_estimators: 100
+    Model__learning_rate: 0.04776258282762617
+    Model__subsample: 0.9396954259072104
+    Model__colsample_bytree: 0.969668899643183
+    Model__reg_lambda: 1.8729992654727945
+    Model__reg_alpha: 2.144839544058323
+    Model__gamma: 1.7721693958288127
+- trial_number: 7605
+  values:
+  - 0.9194
+  - 0.1935
+  params:
+    Model__max_depth: 3
+    Model__min_child_weight: 17
+    Model__n_estimators: 670
+    Model__learning_rate: 0.04758365155217088
+    Model__subsample: 0.9396954259072104
+    Model__colsample_bytree: 0.9695853263297364
+    Model__reg_lambda: 1.8729992654727945
+    Model__reg_alpha: 2.144839544058323
+    Model__gamma: 1.7721693958288127
+- trial_number: 7606
+  values:
+  - 0.9194
+  - 0.1935
+  params:
+    Model__max_depth: 3
+    Model__min_child_weight: 17
+    Model__n_estimators: 670
+    Model__learning_rate: 0.04758365155217088
+    Model__subsample: 0.9396954259072104
+    Model__colsample_bytree: 0.9695853263297364
+    Model__reg_lambda: 1.8729992654727945
+    Model__reg_alpha: 2.144839544058323
+    Model__gamma: 1.7721693958288127
+- trial_number: 7663
+  values:
+  - 0.9245
+  - 0.1872
+  params:
+    Model__max_depth: 8
+    Model__min_child_weight: 17
+    Model__n_estimators: 150
+    Model__learning_rate: 0.12349091743355128
+    Model__subsample: 0.9396954259072104
+    Model__colsample_bytree: 0.969668899643183
+    Model__reg_lambda: 0.2717859301969407
+    Model__reg_alpha: 0.7096275843117972
+    Model__gamma: 3.732080866395301
+- trial_number: 7674
+  values:
+  - 0.9194
+  - 0.1935
+  params:
+    Model__max_depth: 3
+    Model__min_child_weight: 17
+    Model__n_estimators: 670
+    Model__learning_rate: 0.04758365155217088
+    Model__subsample: 0.9396954259072104
+    Model__colsample_bytree: 0.9695853263297364
+    Model__reg_lambda: 1.8729992654727945
+    Model__reg_alpha: 2.144839544058323
+    Model__gamma: 1.7721693958288127
+- trial_number: 7704
+  values:
+  - 0.921
+  - 0.1916
+  params:
+    Model__max_depth: 3
+    Model__min_child_weight: 17
+    Model__n_estimators: 100
+    Model__learning_rate: 0.04776258282762617
+    Model__subsample: 0.9396954259072104
+    Model__colsample_bytree: 0.969668899643183
+    Model__reg_lambda: 1.8729992654727945
+    Model__reg_alpha: 2.144839544058323
+    Model__gamma: 1.7721693958288127
+- trial_number: 7707
+  values:
+  - 0.9193
+  - 0.1937
+  params:
+    Model__max_depth: 3
+    Model__min_child_weight: 17
+    Model__n_estimators: 740
+    Model__learning_rate: 0.04758365155217088
+    Model__subsample: 0.9396954259072104
+    Model__colsample_bytree: 0.9695853263297364
+    Model__reg_lambda: 1.8729992654727945
+    Model__reg_alpha: 2.144839544058323
+    Model__gamma: 1.7721693958288127
+- trial_number: 7731
+  values:
+  - 0.9243
+  - 0.1874
+  params:
+    Model__max_depth: 8
+    Model__min_child_weight: 17
+    Model__n_estimators: 150
+    Model__learning_rate: 0.12349091743355128
+    Model__subsample: 0.9396954259072104
+    Model__colsample_bytree: 0.969668899643183
+    Model__reg_lambda: 0.2932433816593188
+    Model__reg_alpha: 0.7096275843117972
+    Model__gamma: 3.732080866395301
+- trial_number: 7776
+  values:
+  - 0.9243
+  - 0.1874
+  params:
+    Model__max_depth: 6
+    Model__min_child_weight: 17
+    Model__n_estimators: 150
+    Model__learning_rate: 0.12349091743355128
+    Model__subsample: 0.9396954259072104
+    Model__colsample_bytree: 0.969668899643183
+    Model__reg_lambda: 0.2932433816593188
+    Model__reg_alpha: 0.7096275843117972
+    Model__gamma: 3.732080866395301
+- trial_number: 7795
+  values:
+  - 0.9245
+  - 0.1872
+  params:
+    Model__max_depth: 8
+    Model__min_child_weight: 17
+    Model__n_estimators: 150
+    Model__learning_rate: 0.12349091743355128
+    Model__subsample: 0.9396954259072104
+    Model__colsample_bytree: 0.969668899643183
+    Model__reg_lambda: 0.2717859301969407
+    Model__reg_alpha: 0.7096275843117972
+    Model__gamma: 3.732080866395301
+- trial_number: 7808
+  values:
+  - 0.9196
+  - 0.1935
+  params:
+    Model__max_depth: 3
+    Model__min_child_weight: 17
+    Model__n_estimators: 930
+    Model__learning_rate: 0.04758365155217088
+    Model__subsample: 0.9396954259072104
+    Model__colsample_bytree: 0.969668899643183
+    Model__reg_lambda: 1.8729992654727945
+    Model__reg_alpha: 2.144839544058323
+    Model__gamma: 1.7721693958288127
+- trial_number: 7840
+  values:
+  - 0.9253
   - 0.1866
   params:
-    Model__n_estimators: 1140
-    Model__learning_rate: 0.155
-    Model__max_depth: 7
-    Model__subsample: 0.5052737109178391
-    Model__colsample_bytree: 0.9815919085306092
-    Model__reg_lambda: 0.08987209283758651
-    Model__reg_alpha: 9.426525988906485
-    Model__min_child_weight: 7
-    Model__gamma: 4.131821180400187
-    Model__grow_policy: depthwise
-- trial_number: 2006
+    Model__max_depth: 12
+    Model__min_child_weight: 17
+    Model__n_estimators: 150
+    Model__learning_rate: 0.12349091743355128
+    Model__subsample: 0.9396954259072104
+    Model__colsample_bytree: 0.969668899643183
+    Model__reg_lambda: 0.6197505920600446
+    Model__reg_alpha: 0.7096275843117972
+    Model__gamma: 3.732080866395301
+- trial_number: 7843
   values:
-  - 0.9793
+  - 0.9243
+  - 0.1874
+  params:
+    Model__max_depth: 6
+    Model__min_child_weight: 17
+    Model__n_estimators: 150
+    Model__learning_rate: 0.12349091743355128
+    Model__subsample: 0.9396954259072104
+    Model__colsample_bytree: 0.969668899643183
+    Model__reg_lambda: 0.2932433816593188
+    Model__reg_alpha: 0.7096275843117972
+    Model__gamma: 3.732080866395301
+- trial_number: 7875
+  values:
+  - 0.9334
+  - 0.1798
+  params:
+    Model__max_depth: 2
+    Model__min_child_weight: 25
+    Model__n_estimators: 990
+    Model__learning_rate: 0.1828613069648902
+    Model__subsample: 0.5622819499186238
+    Model__colsample_bytree: 0.8988767508796425
+    Model__reg_lambda: 0.12983843349487506
+    Model__reg_alpha: 0.7096275843117972
+    Model__gamma: 3.732080866395301
+- trial_number: 7876
+  values:
+  - 0.9194
+  - 0.1935
+  params:
+    Model__max_depth: 3
+    Model__min_child_weight: 17
+    Model__n_estimators: 670
+    Model__learning_rate: 0.04758365155217088
+    Model__subsample: 0.9396954259072104
+    Model__colsample_bytree: 0.969668899643183
+    Model__reg_lambda: 1.8729992654727945
+    Model__reg_alpha: 2.144839544058323
+    Model__gamma: 1.7721693958288127
+- trial_number: 7884
+  values:
+  - 0.9253
   - 0.1866
   params:
-    Model__n_estimators: 1140
-    Model__learning_rate: 0.155
-    Model__max_depth: 7
-    Model__subsample: 0.5052737109178391
-    Model__colsample_bytree: 0.9815919085306092
-    Model__reg_lambda: 0.014609293830298724
-    Model__reg_alpha: 9.426525988906485
-    Model__min_child_weight: 8
-    Model__gamma: 4.131821180400187
-    Model__grow_policy: depthwise
+    Model__max_depth: 8
+    Model__min_child_weight: 17
+    Model__n_estimators: 150
+    Model__learning_rate: 0.12349091743355128
+    Model__subsample: 0.9396954259072104
+    Model__colsample_bytree: 0.969668899643183
+    Model__reg_lambda: 0.6197505920600446
+    Model__reg_alpha: 0.7096275843117972
+    Model__gamma: 3.732080866395301
+- trial_number: 7908
+  values:
+  - 0.9227
+  - 0.1874
+  params:
+    Model__max_depth: 8
+    Model__min_child_weight: 17
+    Model__n_estimators: 180
+    Model__learning_rate: 0.12349091743355128
+    Model__subsample: 0.9396954259072104
+    Model__colsample_bytree: 0.969668899643183
+    Model__reg_lambda: 0.2932433816593188
+    Model__reg_alpha: 0.6151565489958605
+    Model__gamma: 3.732080866395301
+- trial_number: 7928
+  values:
+  - 0.9194
+  - 0.1935
+  params:
+    Model__max_depth: 3
+    Model__min_child_weight: 17
+    Model__n_estimators: 670
+    Model__learning_rate: 0.04758365155217088
+    Model__subsample: 0.9396954259072104
+    Model__colsample_bytree: 0.9695853263297364
+    Model__reg_lambda: 1.8729992654727945
+    Model__reg_alpha: 2.144839544058323
+    Model__gamma: 1.7721693958288127
+- trial_number: 7933
+  values:
+  - 0.921
+  - 0.1916
+  params:
+    Model__max_depth: 3
+    Model__min_child_weight: 17
+    Model__n_estimators: 100
+    Model__learning_rate: 0.04776258282762617
+    Model__subsample: 0.9396954259072104
+    Model__colsample_bytree: 0.969668899643183
+    Model__reg_lambda: 1.8729992654727945
+    Model__reg_alpha: 2.144839544058323
+    Model__gamma: 1.7721693958288127
+- trial_number: 7962
+  values:
+  - 0.9167
+  - 0.2069
+  params:
+    Model__max_depth: 3
+    Model__min_child_weight: 18
+    Model__n_estimators: 740
+    Model__learning_rate: 0.04758365155217088
+    Model__subsample: 0.9396954259072104
+    Model__colsample_bytree: 0.969668899643183
+    Model__reg_lambda: 0.1623031425935357
+    Model__reg_alpha: 2.144839544058323
+    Model__gamma: 1.2358069855140708
+- trial_number: 7988
+  values:
+  - 0.9194
+  - 0.1935
+  params:
+    Model__max_depth: 3
+    Model__min_child_weight: 17
+    Model__n_estimators: 670
+    Model__learning_rate: 0.04758365155217088
+    Model__subsample: 0.9396954259072104
+    Model__colsample_bytree: 0.969668899643183
+    Model__reg_lambda: 1.8729992654727945
+    Model__reg_alpha: 2.144839544058323
+    Model__gamma: 1.7721693958288127
+- trial_number: 8010
+  values:
+  - 0.9335
+  - 0.1796
+  params:
+    Model__max_depth: 2
+    Model__min_child_weight: 25
+    Model__n_estimators: 990
+    Model__learning_rate: 0.1828613069648902
+    Model__subsample: 0.5622819499186238
+    Model__colsample_bytree: 0.8988767508796425
+    Model__reg_lambda: 0.17198472386986008
+    Model__reg_alpha: 0.7096275843117972
+    Model__gamma: 3.732080866395301
+- trial_number: 8033
+  values:
+  - 0.9197
+  - 0.1932
+  params:
+    Model__max_depth: 3
+    Model__min_child_weight: 17
+    Model__n_estimators: 520
+    Model__learning_rate: 0.04758365155217088
+    Model__subsample: 0.9396954259072104
+    Model__colsample_bytree: 0.969668899643183
+    Model__reg_lambda: 1.8729992654727945
+    Model__reg_alpha: 2.144839544058323
+    Model__gamma: 1.7721693958288127
+- trial_number: 8040
+  values:
+  - 0.9334
+  - 0.1798
+  params:
+    Model__max_depth: 2
+    Model__min_child_weight: 25
+    Model__n_estimators: 990
+    Model__learning_rate: 0.1828613069648902
+    Model__subsample: 0.5622819499186238
+    Model__colsample_bytree: 0.8988767508796425
+    Model__reg_lambda: 0.12983843349487506
+    Model__reg_alpha: 0.7096275843117972
+    Model__gamma: 3.732080866395301
+- trial_number: 8060
+  values:
+  - 0.9194
+  - 0.1935
+  params:
+    Model__max_depth: 3
+    Model__min_child_weight: 17
+    Model__n_estimators: 670
+    Model__learning_rate: 0.04758365155217088
+    Model__subsample: 0.9396954259072104
+    Model__colsample_bytree: 0.969668899643183
+    Model__reg_lambda: 1.8729992654727945
+    Model__reg_alpha: 2.144839544058323
+    Model__gamma: 1.7721693958288127
+- trial_number: 8076
+  values:
+  - 0.9253
+  - 0.1866
+  params:
+    Model__max_depth: 6
+    Model__min_child_weight: 17
+    Model__n_estimators: 150
+    Model__learning_rate: 0.12349091743355128
+    Model__subsample: 0.9396954259072104
+    Model__colsample_bytree: 0.969668899643183
+    Model__reg_lambda: 0.6197505920600446
+    Model__reg_alpha: 0.7096275843117972
+    Model__gamma: 3.732080866395301
+- trial_number: 8091
+  values:
+  - 0.9332
+  - 0.1804
+  params:
+    Model__max_depth: 2
+    Model__min_child_weight: 25
+    Model__n_estimators: 960
+    Model__learning_rate: 0.1828613069648902
+    Model__subsample: 0.5622819499186238
+    Model__colsample_bytree: 0.8988767508796425
+    Model__reg_lambda: 0.19491918809903508
+    Model__reg_alpha: 0.7096275843117972
+    Model__gamma: 3.732080866395301
+- trial_number: 8100
+  values:
+  - 0.9201
+  - 0.1916
+  params:
+    Model__max_depth: 3
+    Model__min_child_weight: 18
+    Model__n_estimators: 100
+    Model__learning_rate: 0.04776258282762617
+    Model__subsample: 0.9396954259072104
+    Model__colsample_bytree: 0.969668899643183
+    Model__reg_lambda: 1.8729992654727945
+    Model__reg_alpha: 2.144839544058323
+    Model__gamma: 1.7721693958288127
+- trial_number: 8101
+  values:
+  - 0.921
+  - 0.1916
+  params:
+    Model__max_depth: 3
+    Model__min_child_weight: 17
+    Model__n_estimators: 100
+    Model__learning_rate: 0.04776258282762617
+    Model__subsample: 0.9396954259072104
+    Model__colsample_bytree: 0.969668899643183
+    Model__reg_lambda: 1.8729992654727945
+    Model__reg_alpha: 2.144839544058323
+    Model__gamma: 1.7721693958288127
+- trial_number: 8103
+  values:
+  - 0.9194
+  - 0.1935
+  params:
+    Model__max_depth: 3
+    Model__min_child_weight: 17
+    Model__n_estimators: 670
+    Model__learning_rate: 0.04758365155217088
+    Model__subsample: 0.9396954259072104
+    Model__colsample_bytree: 0.969668899643183
+    Model__reg_lambda: 1.8729992654727945
+    Model__reg_alpha: 2.144839544058323
+    Model__gamma: 1.7721693958288127
+- trial_number: 8105
+  values:
+  - 0.9243
+  - 0.1874
+  params:
+    Model__max_depth: 8
+    Model__min_child_weight: 17
+    Model__n_estimators: 150
+    Model__learning_rate: 0.12349091743355128
+    Model__subsample: 0.9396954259072104
+    Model__colsample_bytree: 0.969668899643183
+    Model__reg_lambda: 0.2932433816593188
+    Model__reg_alpha: 0.7096275843117972
+    Model__gamma: 3.732080866395301
+- trial_number: 8123
+  values:
+  - 0.9253
+  - 0.1866
+  params:
+    Model__max_depth: 8
+    Model__min_child_weight: 17
+    Model__n_estimators: 150
+    Model__learning_rate: 0.12349091743355128
+    Model__subsample: 0.9396954259072104
+    Model__colsample_bytree: 0.969668899643183
+    Model__reg_lambda: 0.6197505920600446
+    Model__reg_alpha: 0.7096275843117972
+    Model__gamma: 3.732080866395301
+- trial_number: 8124
+  values:
+  - 0.921
+  - 0.1916
+  params:
+    Model__max_depth: 3
+    Model__min_child_weight: 17
+    Model__n_estimators: 100
+    Model__learning_rate: 0.04776258282762617
+    Model__subsample: 0.9396954259072104
+    Model__colsample_bytree: 0.969668899643183
+    Model__reg_lambda: 1.8729992654727945
+    Model__reg_alpha: 2.144839544058323
+    Model__gamma: 1.7721693958288127
+- trial_number: 8133
+  values:
+  - 0.9197
+  - 0.1932
+  params:
+    Model__max_depth: 3
+    Model__min_child_weight: 17
+    Model__n_estimators: 520
+    Model__learning_rate: 0.04758365155217088
+    Model__subsample: 0.9396954259072104
+    Model__colsample_bytree: 0.9695853263297364
+    Model__reg_lambda: 1.8729992654727945
+    Model__reg_alpha: 2.144839544058323
+    Model__gamma: 1.7721693958288127
+- trial_number: 8138
+  values:
+  - 0.9194
+  - 0.1935
+  params:
+    Model__max_depth: 3
+    Model__min_child_weight: 17
+    Model__n_estimators: 670
+    Model__learning_rate: 0.04758365155217088
+    Model__subsample: 0.9396954259072104
+    Model__colsample_bytree: 0.9695853263297364
+    Model__reg_lambda: 1.8729992654727945
+    Model__reg_alpha: 2.144839544058323
+    Model__gamma: 1.7721693958288127
+- trial_number: 8167
+  values:
+  - 0.9253
+  - 0.1866
+  params:
+    Model__max_depth: 6
+    Model__min_child_weight: 17
+    Model__n_estimators: 150
+    Model__learning_rate: 0.12349091743355128
+    Model__subsample: 0.9396954259072104
+    Model__colsample_bytree: 0.969668899643183
+    Model__reg_lambda: 0.6197505920600446
+    Model__reg_alpha: 0.7096275843117972
+    Model__gamma: 3.732080866395301
+- trial_number: 8187
+  values:
+  - 0.9193
+  - 0.1937
+  params:
+    Model__max_depth: 3
+    Model__min_child_weight: 17
+    Model__n_estimators: 740
+    Model__learning_rate: 0.04758365155217088
+    Model__subsample: 0.9396954259072104
+    Model__colsample_bytree: 0.9695853263297364
+    Model__reg_lambda: 1.8729992654727945
+    Model__reg_alpha: 2.144839544058323
+    Model__gamma: 1.7721693958288127
+- trial_number: 8201
+  values:
+  - 0.9194
+  - 0.1935
+  params:
+    Model__max_depth: 3
+    Model__min_child_weight: 17
+    Model__n_estimators: 670
+    Model__learning_rate: 0.04758365155217088
+    Model__subsample: 0.9396954259072104
+    Model__colsample_bytree: 0.969668899643183
+    Model__reg_lambda: 1.8729992654727945
+    Model__reg_alpha: 2.144839544058323
+    Model__gamma: 1.7721693958288127
+- trial_number: 8204
+  values:
+  - 0.9193
+  - 0.1937
+  params:
+    Model__max_depth: 3
+    Model__min_child_weight: 17
+    Model__n_estimators: 740
+    Model__learning_rate: 0.04758365155217088
+    Model__subsample: 0.9396954259072104
+    Model__colsample_bytree: 0.9695853263297364
+    Model__reg_lambda: 1.8729992654727945
+    Model__reg_alpha: 2.144839544058323
+    Model__gamma: 1.7721693958288127
+- trial_number: 8205
+  values:
+  - 0.9253
+  - 0.1866
+  params:
+    Model__max_depth: 6
+    Model__min_child_weight: 17
+    Model__n_estimators: 150
+    Model__learning_rate: 0.12349091743355128
+    Model__subsample: 0.9396954259072104
+    Model__colsample_bytree: 0.969668899643183
+    Model__reg_lambda: 0.6197505920600446
+    Model__reg_alpha: 0.7096275843117972
+    Model__gamma: 3.732080866395301
+- trial_number: 8209
+  values:
+  - 0.921
+  - 0.1916
+  params:
+    Model__max_depth: 3
+    Model__min_child_weight: 17
+    Model__n_estimators: 100
+    Model__learning_rate: 0.04776258282762617
+    Model__subsample: 0.9396954259072104
+    Model__colsample_bytree: 0.969668899643183
+    Model__reg_lambda: 1.8729992654727945
+    Model__reg_alpha: 2.144839544058323
+    Model__gamma: 1.7721693958288127
+- trial_number: 8217
+  values:
+  - 0.921
+  - 0.1916
+  params:
+    Model__max_depth: 3
+    Model__min_child_weight: 17
+    Model__n_estimators: 100
+    Model__learning_rate: 0.04776258282762617
+    Model__subsample: 0.9396954259072104
+    Model__colsample_bytree: 0.969668899643183
+    Model__reg_lambda: 1.8729992654727945
+    Model__reg_alpha: 2.144839544058323
+    Model__gamma: 1.7721693958288127
+- trial_number: 8223
+  values:
+  - 0.9243
+  - 0.1874
+  params:
+    Model__max_depth: 8
+    Model__min_child_weight: 17
+    Model__n_estimators: 150
+    Model__learning_rate: 0.12349091743355128
+    Model__subsample: 0.9396954259072104
+    Model__colsample_bytree: 0.969668899643183
+    Model__reg_lambda: 0.2932433816593188
+    Model__reg_alpha: 0.7096275843117972
+    Model__gamma: 3.732080866395301
+- trial_number: 8229
+  values:
+  - 0.9243
+  - 0.1874
+  params:
+    Model__max_depth: 8
+    Model__min_child_weight: 17
+    Model__n_estimators: 150
+    Model__learning_rate: 0.12349091743355128
+    Model__subsample: 0.9396954259072104
+    Model__colsample_bytree: 0.969668899643183
+    Model__reg_lambda: 0.2932433816593188
+    Model__reg_alpha: 0.7096275843117972
+    Model__gamma: 3.732080866395301
+- trial_number: 8230
+  values:
+  - 0.921
+  - 0.1916
+  params:
+    Model__max_depth: 3
+    Model__min_child_weight: 17
+    Model__n_estimators: 100
+    Model__learning_rate: 0.04776258282762617
+    Model__subsample: 0.9396954259072104
+    Model__colsample_bytree: 0.969668899643183
+    Model__reg_lambda: 1.8729992654727945
+    Model__reg_alpha: 2.144839544058323
+    Model__gamma: 1.7721693958288127
+- trial_number: 8233
+  values:
+  - 0.9197
+  - 0.1932
+  params:
+    Model__max_depth: 3
+    Model__min_child_weight: 17
+    Model__n_estimators: 520
+    Model__learning_rate: 0.04758365155217088
+    Model__subsample: 0.9396954259072104
+    Model__colsample_bytree: 0.9695853263297364
+    Model__reg_lambda: 1.8729992654727945
+    Model__reg_alpha: 2.144839544058323
+    Model__gamma: 1.7721693958288127
+- trial_number: 8236
+  values:
+  - 0.921
+  - 0.1916
+  params:
+    Model__max_depth: 3
+    Model__min_child_weight: 17
+    Model__n_estimators: 100
+    Model__learning_rate: 0.04776258282762617
+    Model__subsample: 0.9396954259072104
+    Model__colsample_bytree: 0.969668899643183
+    Model__reg_lambda: 1.8729992654727945
+    Model__reg_alpha: 2.144839544058323
+    Model__gamma: 1.7721693958288127
+- trial_number: 8251
+  values:
+  - 0.9193
+  - 0.1937
+  params:
+    Model__max_depth: 3
+    Model__min_child_weight: 17
+    Model__n_estimators: 740
+    Model__learning_rate: 0.04758365155217088
+    Model__subsample: 0.9396954259072104
+    Model__colsample_bytree: 0.969668899643183
+    Model__reg_lambda: 1.8729992654727945
+    Model__reg_alpha: 2.144839544058323
+    Model__gamma: 1.7721693958288127
+- trial_number: 8255
+  values:
+  - 0.9194
+  - 0.1935
+  params:
+    Model__max_depth: 3
+    Model__min_child_weight: 17
+    Model__n_estimators: 670
+    Model__learning_rate: 0.04758365155217088
+    Model__subsample: 0.9396954259072104
+    Model__colsample_bytree: 0.969668899643183
+    Model__reg_lambda: 1.8729992654727945
+    Model__reg_alpha: 2.144839544058323
+    Model__gamma: 1.7721693958288127
+- trial_number: 8259
+  values:
+  - 0.9197
+  - 0.1932
+  params:
+    Model__max_depth: 3
+    Model__min_child_weight: 17
+    Model__n_estimators: 520
+    Model__learning_rate: 0.04758365155217088
+    Model__subsample: 0.9396954259072104
+    Model__colsample_bytree: 0.9695853263297364
+    Model__reg_lambda: 1.8729992654727945
+    Model__reg_alpha: 2.144839544058323
+    Model__gamma: 1.7721693958288127
+- trial_number: 8261
+  values:
+  - 0.9194
+  - 0.1935
+  params:
+    Model__max_depth: 3
+    Model__min_child_weight: 17
+    Model__n_estimators: 670
+    Model__learning_rate: 0.04758365155217088
+    Model__subsample: 0.9396954259072104
+    Model__colsample_bytree: 0.969668899643183
+    Model__reg_lambda: 1.8729992654727945
+    Model__reg_alpha: 2.144839544058323
+    Model__gamma: 1.7721693958288127
+- trial_number: 8262
+  values:
+  - 0.9194
+  - 0.1935
+  params:
+    Model__max_depth: 3
+    Model__min_child_weight: 17
+    Model__n_estimators: 670
+    Model__learning_rate: 0.04758365155217088
+    Model__subsample: 0.9396954259072104
+    Model__colsample_bytree: 0.969668899643183
+    Model__reg_lambda: 1.8729992654727945
+    Model__reg_alpha: 2.144839544058323
+    Model__gamma: 1.7721693958288127
+- trial_number: 8265
+  values:
+  - 0.9243
+  - 0.1874
+  params:
+    Model__max_depth: 8
+    Model__min_child_weight: 17
+    Model__n_estimators: 150
+    Model__learning_rate: 0.12349091743355128
+    Model__subsample: 0.9396954259072104
+    Model__colsample_bytree: 0.969668899643183
+    Model__reg_lambda: 0.2932433816593188
+    Model__reg_alpha: 0.7096275843117972
+    Model__gamma: 3.732080866395301
+- trial_number: 8270
+  values:
+  - 0.9253
+  - 0.1866
+  params:
+    Model__max_depth: 12
+    Model__min_child_weight: 17
+    Model__n_estimators: 150
+    Model__learning_rate: 0.12349091743355128
+    Model__subsample: 0.9396954259072104
+    Model__colsample_bytree: 0.969668899643183
+    Model__reg_lambda: 0.6197505920600446
+    Model__reg_alpha: 0.7096275843117972
+    Model__gamma: 3.732080866395301
+- trial_number: 8275
+  values:
+  - 0.9245
+  - 0.1872
+  params:
+    Model__max_depth: 8
+    Model__min_child_weight: 17
+    Model__n_estimators: 150
+    Model__learning_rate: 0.12349091743355128
+    Model__subsample: 0.9396954259072104
+    Model__colsample_bytree: 0.969668899643183
+    Model__reg_lambda: 0.2717859301969407
+    Model__reg_alpha: 0.7096275843117972
+    Model__gamma: 3.732080866395301
+- trial_number: 8277
+  values:
+  - 0.9194
+  - 0.1935
+  params:
+    Model__max_depth: 3
+    Model__min_child_weight: 17
+    Model__n_estimators: 670
+    Model__learning_rate: 0.04758365155217088
+    Model__subsample: 0.9396954259072104
+    Model__colsample_bytree: 0.969668899643183
+    Model__reg_lambda: 1.8729992654727945
+    Model__reg_alpha: 2.144839544058323
+    Model__gamma: 1.7721693958288127
+- trial_number: 8281
+  values:
+  - 0.9253
+  - 0.1866
+  params:
+    Model__max_depth: 8
+    Model__min_child_weight: 17
+    Model__n_estimators: 150
+    Model__learning_rate: 0.12349091743355128
+    Model__subsample: 0.9396954259072104
+    Model__colsample_bytree: 0.969668899643183
+    Model__reg_lambda: 0.6197505920600446
+    Model__reg_alpha: 0.7096275843117972
+    Model__gamma: 3.732080866395301
+- trial_number: 8287
+  values:
+  - 0.9197
+  - 0.1932
+  params:
+    Model__max_depth: 3
+    Model__min_child_weight: 17
+    Model__n_estimators: 520
+    Model__learning_rate: 0.04758365155217088
+    Model__subsample: 0.9396954259072104
+    Model__colsample_bytree: 0.969668899643183
+    Model__reg_lambda: 1.8729992654727945
+    Model__reg_alpha: 2.144839544058323
+    Model__gamma: 1.7721693958288127
+- trial_number: 8294
+  values:
+  - 0.9197
+  - 0.1932
+  params:
+    Model__max_depth: 3
+    Model__min_child_weight: 17
+    Model__n_estimators: 520
+    Model__learning_rate: 0.04758365155217088
+    Model__subsample: 0.9396954259072104
+    Model__colsample_bytree: 0.9695853263297364
+    Model__reg_lambda: 1.8729992654727945
+    Model__reg_alpha: 2.144839544058323
+    Model__gamma: 1.7721693958288127
+- trial_number: 8296
+  values:
+  - 0.9253
+  - 0.1866
+  params:
+    Model__max_depth: 8
+    Model__min_child_weight: 17
+    Model__n_estimators: 150
+    Model__learning_rate: 0.12349091743355128
+    Model__subsample: 0.9396954259072104
+    Model__colsample_bytree: 0.969668899643183
+    Model__reg_lambda: 0.6197505920600446
+    Model__reg_alpha: 0.7096275843117972
+    Model__gamma: 3.732080866395301
+- trial_number: 8298
+  values:
+  - 0.9194
+  - 0.1935
+  params:
+    Model__max_depth: 3
+    Model__min_child_weight: 17
+    Model__n_estimators: 670
+    Model__learning_rate: 0.04758365155217088
+    Model__subsample: 0.9396954259072104
+    Model__colsample_bytree: 0.969668899643183
+    Model__reg_lambda: 1.8729992654727945
+    Model__reg_alpha: 2.144839544058323
+    Model__gamma: 1.7721693958288127
+- trial_number: 8305
+  values:
+  - 0.9194
+  - 0.1935
+  params:
+    Model__max_depth: 3
+    Model__min_child_weight: 17
+    Model__n_estimators: 670
+    Model__learning_rate: 0.04758365155217088
+    Model__subsample: 0.9396954259072104
+    Model__colsample_bytree: 0.969668899643183
+    Model__reg_lambda: 1.8729992654727945
+    Model__reg_alpha: 2.144839544058323
+    Model__gamma: 1.7721693958288127
+- trial_number: 8306
+  values:
+  - 0.9193
+  - 0.1937
+  params:
+    Model__max_depth: 3
+    Model__min_child_weight: 17
+    Model__n_estimators: 740
+    Model__learning_rate: 0.04758365155217088
+    Model__subsample: 0.9396954259072104
+    Model__colsample_bytree: 0.9695853263297364
+    Model__reg_lambda: 1.8729992654727945
+    Model__reg_alpha: 2.144839544058323
+    Model__gamma: 1.7721693958288127
+- trial_number: 8319
+  values:
+  - 0.9181
+  - 0.1952
+  params:
+    Model__max_depth: 3
+    Model__min_child_weight: 18
+    Model__n_estimators: 740
+    Model__learning_rate: 0.04758365155217088
+    Model__subsample: 0.9396954259072104
+    Model__colsample_bytree: 0.9695853263297364
+    Model__reg_lambda: 0.1623031425935357
+    Model__reg_alpha: 2.144839544058323
+    Model__gamma: 1.7721693958288127
+- trial_number: 8331
+  values:
+  - 0.9194
+  - 0.1935
+  params:
+    Model__max_depth: 3
+    Model__min_child_weight: 17
+    Model__n_estimators: 670
+    Model__learning_rate: 0.04758365155217088
+    Model__subsample: 0.9396954259072104
+    Model__colsample_bytree: 0.9695853263297364
+    Model__reg_lambda: 1.8729992654727945
+    Model__reg_alpha: 2.144839544058323
+    Model__gamma: 1.7721693958288127
+- trial_number: 8333
+  values:
+  - 0.9194
+  - 0.1935
+  params:
+    Model__max_depth: 3
+    Model__min_child_weight: 17
+    Model__n_estimators: 670
+    Model__learning_rate: 0.04758365155217088
+    Model__subsample: 0.9396954259072104
+    Model__colsample_bytree: 0.969668899643183
+    Model__reg_lambda: 1.8729992654727945
+    Model__reg_alpha: 2.144839544058323
+    Model__gamma: 1.7721693958288127
+- trial_number: 8338
+  values:
+  - 0.9243
+  - 0.1874
+  params:
+    Model__max_depth: 8
+    Model__min_child_weight: 17
+    Model__n_estimators: 150
+    Model__learning_rate: 0.12349091743355128
+    Model__subsample: 0.9396954259072104
+    Model__colsample_bytree: 0.969668899643183
+    Model__reg_lambda: 0.2932433816593188
+    Model__reg_alpha: 0.7096275843117972
+    Model__gamma: 3.732080866395301
+- trial_number: 8356
+  values:
+  - 0.9193
+  - 0.1937
+  params:
+    Model__max_depth: 3
+    Model__min_child_weight: 17
+    Model__n_estimators: 740
+    Model__learning_rate: 0.04758365155217088
+    Model__subsample: 0.9396954259072104
+    Model__colsample_bytree: 0.9695853263297364
+    Model__reg_lambda: 1.8729992654727945
+    Model__reg_alpha: 2.144839544058323
+    Model__gamma: 1.7721693958288127
+- trial_number: 8358
+  values:
+  - 0.9197
+  - 0.1932
+  params:
+    Model__max_depth: 3
+    Model__min_child_weight: 17
+    Model__n_estimators: 520
+    Model__learning_rate: 0.04758365155217088
+    Model__subsample: 0.9396954259072104
+    Model__colsample_bytree: 0.9695853263297364
+    Model__reg_lambda: 1.8729992654727945
+    Model__reg_alpha: 2.144839544058323
+    Model__gamma: 1.7721693958288127
+- trial_number: 8359
+  values:
+  - 0.921
+  - 0.1916
+  params:
+    Model__max_depth: 3
+    Model__min_child_weight: 17
+    Model__n_estimators: 100
+    Model__learning_rate: 0.04776258282762617
+    Model__subsample: 0.9396954259072104
+    Model__colsample_bytree: 0.969668899643183
+    Model__reg_lambda: 1.8729992654727945
+    Model__reg_alpha: 2.144839544058323
+    Model__gamma: 1.7721693958288127
+- trial_number: 8361
+  values:
+  - 0.9194
+  - 0.1935
+  params:
+    Model__max_depth: 3
+    Model__min_child_weight: 17
+    Model__n_estimators: 670
+    Model__learning_rate: 0.04758365155217088
+    Model__subsample: 0.9396954259072104
+    Model__colsample_bytree: 0.969668899643183
+    Model__reg_lambda: 1.8729992654727945
+    Model__reg_alpha: 2.144839544058323
+    Model__gamma: 1.7721693958288127
+- trial_number: 8366
+  values:
+  - 0.9194
+  - 0.1935
+  params:
+    Model__max_depth: 3
+    Model__min_child_weight: 17
+    Model__n_estimators: 670
+    Model__learning_rate: 0.04758365155217088
+    Model__subsample: 0.9396954259072104
+    Model__colsample_bytree: 0.969668899643183
+    Model__reg_lambda: 1.8729992654727945
+    Model__reg_alpha: 2.144839544058323
+    Model__gamma: 1.7721693958288127
+- trial_number: 8367
+  values:
+  - 0.9194
+  - 0.1935
+  params:
+    Model__max_depth: 3
+    Model__min_child_weight: 17
+    Model__n_estimators: 670
+    Model__learning_rate: 0.04758365155217088
+    Model__subsample: 0.9396954259072104
+    Model__colsample_bytree: 0.9695853263297364
+    Model__reg_lambda: 1.8729992654727945
+    Model__reg_alpha: 2.144839544058323
+    Model__gamma: 1.7721693958288127
+- trial_number: 8381
+  values:
+  - 0.9194
+  - 0.1935
+  params:
+    Model__max_depth: 3
+    Model__min_child_weight: 17
+    Model__n_estimators: 670
+    Model__learning_rate: 0.04758365155217088
+    Model__subsample: 0.9396954259072104
+    Model__colsample_bytree: 0.969668899643183
+    Model__reg_lambda: 1.8729992654727945
+    Model__reg_alpha: 2.144839544058323
+    Model__gamma: 1.7721693958288127
+- trial_number: 8389
+  values:
+  - 0.9194
+  - 0.1935
+  params:
+    Model__max_depth: 3
+    Model__min_child_weight: 17
+    Model__n_estimators: 670
+    Model__learning_rate: 0.04758365155217088
+    Model__subsample: 0.9396954259072104
+    Model__colsample_bytree: 0.9695853263297364
+    Model__reg_lambda: 1.8729992654727945
+    Model__reg_alpha: 2.144839544058323
+    Model__gamma: 1.7721693958288127
+- trial_number: 8393
+  values:
+  - 0.9193
+  - 0.1937
+  params:
+    Model__max_depth: 3
+    Model__min_child_weight: 17
+    Model__n_estimators: 740
+    Model__learning_rate: 0.04758365155217088
+    Model__subsample: 0.9396954259072104
+    Model__colsample_bytree: 0.9695853263297364
+    Model__reg_lambda: 1.8729992654727945
+    Model__reg_alpha: 2.144839544058323
+    Model__gamma: 1.7721693958288127
+- trial_number: 8398
+  values:
+  - 0.9193
+  - 0.1937
+  params:
+    Model__max_depth: 3
+    Model__min_child_weight: 17
+    Model__n_estimators: 740
+    Model__learning_rate: 0.04758365155217088
+    Model__subsample: 0.9396954259072104
+    Model__colsample_bytree: 0.9695853263297364
+    Model__reg_lambda: 1.8729992654727945
+    Model__reg_alpha: 2.144839544058323
+    Model__gamma: 1.7721693958288127
+- trial_number: 8400
+  values:
+  - 0.9194
+  - 0.1935
+  params:
+    Model__max_depth: 3
+    Model__min_child_weight: 17
+    Model__n_estimators: 670
+    Model__learning_rate: 0.04758365155217088
+    Model__subsample: 0.9396954259072104
+    Model__colsample_bytree: 0.969668899643183
+    Model__reg_lambda: 1.8729992654727945
+    Model__reg_alpha: 2.144839544058323
+    Model__gamma: 1.7721693958288127
+- trial_number: 8416
+  values:
+  - 0.9194
+  - 0.1935
+  params:
+    Model__max_depth: 3
+    Model__min_child_weight: 17
+    Model__n_estimators: 670
+    Model__learning_rate: 0.04758365155217088
+    Model__subsample: 0.9396954259072104
+    Model__colsample_bytree: 0.9695853263297364
+    Model__reg_lambda: 1.8729992654727945
+    Model__reg_alpha: 2.144839544058323
+    Model__gamma: 1.7721693958288127
+- trial_number: 8424
+  values:
+  - 0.921
+  - 0.1916
+  params:
+    Model__max_depth: 3
+    Model__min_child_weight: 17
+    Model__n_estimators: 100
+    Model__learning_rate: 0.04776258282762617
+    Model__subsample: 0.9396954259072104
+    Model__colsample_bytree: 0.969668899643183
+    Model__reg_lambda: 1.8729992654727945
+    Model__reg_alpha: 2.144839544058323
+    Model__gamma: 1.7721693958288127
+- trial_number: 8425
+  values:
+  - 0.9194
+  - 0.1935
+  params:
+    Model__max_depth: 3
+    Model__min_child_weight: 17
+    Model__n_estimators: 670
+    Model__learning_rate: 0.04758365155217088
+    Model__subsample: 0.9396954259072104
+    Model__colsample_bytree: 0.969668899643183
+    Model__reg_lambda: 1.8729992654727945
+    Model__reg_alpha: 2.144839544058323
+    Model__gamma: 1.7721693958288127
+- trial_number: 8428
+  values:
+  - 0.9193
+  - 0.1937
+  params:
+    Model__max_depth: 3
+    Model__min_child_weight: 17
+    Model__n_estimators: 740
+    Model__learning_rate: 0.04758365155217088
+    Model__subsample: 0.9396954259072104
+    Model__colsample_bytree: 0.9695853263297364
+    Model__reg_lambda: 1.8729992654727945
+    Model__reg_alpha: 2.144839544058323
+    Model__gamma: 1.7721693958288127
+- trial_number: 8449
+  values:
+  - 0.9194
+  - 0.1935
+  params:
+    Model__max_depth: 3
+    Model__min_child_weight: 17
+    Model__n_estimators: 670
+    Model__learning_rate: 0.04758365155217088
+    Model__subsample: 0.9396954259072104
+    Model__colsample_bytree: 0.969668899643183
+    Model__reg_lambda: 1.8729992654727945
+    Model__reg_alpha: 2.144839544058323
+    Model__gamma: 1.7721693958288127
+- trial_number: 8451
+  values:
+  - 0.9194
+  - 0.1935
+  params:
+    Model__max_depth: 3
+    Model__min_child_weight: 17
+    Model__n_estimators: 670
+    Model__learning_rate: 0.04758365155217088
+    Model__subsample: 0.9396954259072104
+    Model__colsample_bytree: 0.9695853263297364
+    Model__reg_lambda: 1.8729992654727945
+    Model__reg_alpha: 2.144839544058323
+    Model__gamma: 1.7721693958288127
+- trial_number: 8458
+  values:
+  - 0.9194
+  - 0.1935
+  params:
+    Model__max_depth: 3
+    Model__min_child_weight: 17
+    Model__n_estimators: 670
+    Model__learning_rate: 0.04758365155217088
+    Model__subsample: 0.9396954259072104
+    Model__colsample_bytree: 0.969668899643183
+    Model__reg_lambda: 1.8729992654727945
+    Model__reg_alpha: 2.144839544058323
+    Model__gamma: 1.7721693958288127
+- trial_number: 8463
+  values:
+  - 0.9194
+  - 0.1935
+  params:
+    Model__max_depth: 3
+    Model__min_child_weight: 17
+    Model__n_estimators: 670
+    Model__learning_rate: 0.04758365155217088
+    Model__subsample: 0.9396954259072104
+    Model__colsample_bytree: 0.9695853263297364
+    Model__reg_lambda: 1.8729992654727945
+    Model__reg_alpha: 2.144839544058323
+    Model__gamma: 1.7721693958288127
+- trial_number: 8464
+  values:
+  - 0.9194
+  - 0.1935
+  params:
+    Model__max_depth: 3
+    Model__min_child_weight: 17
+    Model__n_estimators: 670
+    Model__learning_rate: 0.04758365155217088
+    Model__subsample: 0.9396954259072104
+    Model__colsample_bytree: 0.969668899643183
+    Model__reg_lambda: 1.8729992654727945
+    Model__reg_alpha: 2.144839544058323
+    Model__gamma: 1.7721693958288127
+- trial_number: 8466
+  values:
+  - 0.9194
+  - 0.1935
+  params:
+    Model__max_depth: 3
+    Model__min_child_weight: 17
+    Model__n_estimators: 670
+    Model__learning_rate: 0.04758365155217088
+    Model__subsample: 0.9396954259072104
+    Model__colsample_bytree: 0.9695853263297364
+    Model__reg_lambda: 1.8729992654727945
+    Model__reg_alpha: 2.144839544058323
+    Model__gamma: 1.7721693958288127
+- trial_number: 8475
+  values:
+  - 0.9245
+  - 0.1872
+  params:
+    Model__max_depth: 8
+    Model__min_child_weight: 17
+    Model__n_estimators: 150
+    Model__learning_rate: 0.12349091743355128
+    Model__subsample: 0.9396954259072104
+    Model__colsample_bytree: 0.969668899643183
+    Model__reg_lambda: 0.2717859301969407
+    Model__reg_alpha: 0.7096275843117972
+    Model__gamma: 3.732080866395301
+- trial_number: 8476
+  values:
+  - 0.9194
+  - 0.1935
+  params:
+    Model__max_depth: 3
+    Model__min_child_weight: 17
+    Model__n_estimators: 670
+    Model__learning_rate: 0.04758365155217088
+    Model__subsample: 0.9396954259072104
+    Model__colsample_bytree: 0.9695853263297364
+    Model__reg_lambda: 1.8729992654727945
+    Model__reg_alpha: 2.144839544058323
+    Model__gamma: 1.7721693958288127
+- trial_number: 8482
+  values:
+  - 0.9243
+  - 0.1874
+  params:
+    Model__max_depth: 9
+    Model__min_child_weight: 17
+    Model__n_estimators: 150
+    Model__learning_rate: 0.12349091743355128
+    Model__subsample: 0.9396954259072104
+    Model__colsample_bytree: 0.969668899643183
+    Model__reg_lambda: 0.2932433816593188
+    Model__reg_alpha: 0.7096275843117972
+    Model__gamma: 3.732080866395301
+- trial_number: 8489
+  values:
+  - 0.9194
+  - 0.1935
+  params:
+    Model__max_depth: 3
+    Model__min_child_weight: 17
+    Model__n_estimators: 670
+    Model__learning_rate: 0.04758365155217088
+    Model__subsample: 0.9396954259072104
+    Model__colsample_bytree: 0.969668899643183
+    Model__reg_lambda: 1.8729992654727945
+    Model__reg_alpha: 2.144839544058323
+    Model__gamma: 1.7721693958288127
+- trial_number: 8493
+  values:
+  - 0.9193
+  - 0.1937
+  params:
+    Model__max_depth: 3
+    Model__min_child_weight: 17
+    Model__n_estimators: 740
+    Model__learning_rate: 0.04758365155217088
+    Model__subsample: 0.9396954259072104
+    Model__colsample_bytree: 0.9695853263297364
+    Model__reg_lambda: 1.8729992654727945
+    Model__reg_alpha: 2.144839544058323
+    Model__gamma: 1.7721693958288127
+- trial_number: 8494
+  values:
+  - 0.9194
+  - 0.1935
+  params:
+    Model__max_depth: 3
+    Model__min_child_weight: 17
+    Model__n_estimators: 670
+    Model__learning_rate: 0.04758365155217088
+    Model__subsample: 0.9396954259072104
+    Model__colsample_bytree: 0.9695853263297364
+    Model__reg_lambda: 1.8729992654727945
+    Model__reg_alpha: 2.144839544058323
+    Model__gamma: 1.7721693958288127
+- trial_number: 8495
+  values:
+  - 0.9194
+  - 0.1935
+  params:
+    Model__max_depth: 3
+    Model__min_child_weight: 17
+    Model__n_estimators: 670
+    Model__learning_rate: 0.04758365155217088
+    Model__subsample: 0.9396954259072104
+    Model__colsample_bytree: 0.969668899643183
+    Model__reg_lambda: 1.8729992654727945
+    Model__reg_alpha: 2.144839544058323
+    Model__gamma: 1.7721693958288127
+- trial_number: 8497
+  values:
+  - 0.9194
+  - 0.1935
+  params:
+    Model__max_depth: 3
+    Model__min_child_weight: 17
+    Model__n_estimators: 670
+    Model__learning_rate: 0.04758365155217088
+    Model__subsample: 0.9396954259072104
+    Model__colsample_bytree: 0.969668899643183
+    Model__reg_lambda: 1.8729992654727945
+    Model__reg_alpha: 2.144839544058323
+    Model__gamma: 1.7721693958288127
+- trial_number: 8501
+  values:
+  - 0.9379
+  - 0.1789
+  params:
+    Model__max_depth: 2
+    Model__min_child_weight: 25
+    Model__n_estimators: 740
+    Model__learning_rate: 0.1828613069648902
+    Model__subsample: 0.5622819499186238
+    Model__colsample_bytree: 0.8988767508796425
+    Model__reg_lambda: 0.15930664184389157
+    Model__reg_alpha: 0.7096275843117972
+    Model__gamma: 3.732080866395301
+- trial_number: 8503
+  values:
+  - 0.9194
+  - 0.1935
+  params:
+    Model__max_depth: 3
+    Model__min_child_weight: 17
+    Model__n_estimators: 670
+    Model__learning_rate: 0.04758365155217088
+    Model__subsample: 0.9396954259072104
+    Model__colsample_bytree: 0.969668899643183
+    Model__reg_lambda: 1.8729992654727945
+    Model__reg_alpha: 2.144839544058323
+    Model__gamma: 1.7721693958288127
+- trial_number: 8504
+  values:
+  - 0.9194
+  - 0.1935
+  params:
+    Model__max_depth: 3
+    Model__min_child_weight: 17
+    Model__n_estimators: 670
+    Model__learning_rate: 0.04758365155217088
+    Model__subsample: 0.9396954259072104
+    Model__colsample_bytree: 0.9695853263297364
+    Model__reg_lambda: 1.8729992654727945
+    Model__reg_alpha: 2.144839544058323
+    Model__gamma: 1.7721693958288127
+- trial_number: 8506
+  values:
+  - 0.9193
+  - 0.1937
+  params:
+    Model__max_depth: 3
+    Model__min_child_weight: 17
+    Model__n_estimators: 740
+    Model__learning_rate: 0.04758365155217088
+    Model__subsample: 0.9396954259072104
+    Model__colsample_bytree: 0.969668899643183
+    Model__reg_lambda: 1.8729992654727945
+    Model__reg_alpha: 2.144839544058323
+    Model__gamma: 1.7721693958288127
+- trial_number: 8507
+  values:
+  - 0.9194
+  - 0.1935
+  params:
+    Model__max_depth: 3
+    Model__min_child_weight: 17
+    Model__n_estimators: 670
+    Model__learning_rate: 0.04758365155217088
+    Model__subsample: 0.9396954259072104
+    Model__colsample_bytree: 0.969668899643183
+    Model__reg_lambda: 1.8729992654727945
+    Model__reg_alpha: 2.144839544058323
+    Model__gamma: 1.7721693958288127
+- trial_number: 8512
+  values:
+  - 0.9201
+  - 0.1916
+  params:
+    Model__max_depth: 3
+    Model__min_child_weight: 18
+    Model__n_estimators: 100
+    Model__learning_rate: 0.04776258282762617
+    Model__subsample: 0.9396954259072104
+    Model__colsample_bytree: 0.969668899643183
+    Model__reg_lambda: 1.8729992654727945
+    Model__reg_alpha: 2.144839544058323
+    Model__gamma: 1.7721693958288127
+- trial_number: 8514
+  values:
+  - 0.9194
+  - 0.1935
+  params:
+    Model__max_depth: 3
+    Model__min_child_weight: 17
+    Model__n_estimators: 670
+    Model__learning_rate: 0.04758365155217088
+    Model__subsample: 0.9396954259072104
+    Model__colsample_bytree: 0.969668899643183
+    Model__reg_lambda: 1.8729992654727945
+    Model__reg_alpha: 2.144839544058323
+    Model__gamma: 1.7721693958288127
+- trial_number: 8516
+  values:
+  - 0.9253
+  - 0.1866
+  params:
+    Model__max_depth: 6
+    Model__min_child_weight: 17
+    Model__n_estimators: 150
+    Model__learning_rate: 0.12349091743355128
+    Model__subsample: 0.9396954259072104
+    Model__colsample_bytree: 0.969668899643183
+    Model__reg_lambda: 0.6197505920600446
+    Model__reg_alpha: 0.7096275843117972
+    Model__gamma: 3.732080866395301
+- trial_number: 8522
+  values:
+  - 0.9194
+  - 0.1935
+  params:
+    Model__max_depth: 3
+    Model__min_child_weight: 17
+    Model__n_estimators: 670
+    Model__learning_rate: 0.04758365155217088
+    Model__subsample: 0.9396954259072104
+    Model__colsample_bytree: 0.969668899643183
+    Model__reg_lambda: 1.8729992654727945
+    Model__reg_alpha: 2.144839544058323
+    Model__gamma: 1.7721693958288127
+- trial_number: 8528
+  values:
+  - 0.9193
+  - 0.1937
+  params:
+    Model__max_depth: 3
+    Model__min_child_weight: 17
+    Model__n_estimators: 740
+    Model__learning_rate: 0.04758365155217088
+    Model__subsample: 0.9396954259072104
+    Model__colsample_bytree: 0.969668899643183
+    Model__reg_lambda: 1.8729992654727945
+    Model__reg_alpha: 2.144839544058323
+    Model__gamma: 1.7721693958288127
+- trial_number: 8529
+  values:
+  - 0.9197
+  - 0.1932
+  params:
+    Model__max_depth: 3
+    Model__min_child_weight: 17
+    Model__n_estimators: 520
+    Model__learning_rate: 0.04758365155217088
+    Model__subsample: 0.9396954259072104
+    Model__colsample_bytree: 0.9695853263297364
+    Model__reg_lambda: 1.8729992654727945
+    Model__reg_alpha: 2.144839544058323
+    Model__gamma: 1.7721693958288127
+- trial_number: 8532
+  values:
+  - 0.9194
+  - 0.1935
+  params:
+    Model__max_depth: 3
+    Model__min_child_weight: 17
+    Model__n_estimators: 670
+    Model__learning_rate: 0.04758365155217088
+    Model__subsample: 0.9396954259072104
+    Model__colsample_bytree: 0.969668899643183
+    Model__reg_lambda: 1.8729992654727945
+    Model__reg_alpha: 2.144839544058323
+    Model__gamma: 1.7721693958288127
+- trial_number: 8537
+  values:
+  - 0.9193
+  - 0.1937
+  params:
+    Model__max_depth: 3
+    Model__min_child_weight: 17
+    Model__n_estimators: 740
+    Model__learning_rate: 0.04758365155217088
+    Model__subsample: 0.9396954259072104
+    Model__colsample_bytree: 0.9695853263297364
+    Model__reg_lambda: 1.8729992654727945
+    Model__reg_alpha: 2.144839544058323
+    Model__gamma: 1.7721693958288127
+- trial_number: 8538
+  values:
+  - 0.9194
+  - 0.1935
+  params:
+    Model__max_depth: 3
+    Model__min_child_weight: 17
+    Model__n_estimators: 670
+    Model__learning_rate: 0.04758365155217088
+    Model__subsample: 0.9396954259072104
+    Model__colsample_bytree: 0.969668899643183
+    Model__reg_lambda: 1.8729992654727945
+    Model__reg_alpha: 2.144839544058323
+    Model__gamma: 1.7721693958288127
+- trial_number: 8539
+  values:
+  - 0.9194
+  - 0.1935
+  params:
+    Model__max_depth: 3
+    Model__min_child_weight: 17
+    Model__n_estimators: 670
+    Model__learning_rate: 0.04758365155217088
+    Model__subsample: 0.9396954259072104
+    Model__colsample_bytree: 0.9695853263297364
+    Model__reg_lambda: 1.8729992654727945
+    Model__reg_alpha: 2.144839544058323
+    Model__gamma: 1.7721693958288127
+- trial_number: 8540
+  values:
+  - 0.9194
+  - 0.1935
+  params:
+    Model__max_depth: 3
+    Model__min_child_weight: 17
+    Model__n_estimators: 670
+    Model__learning_rate: 0.04758365155217088
+    Model__subsample: 0.9396954259072104
+    Model__colsample_bytree: 0.9695853263297364
+    Model__reg_lambda: 1.8729992654727945
+    Model__reg_alpha: 2.144839544058323
+    Model__gamma: 1.7721693958288127
+- trial_number: 8541
+  values:
+  - 0.9194
+  - 0.1935
+  params:
+    Model__max_depth: 3
+    Model__min_child_weight: 17
+    Model__n_estimators: 670
+    Model__learning_rate: 0.04758365155217088
+    Model__subsample: 0.9396954259072104
+    Model__colsample_bytree: 0.969668899643183
+    Model__reg_lambda: 1.8729992654727945
+    Model__reg_alpha: 2.144839544058323
+    Model__gamma: 1.7721693958288127
+- trial_number: 8545
+  values:
+  - 0.9196
+  - 0.1935
+  params:
+    Model__max_depth: 3
+    Model__min_child_weight: 17
+    Model__n_estimators: 930
+    Model__learning_rate: 0.04758365155217088
+    Model__subsample: 0.9396954259072104
+    Model__colsample_bytree: 0.9695853263297364
+    Model__reg_lambda: 1.8729992654727945
+    Model__reg_alpha: 2.144839544058323
+    Model__gamma: 1.7721693958288127
+- trial_number: 8551
+  values:
+  - 0.9194
+  - 0.1935
+  params:
+    Model__max_depth: 3
+    Model__min_child_weight: 17
+    Model__n_estimators: 670
+    Model__learning_rate: 0.04758365155217088
+    Model__subsample: 0.9396954259072104
+    Model__colsample_bytree: 0.9695853263297364
+    Model__reg_lambda: 1.8729992654727945
+    Model__reg_alpha: 2.144839544058323
+    Model__gamma: 1.7721693958288127
+- trial_number: 8557
+  values:
+  - 0.9193
+  - 0.1937
+  params:
+    Model__max_depth: 3
+    Model__min_child_weight: 17
+    Model__n_estimators: 740
+    Model__learning_rate: 0.04758365155217088
+    Model__subsample: 0.9396954259072104
+    Model__colsample_bytree: 0.9695853263297364
+    Model__reg_lambda: 1.8729992654727945
+    Model__reg_alpha: 2.144839544058323
+    Model__gamma: 1.7721693958288127
+- trial_number: 8559
+  values:
+  - 0.9194
+  - 0.1935
+  params:
+    Model__max_depth: 3
+    Model__min_child_weight: 17
+    Model__n_estimators: 670
+    Model__learning_rate: 0.04758365155217088
+    Model__subsample: 0.9396954259072104
+    Model__colsample_bytree: 0.969668899643183
+    Model__reg_lambda: 1.8729992654727945
+    Model__reg_alpha: 2.144839544058323
+    Model__gamma: 1.7721693958288127
+- trial_number: 8564
+  values:
+  - 0.9193
+  - 0.1937
+  params:
+    Model__max_depth: 3
+    Model__min_child_weight: 17
+    Model__n_estimators: 740
+    Model__learning_rate: 0.04758365155217088
+    Model__subsample: 0.9396954259072104
+    Model__colsample_bytree: 0.9695853263297364
+    Model__reg_lambda: 1.8729992654727945
+    Model__reg_alpha: 2.144839544058323
+    Model__gamma: 1.7721693958288127
+- trial_number: 8569
+  values:
+  - 0.9194
+  - 0.1935
+  params:
+    Model__max_depth: 3
+    Model__min_child_weight: 17
+    Model__n_estimators: 670
+    Model__learning_rate: 0.04758365155217088
+    Model__subsample: 0.9396954259072104
+    Model__colsample_bytree: 0.969668899643183
+    Model__reg_lambda: 1.8729992654727945
+    Model__reg_alpha: 2.144839544058323
+    Model__gamma: 1.7721693958288127
+- trial_number: 8570
+  values:
+  - 0.9193
+  - 0.1937
+  params:
+    Model__max_depth: 3
+    Model__min_child_weight: 17
+    Model__n_estimators: 740
+    Model__learning_rate: 0.04758365155217088
+    Model__subsample: 0.9396954259072104
+    Model__colsample_bytree: 0.9695853263297364
+    Model__reg_lambda: 1.8729992654727945
+    Model__reg_alpha: 2.144839544058323
+    Model__gamma: 1.7721693958288127
+- trial_number: 8577
+  values:
+  - 0.9194
+  - 0.1935
+  params:
+    Model__max_depth: 3
+    Model__min_child_weight: 17
+    Model__n_estimators: 670
+    Model__learning_rate: 0.04758365155217088
+    Model__subsample: 0.9396954259072104
+    Model__colsample_bytree: 0.9695853263297364
+    Model__reg_lambda: 1.8729992654727945
+    Model__reg_alpha: 2.144839544058323
+    Model__gamma: 1.7721693958288127
+- trial_number: 8581
+  values:
+  - 0.9197
+  - 0.1932
+  params:
+    Model__max_depth: 3
+    Model__min_child_weight: 17
+    Model__n_estimators: 520
+    Model__learning_rate: 0.04758365155217088
+    Model__subsample: 0.9396954259072104
+    Model__colsample_bytree: 0.9695853263297364
+    Model__reg_lambda: 1.8729992654727945
+    Model__reg_alpha: 2.144839544058323
+    Model__gamma: 1.7721693958288127
+- trial_number: 8582
+  values:
+  - 0.9198
+  - 0.1928
+  params:
+    Model__max_depth: 3
+    Model__min_child_weight: 18
+    Model__n_estimators: 100
+    Model__learning_rate: 0.04758365155217088
+    Model__subsample: 0.9396954259072104
+    Model__colsample_bytree: 0.9695853263297364
+    Model__reg_lambda: 0.1623031425935357
+    Model__reg_alpha: 2.144839544058323
+    Model__gamma: 1.7721693958288127
+- trial_number: 8584
+  values:
+  - 0.9334
+  - 0.1798
+  params:
+    Model__max_depth: 2
+    Model__min_child_weight: 25
+    Model__n_estimators: 990
+    Model__learning_rate: 0.1828613069648902
+    Model__subsample: 0.5622819499186238
+    Model__colsample_bytree: 0.8988767508796425
+    Model__reg_lambda: 0.12983843349487506
+    Model__reg_alpha: 0.7096275843117972
+    Model__gamma: 3.732080866395301
+- trial_number: 8586
+  values:
+  - 0.9193
+  - 0.1937
+  params:
+    Model__max_depth: 3
+    Model__min_child_weight: 17
+    Model__n_estimators: 740
+    Model__learning_rate: 0.04758365155217088
+    Model__subsample: 0.9396954259072104
+    Model__colsample_bytree: 0.9695853263297364
+    Model__reg_lambda: 1.8729992654727945
+    Model__reg_alpha: 2.144839544058323
+    Model__gamma: 1.7721693958288127
