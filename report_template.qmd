@@ -480,6 +480,7 @@ Hyperparameters:
 
 
 
+Here below is the main code which sets most of the useful functions for later.
 ```{python}
 # defining functions
 
@@ -958,6 +959,9 @@ def cv_boxplot(concatenated: pd.DataFrame, k:int = 8):
         plt.savefig(f'charts/CV_bbox_k{k}.png')
 
 def plot_gap_rmse(df: pd.DataFrame, k:int =8):
+    """
+    Plot the gap and RMSE in the various cross validation sets.
+    """
     plt.figure(figsize=(6,5))
     sns.scatterplot(
         data=df,
@@ -978,6 +982,9 @@ def plot_gap_rmse(df: pd.DataFrame, k:int =8):
 
 
 def plot_overfitting(concatenated: pd.DataFrame, k:int=8):
+    """
+    Visualises how well the models generalize by comparing the test RMSE with the train RMSE in each fold of the cross validation. If they are perfectly similar its perfectly generalised
+    """
     plt.figure(figsize=(6,5))
     sns.scatterplot(
         data=concatenated,
@@ -1002,6 +1009,9 @@ def plot_overfitting(concatenated: pd.DataFrame, k:int=8):
 
 
 def cv_sum_bars(summ_table: pd.DataFrame, k:int = 8):
+    """
+    Compute the mean of the metrics across cross validation folds and adds the std.
+    """
     metrics = ["test_RMSE", 'test_MSE', 'test_MAE',"test_R2", "gap"]
     fig, axes = plt.subplots(1, len(metrics), figsize=(12, 4))
 
@@ -1029,13 +1039,17 @@ def cv_sum_bars(summ_table: pd.DataFrame, k:int = 8):
     plt.show()
 
 ```
+
+## The parameters
+
+Here below are the hyperparameters which we used for the models that were obtained by the optuna study.
 ```{python}
 if not prof_qmd:
-    xgb=Search('XGB',train,trials=1)
-    dtr=Search('DTR',train,trials=1)
-    rf=Search('RF',train,trials=1)
-    ada=Search('ADA',train,trials=1)
-    bag=Search('BAG',train,trials=2000)
+    xgb=Search('XGB',train,trials=7000)
+    dtr=Search('DTR',train,trials=7000)
+    rf=Search('RF',train,trials=7000)
+    ada=Search('ADA',train,trials=7000)
+    bag=Search('BAG',train,trials=7000)
 
     print("Best trial for XGB:", YMLstudy('XGB').best_parameters)
     print("Best trial for DTR:", YMLstudy('DTR').best_parameters)
@@ -1115,7 +1129,6 @@ bag_fin = TestModel('BAG',
           k_splits=k)
 
 concatenated = pd.concat([xgb_fin,rf_fin,dtr_fin,ada_fin,bag_fin],axis=0).reset_index(drop=True)
-clear_output()
 
 ```
 
