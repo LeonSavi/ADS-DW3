@@ -312,7 +312,7 @@ To evaluate each hyperparameter configuration reliably, we apply k-fold cross-va
 
 - Using the minimum number of folds (e.g. 5) gives less stable estimates.
 - Using too many folds (e.g., 10) leaves too little data for validation, which is problematic with the limited data.
-We believe that 8-fold cross-validation is a good compromhise balance between computational cost and robustness of the error estimate.
+- We believe that 8-fold cross-validation is a good compromhise balance between computational cost and robustness of the error estimate.
 
 ### Custom Objective Functions
 During each trial, we optimise two objectives to encourage both accuracy and generalisation:
@@ -677,7 +677,7 @@ def Search(model:Literal['RF', 'DTR', 'XGB', 'ADA', 'BAG'],
             It does Optuna hyperparameter search with preprocessing and cross-validation.
             I added multi-objective tuning, In our case minimize RMSE and GAP. 
 
-            Optional Scaler, optional scaling. Uses YMLstudy to save best trials
+            Optional Scaler. Uses YMLstudy to save best trials
 
             Parameters
             ----------
