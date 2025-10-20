@@ -479,6 +479,7 @@ Hyperparameters:
 - ccp_alpha: Minimal cost-complexity pruning parameter that controls overfitting.
 
 
+Below we set up the data and the functions we use later. 
 
 Here below is the main code which sets most of the useful functions for later.
 ```{python}
@@ -782,7 +783,8 @@ def OptunaObj(
 
 
 def _modelSelection(model):
-
+    ''' Function for internal use. load the selected model with preconfigured hyperparameters'''
+    # best model for dtr
     dtr_param = {'Model__ccp_alpha': 0.002707026642587006,
        'Model__criterion': 'squared_error',
        'Model__max_depth': 27,
@@ -856,6 +858,9 @@ def TestModel(
             },
         cross_val:bool = True,
         k_splits:int = 5):
+
+    ''' Perform cross validation with k-folds on the selected model and coompute metrics(scores).
+    If cross validation = False it fully train the model '''
 
     print(f'\n\nUsing best parameter from optuna study for the {model} model: ')
     pprint(study_param)
@@ -960,7 +965,10 @@ def cv_boxplot(concatenated: pd.DataFrame, k:int = 8):
 
 def plot_gap_rmse(df: pd.DataFrame, k:int =8):
     """
-    Plot the gap and RMSE in the various cross validation sets.
+    Visualise model stability vs accuracy by plotting the absolute RMSE gap 
+    between train and test sets (|Train–Test| RMSE Gap) against the Test RMSE 
+    for each model. Each point represents a model configuration from k-fold 
+    cross-validation.
     """
     plt.figure(figsize=(6,5))
     sns.scatterplot(
@@ -1010,7 +1018,9 @@ def plot_overfitting(concatenated: pd.DataFrame, k:int=8):
 
 def cv_sum_bars(summ_table: pd.DataFrame, k:int = 8):
     """
-    Compute the mean of the metrics across cross validation folds and adds the std.
+    Displays bar charts summarising cross-validation performance metrics across models. 
+    For each metric (RMSE, MSE, MAE, R2, and RMSE gap), it plots the mean score with 
+    error bars representing the standard deviation.
     """
     metrics = ["test_RMSE", 'test_MSE', 'test_MAE',"test_R2", "gap"]
     fig, axes = plt.subplots(1, len(metrics), figsize=(12, 4))
@@ -1060,7 +1070,7 @@ if not prof_qmd:
 
 
 if prof_qmd:
-
+      # optimal Hyperparameters for each model according to optuna and our best parameter selection methodology.
        xgb = {'Model__colsample_bytree': 0.9695853263297364,
        'Model__gamma': 1.7721693958288127,
        'Model__learning_rate': 0.04758365155217088,
@@ -1102,6 +1112,7 @@ if prof_qmd:
        'Model__max_samples': 0.8654585236460131,
        'Model__n_estimators': 60}
 
+# testing the hyperparamters on similar setting as in optuna
 k = 8
 xgb_fin = TestModel('XGB',
           study_param = xgb if prof_qmd else YMLstudy('XGB').best_parameters,
@@ -1143,7 +1154,7 @@ summ_table = (concatenated
 summ_table.columns = [f"{s}_{m}" for s,m in summ_table.columns]
 
 summ_table.reset_index(inplace=True)
-if not prof_qmd:
+if not prof_qmd: # you can find these in the repository
     with pd.ExcelWriter('outputs/cv_results.xlsx') as w:
         summ_table.to_excel(w,sheet_name=f'k_{k}',index=False)
 
@@ -1288,14 +1299,14 @@ In the end we had a hard time picking between DTR or RF.
 
 - ADA/BAG: Even if both models offer improved performance in MSE, they did not stand out for us. ADA, in both final cross-validation tests (k=10 and k=8 we get higher) large wiskers in the box plots and strong overfitting. BAG didn't offer any significant improvement, except for lower gap when we switch to 10 folds, but still lower R2.
 
-For the reasons above we believe that the Random Forest is a good fit for the task. Further tuning in optuna search can further improve our results. You can look at our [Github repository](https://github.com/LeonSavi/ADS-DW3/) to see more outputs, like CSVs, R codes, other models (a failed Deep Learning model), Optuna Databases (.db) or YML files with the best trials (efficient frontier).  
+For the reasons above we believe that the Random Forest is a good fit for the task. Further tuning in optuna search can further improve our results. You can look at our [Github repository](https://github.com/LeonSavi/ADS-DW3/) to see more outputs, like CSVs, R codes, other models (a failed Deep Learning model), Optuna Databases (.db) or YML files with the best trials (efficient frontier).
 
 # Team member contributions
 
 Write down what each team member contributed to the project.
 
-- Leonardo Saviane - Optuna Optimisation, Writing about this, description of a few models, graphs about results,
-- Thomas Rietman - Early comparison, combining all the code in qmd, main story and cleanup, 
+- Leonardo Saviane - Optuna optimisation, model documentation, and result visualisations.
+- Thomas Rietman - Early comparison, combining all code into the QMD file, and refinement of the narrative.
 - Angelos Papoutsis - Data Description, initial trials with R and some graphs that didnt make the cut unfortunately.
 
 # References:
