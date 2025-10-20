@@ -481,6 +481,7 @@ Hyperparameters:
 
 Below we set up the data and the functions we use later. 
 
+Here below is the main code which sets most of the useful functions for later.
 ```{python}
 # defining functions
 
@@ -990,9 +991,7 @@ def plot_gap_rmse(df: pd.DataFrame, k:int =8):
 
 def plot_overfitting(concatenated: pd.DataFrame, k:int=8):
     """
-    Plots training versus test RMSE for each model to visually assess overfitting. 
-    Points near the dashed diagonal (Train RMSE = Test RMSE) indicate good generalization, 
-    while points above = overfitting.
+    Visualises how well the models generalize by comparing the test RMSE with the train RMSE in each fold of the cross validation. If they are perfectly similar its perfectly generalised
     """
     plt.figure(figsize=(6,5))
     sns.scatterplot(
@@ -1050,8 +1049,10 @@ def cv_sum_bars(summ_table: pd.DataFrame, k:int = 8):
     plt.show()
 
 ```
-In the codes below we find the best hyperparameters without re-running the whole optuna study.
 
+## The parameters
+
+Here below are the hyperparameters which we used for the models that were obtained by the optuna study.
 ```{python}
 if not prof_qmd:
     xgb=Search('XGB',train,trials=7000)
@@ -1139,6 +1140,7 @@ bag_fin = TestModel('BAG',
           k_splits=k)
 
 concatenated = pd.concat([xgb_fin,rf_fin,dtr_fin,ada_fin,bag_fin],axis=0).reset_index(drop=True)
+
 ```
 
 ```{python}
